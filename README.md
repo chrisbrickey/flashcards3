@@ -1,5 +1,5 @@
 # Flashcards3
-Test-driven, Java Springboot webapp with Maven
+Test-driven, Java Spring Boot webapp with Maven
 
 ## Dependencies
 * Java 18
