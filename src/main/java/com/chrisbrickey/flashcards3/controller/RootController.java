@@ -2,13 +2,16 @@ package com.chrisbrickey.flashcards3.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.ModelAndView;
 
 @RestController
 public class RootController {
 
-    // TODO: serve basic html structure that uses CardController and DeckController to serve up content
+    // TODO: serve content from CardController and DeckController via index.html
     @RequestMapping("/")
-    public String getRoot() {
-        return "Flashcards interim page";
+    public ModelAndView getRoot() {
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.setViewName("index.html");
+        return modelAndView;
     }
 }
