@@ -11,7 +11,6 @@ import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMock
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.web.servlet.MockMvc;
 
-// These tests use MockMvc to avoid spinning up a server.
 @SpringBootTest
 @AutoConfigureMockMvc
 public class RootControllerTest {
@@ -20,8 +19,9 @@ public class RootControllerTest {
     private MockMvc mockMvc;
 
     @Test
-    public void topLevelRouteReturnsMessage() throws Exception {
-        this.mockMvc.perform(get("/")).andDo(print()).andExpect(status().isOk())
-                .andExpect(content().string(containsString("Flashcards")));
+    public void rootReturnsInterimMessage() throws Exception {
+        this.mockMvc.perform(get("/")).andDo(print())
+            .andExpect(status().isOk())
+            .andExpect(content().string(containsString("Flashcards interim page")));
     }
 }

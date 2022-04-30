@@ -18,8 +18,8 @@ public class HttpRequestTest {
     private TestRestTemplate restTemplate;
 
     @Test
-    public void topLevelRouteReturnsMessage() throws Exception {
+    public void rootReturnsInterimMessage() throws Exception {
         assertThat(this.restTemplate.getForObject("http://localhost:" + port + "/",
-                String.class)).contains("Flashcards");
+                String.class)).contains("Flashcards interim page");
     }
 }
