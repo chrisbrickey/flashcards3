@@ -16,11 +16,15 @@ font-size:38px;
 font-family:Montserrat,Arial; /* browser will use Arial if Montserrat not available */
 margin-top:10px;
 }
-.cardCategory{
-text-align:left;
-font-size:20px;
-font-family:Montserrat,Arial;
-margin-top:20px;
+#cardAreaExperiment{
+width:300px;
+height:200px;
+margin:auto;
+margin-top:30px;
+/*border:3px solid #71797E;*/
+border-radius:5px;
+position:relative; /* change to absolute to align left */
+overflow:hidden;
 }
 #cardArea{
 width:300px;
