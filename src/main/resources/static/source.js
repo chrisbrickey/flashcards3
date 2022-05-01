@@ -14,7 +14,7 @@ loadExperiment();
 function loadExperiment(){
     $.ajax({
         type: 'GET',
-        url: '/v1/card',
+        url: '/v1/deck',
         // data: {},
         cache: false,
         success: function(result) {
@@ -47,9 +47,12 @@ function loadGame(){
 // })
 }
 
-function launchFromCardController(cardData) {
+function launchFromCardController(deckData) {
+    var cards = deckData['cards']
     console.log("I'm inside launchFromCardController");
-    console.log(cardData);
+    console.log(cards);
+    var cardCount = Object.keys(cards).length;
+    console.log(cardCount);
 
     // var allRows = data.split(/\r?\n|\r/);
     //
@@ -63,9 +66,22 @@ function launchFromCardController(cardData) {
     // $("#cardAreaExperiment").append('<div>' + cardData['category'] + '</div>');
     // $("#cardAreaExperiment").append('<div id="cardExperiment1" class="card">' + cardData['question'] + '</div>');
     // $("#cardAreaExperiment").append('<div id="cardExperiment2" class="card">' + cardData['answer'] + '</div>');
-    bankExperiment[0] = [];
-    bankExperiment[0][0] = cardData['question'];
-    bankExperiment[0][1] = cardData['answer'];
+
+    console.log("I'm about to start the loop")
+    for(i=0; i<cardCount; i++){
+        console.log("im in the loop");
+        console.log(i);
+        var card = cards[i];
+        console.log(card);
+        bankExperiment[i]=[];
+        bankExperiment[i][0]=card['question'];
+        bankExperiment[i][1]=card['answer'];
+    }
+
+    // bankExperiment[0] = [];
+    // bankExperiment[0][0] = cardData['question'];
+    // bankExperiment[0][1] = cardData['answer'];
+    console.log("I'm the bankExperiment");
     console.log(bankExperiment);
     showNewCardExperiment();
 }
