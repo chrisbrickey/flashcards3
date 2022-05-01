@@ -22,6 +22,8 @@ public class DeckResponse {
         for(int i=0; i< cardData.size(); i++) {
             List<String> cardLine = cardData.get(i);
 
+            // TODO: move below to CardResponse or CardService and add validation on fields
+
             // below assumes the structure of the CSV file; using maps instead of arrays could loosen this up a bit
             String question = cardLine.get(0);
             String answer = cardLine.get(1);
