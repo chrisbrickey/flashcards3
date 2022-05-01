@@ -12,6 +12,8 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
 import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -33,44 +35,31 @@ public class DeckControllerTest {
         DeckResponse response = controller.getDeck();
         List<CardResponse> cards = response.getCards();
 
+        assertEquals(cards.size(), 2);
+
         var firstCard = cards.get(0);
+        assertEquals(firstCard.getId(), 1L);
+        assertEquals(firstCard.getQuestion(), "cat");
+        assertEquals(firstCard.getAnswer(), "el gato");
+
         var secondCard = cards.get(1);
-        var thirdCard = cards.get(2);
-
-        assertEquals(firstCard.getId(), 0L);
-        assertEquals(firstCard.getQuestion(), "question");
-        assertEquals(firstCard.getAnswer(), "answer");
-
-        assertEquals(secondCard.getId(), 1L);
+        assertEquals(secondCard.getId(), 2L);
         assertEquals(secondCard.getQuestion(), "cat");
-        assertEquals(secondCard.getAnswer(), "el gato");
-
-        assertEquals(thirdCard.getId(), 2L);
-        assertEquals(thirdCard.getQuestion(), "cat");
-        assertEquals(thirdCard.getAnswer(), "le chat");
-
-//        System.out.println("From test: ");
-//        System.out.println(first.getId());
-//        System.out.println(first.getQuestion());
-//        System.out.println(first.getAnswer());
-//
-//        System.out.println(second.getId());
-//        System.out.println(second.getQuestion());
-//        System.out.println(second.getAnswer());
-//
-//        System.out.println(third.getId());
-//        System.out.println(third.getQuestion());
-//        System.out.println(third.getAnswer());
+        assertEquals(secondCard.getAnswer(), "le chat");
     }
 
     @Test
     // integration test
     public void returnCardResponse() throws Exception {
+        List<List<String>> deckOfCards = new ArrayList<>();
+        deckOfCards.add(Arrays.asList("cat", "el gato", "spanish"));
+        deckOfCards.add(Arrays.asList("cat", "le chat", "french"));
+        DeckResponse expectedResponseObject = new DeckResponse(deckOfCards);
+
         ObjectMapper mapper = new ObjectMapper();
-        CardResponse expectedResponseObject = new CardResponse(1, "some question", "some answer");
         String expectedResponseJson = mapper.writeValueAsString(expectedResponseObject);
 
-        this.mockMvc.perform(MockMvcRequestBuilders.get("/v1/card")
+        this.mockMvc.perform(MockMvcRequestBuilders.get("/v1/deck")
                         .contentType(MediaType.APPLICATION_JSON)
                         .accept(MediaType.APPLICATION_JSON))
                 .andExpect(MockMvcResultMatchers.status().isOk())

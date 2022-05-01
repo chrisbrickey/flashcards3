@@ -22,31 +22,26 @@ public class DeckController {
 //        @RequestParam("category") String category,
 //        @RequestParam("filepath") String filepath
     ) throws FileNotFoundException {
-        // Spring Boot framework transforms the object/attributes into json when returning via HTTP
-//        CardResponse card = new CardResponse(1L, "some question", "some answer");
-//        return card;
 
         // TODO: transform each CSV line to a map instead of an array
         List<List<String>> records = new ArrayList<>();
 
+        // TODO: pass in filepath as parameter - instead of hard-coding; add validation on file before injesting
         File file = new File(getClass().getResource("/static/sample.csv").getFile());
-//        System.out.println(file);
         Scanner scanner = new Scanner(file);
-        while (scanner.hasNextLine()) {
-            records.add(getRecordFromLine(scanner.nextLine()));
-        }
 
-        System.out.println("records after pulling from csv filein the DeckController: ");
-        System.out.println(records);
+        // skip header row of csv file
+        scanner.nextLine();
 
-//        return "hello there again";
-        // TODO: package return value into DeckResponse object
+        while (scanner.hasNextLine()) { records.add(getRecordFromLine(scanner.nextLine())); }
+
         DeckResponse deck = new DeckResponse(records);
         return deck;
     }
 
+    // TODO: I think there's a faster way to do this - just split the string into an array using comma
     private List<String> getRecordFromLine(String line) {
-        List<String> values = new ArrayList<String>();
+        List<String> values = new ArrayList<>();
         try (Scanner rowScanner = new Scanner(line)) {
             rowScanner.useDelimiter(",");
             while (rowScanner.hasNext()) {

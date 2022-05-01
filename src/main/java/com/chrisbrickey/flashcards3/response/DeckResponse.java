@@ -21,11 +21,14 @@ public class DeckResponse {
         List<CardResponse> deck = new ArrayList<>();
         for(int i=0; i< cardData.size(); i++) {
             List<String> cardLine = cardData.get(i);
-            String question = cardLine.get(0); // assumes the structure of the CSV file
-            String answer = cardLine.get(1);
-            //TODO: add category to cards
 
-            CardResponse card = new CardResponse(i, question, answer);
+            // below assumes the structure of the CSV file; using maps instead of arrays could loosen this up a bit
+            String question = cardLine.get(0);
+            String answer = cardLine.get(1);
+            String category = cardLine.get(2);
+
+            int cardId = i + 1;
+            CardResponse card = new CardResponse(cardId, question, answer, category);
             deck.add(card);
         }
 
