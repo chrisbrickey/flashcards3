@@ -49,40 +49,22 @@ function loadGame(){
 
 function launchFromCardController(deckData) {
     var cards = deckData['cards']
-    console.log("I'm inside launchFromCardController");
-    console.log(cards);
     var cardCount = Object.keys(cards).length;
-    console.log(cardCount);
 
-    // var allRows = data.split(/\r?\n|\r/);
-    //
-    // // load all the data in the bank; start at index 1 to ignore the header row
-    // for (var sourceRow=1; sourceRow<allRows.length; sourceRow++) {
-    //
-    //     // We are starting at index 1 in the csv data, but we want to start building the bank with index 0
-    //     var bankRow = sourceRow - 1;
-    //     bank[bankRow]=allRows[sourceRow].split(',');
-    // }
-    // $("#cardAreaExperiment").append('<div>' + cardData['category'] + '</div>');
-    // $("#cardAreaExperiment").append('<div id="cardExperiment1" class="card">' + cardData['question'] + '</div>');
-    // $("#cardAreaExperiment").append('<div id="cardExperiment2" class="card">' + cardData['answer'] + '</div>');
-
-    console.log("I'm about to start the loop")
     for(i=0; i<cardCount; i++){
-        console.log("im in the loop");
-        console.log(i);
         var card = cards[i];
-        console.log(card);
         bankExperiment[i]=[];
         bankExperiment[i][0]=card['question'];
         bankExperiment[i][1]=card['answer'];
     }
 
-    // bankExperiment[0] = [];
-    // bankExperiment[0][0] = cardData['question'];
-    // bankExperiment[0][1] = cardData['answer'];
     console.log("I'm the bankExperiment");
     console.log(bankExperiment);
+
+    // $("#cardAreaExperiment").append('<div>' + cardData['category'] + '</div>');
+    // $("#cardAreaExperiment").append('<div id="cardExperiment1" class="card">' + cardData['question'] + '</div>');
+    // $("#cardAreaExperiment").append('<div id="cardExperiment2" class="card">' + cardData['answer'] + '</div>');
+
     showNewCardExperiment();
 }
 
