@@ -1,6 +1,7 @@
 package com.chrisbrickey.flashcards3.controller;
 
 import com.chrisbrickey.flashcards3.response.CardResponse;
+import com.chrisbrickey.flashcards3.response.DeckResponse;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -17,7 +18,7 @@ import java.util.Scanner;
 public class DeckController {
 
     @RequestMapping(value="/v1/deck", method= RequestMethod.GET)
-    public String getDeck(
+    public DeckResponse getDeck(
 //        @RequestParam("category") String category,
 //        @RequestParam("filepath") String filepath
     ) throws FileNotFoundException {
@@ -25,19 +26,23 @@ public class DeckController {
 //        CardResponse card = new CardResponse(1L, "some question", "some answer");
 //        return card;
 
+        // TODO: transform each CSV line to a map instead of an array
         List<List<String>> records = new ArrayList<>();
 
         File file = new File(getClass().getResource("/static/sample.csv").getFile());
-        System.out.println(file);
+//        System.out.println(file);
         Scanner scanner = new Scanner(file);
         while (scanner.hasNextLine()) {
             records.add(getRecordFromLine(scanner.nextLine()));
         }
 
+        System.out.println("records after pulling from csv filein the DeckController: ");
         System.out.println(records);
 
-        return "hello there again";
+//        return "hello there again";
         // TODO: package return value into DeckResponse object
+        DeckResponse deck = new DeckResponse(records);
+        return deck;
     }
 
     private List<String> getRecordFromLine(String line) {
