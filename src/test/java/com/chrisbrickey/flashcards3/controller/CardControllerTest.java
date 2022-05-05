@@ -27,13 +27,15 @@ public class CardControllerTest {
         assertEquals(response.getId(), 1L);
         assertEquals(response.getQuestion(), "some question");
         assertEquals(response.getAnswer(), "some answer");
+        assertEquals(response.getCategory(), "some category");
     }
 
     @Test
     // integration test
     public void returnCardResponse() throws Exception {
         ObjectMapper mapper = new ObjectMapper();
-        CardResponse expectedResponseObject = new CardResponse(1, "some question", "some answer");
+        CardResponse expectedResponseObject =
+                new CardResponse(1, "some question", "some answer", "some category");
         String expectedResponseJson = mapper.writeValueAsString(expectedResponseObject);
 
         this.mockMvc.perform(MockMvcRequestBuilders.get("/v1/card")
