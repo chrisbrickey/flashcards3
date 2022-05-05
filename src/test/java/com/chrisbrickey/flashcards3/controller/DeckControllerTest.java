@@ -42,11 +42,13 @@ public class DeckControllerTest {
         assertEquals(firstCard.getId(), 1L);
         assertEquals(firstCard.getQuestion(), "cat");
         assertEquals(firstCard.getAnswer(), "el gato");
+        assertEquals(firstCard.getCategory(), "spanish");
 
         var secondCard = cards.get(1);
         assertEquals(secondCard.getId(), 2L);
         assertEquals(secondCard.getQuestion(), "cat");
         assertEquals(secondCard.getAnswer(), "le chat");
+        assertEquals(secondCard.getCategory(), "french");
     }
 
     @Test

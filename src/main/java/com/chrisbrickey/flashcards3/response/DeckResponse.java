@@ -20,10 +20,11 @@ public class DeckResponse {
             // below assumes the structure of the CSV file; using maps instead of arrays might loosen this up a bit
             String question = cardLine.get(0);
             String answer = cardLine.get(1);
+            String category = cardLine.get(2);
 
             // TODO: add validation on content here or in a Card file
             int cardId = i + 1;
-            CardResponse card = new CardResponse(cardId, question, answer);
+            CardResponse card = new CardResponse(cardId, question, answer, category);
             deck.add(card);
         }
 

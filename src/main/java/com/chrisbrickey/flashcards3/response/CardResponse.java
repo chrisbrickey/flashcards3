@@ -4,11 +4,13 @@ public class CardResponse {
     private long id;
     private String question;
     private String answer;
+    private String category;
 
-    public CardResponse(long id, String question, String answer) {
+    public CardResponse(long id, String question, String answer, String category) {
         setId(id);
         setQuestion(question);
         setAnswer(answer);
+        setCategory(category);
     }
 
     public long getId() { return id; }
@@ -19,4 +21,7 @@ public class CardResponse {
 
     public String getAnswer() { return answer; }
     public void setAnswer(String answer) { this.answer = answer; }
+
+    public String getCategory() { return category; }
+    public void setCategory(String category) { this.category = category; }
 }

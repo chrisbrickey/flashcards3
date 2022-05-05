@@ -10,23 +10,31 @@ user-select: none;
 font-family: Montserrat;
 src: url('Montserrat-Medium.ttf');
 }
-#appTitle{
+#pageTitle{
 text-align:left;
 font-size:38px;
 font-family:Montserrat,Arial; /* browser will use Arial if Montserrat not available */
 margin-top:10px;
+margin-bottom:30px;
 }
-.cardCategory{
-text-align:left;
+#categoryArea{
+width:300px;
+height:25px;
+margin:auto;
+margin-top:10px;
+position:relative;
+overflow:hidden;
+}
+#category{
+text-align:center;
 font-size:20px;
 font-family:Montserrat,Arial;
-margin-top:20px;
 }
 #cardArea{
 width:300px;
 height:200px;
 margin:auto;
-margin-top:30px;
+margin-top:10px;
 border-radius:5px;
 position:relative;
 overflow:hidden;

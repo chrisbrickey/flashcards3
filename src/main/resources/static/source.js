@@ -26,7 +26,12 @@ function playDeck(deckData) {
 
 function buildStore(cards) {
    for (var i=0; i<cards.length; i++) {
-       store[i] = { question: cards[i]['question'], answer: cards[i]['answer']};
+       var card = cards[i];
+       store[i] = {
+           question: card['question'],
+           answer: card['answer'],
+           category: card['category']
+       };
    }
 }
 
@@ -34,7 +39,9 @@ function showFlashCard(){
  cardState=0;
  var color1=colors[0];
  var color2=colors[1]
+ $("#categoryArea").empty();
  $("#cardArea").empty();
+ $("#categoryArea").append('<div id="category">' + 'category: ' + store[currentCard]['category'] + '</div>');
  $("#cardArea").append('<div id="cardTop" class="card">' + store[currentCard]['question'] + '</div>');
  $("#cardArea").append('<div id="cardBottom" class="card">' + store[currentCard]['answer'] + '</div>');
  $("#cardTop").css("background-color",color1);
@@ -65,6 +72,7 @@ function toggleBottomToTop(){
 }
 
 function displayGameOver(){
+ $("#categoryArea").empty();
  $("#buttonArea").empty();
  $("#cardArea").empty();
  $("#cardArea").append('<div id="gameOver">game over</div>');
