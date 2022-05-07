@@ -30,10 +30,8 @@ public class DeckControllerTest {
     @Test
     // unit test
     public void returnDeckResponseAttributes() throws FileNotFoundException {
-        // TODO: when filepath is added as parameter,
-        //  feed test file and test against it instead of using production content
         DeckController controller = new DeckController();
-        DeckResponse response = controller.getDeck();
+        DeckResponse response = controller.getDeck("/static/sample.csv");
         List<CardResponse> cards = response.getCards();
 
         assertEquals(cards.size(), 2);
@@ -63,6 +61,7 @@ public class DeckControllerTest {
         String expectedResponseJson = mapper.writeValueAsString(expectedResponseObject);
 
         this.mockMvc.perform(MockMvcRequestBuilders.get("/v1/deck")
+                .param("filepath", "/static/sample.csv")
                 .contentType(MediaType.APPLICATION_JSON)
                 .accept(MediaType.APPLICATION_JSON))
                 .andExpect(MockMvcResultMatchers.status().isOk())
