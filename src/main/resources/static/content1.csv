@@ -1,0 +1,251 @@
+question,answer,category
+print something to the terminal, System.out.println(), java
+print on next character vs print on new line, System.out.print() vs System.println(), java
+explain autonomous in OOP, calling instance methods on one instance has zero effect on other instances, OOP
+word to describe looking at attributes of an instance, inspect, OOP
+what is source code, high-level and human-readable code (different than machine code), misc
+explain the pairs of .java and .class files, java files are classes and part of source code (human-readable) while class files are the byte code (machine code), misc
+what is compiling, turning source code (human-readable) into byte code (machine-readable), misc
+what is a package in java, group of classes held in one place, java
+large main library of packages that comes with Java, Application Programming Interface (API) of the platform, java
+create a private variable, private int x, java
+what is a method, a function inside of a class (so all fxns are methods in both java and ruby), misc
+does java have stand-alone functions, no - everything is part of a class in java - only methods, java
+where is data stored when you create a new object, in the heap, java
+what is important about the heap when creating a new object, this data is not destroyed when you return from a method, java
+what is -this-, implicit argument that is always passed to a constructor that represents the pointer pointing to the object the constructor is currently working on, java
+explain Type, it tells the computer how to interpret whatever set of 1s and 0s it is looking at, java-data-types
+implicit conversion, when you have an int and want to convert to to a double then you can just reassign (int x=3; double d=x;)...in this case the compiler will do the conversion for you, java-data-types
+when can you use implicit conversion, when the compiler thinks the conversion is safe and therefore does not error, java
+what is casting, when you explicitly tell the compiler to convert one type to another (when the compiler will not do it automatically), java-data-types
+cast a double to an int, double d=3.14; int x=(int)d;, java-data-types
+3 ways to convert one type to another, 1) implicit conversion using compiler 2) explicit cast 3) method call e.g. Integer.parseInt(s), java
+what are the benefits of using primitives, less overhead than an object, java-data-types
+what are the primitive types in java, there are 8: int double char boolean float long byte short, java-data-types
+how is primitive different from object, primitives a) hold their values directly in their box - instead of a pointer b) do not have methods c) cannot be null d) lowercase (objects are uppercase - e.g. int vs Integer), java-data-types
+does int have any methods, no because it is not a class - it's a primitive, java-data-types
+what is a wrapper class, code that provides an object in which to hold a primitive so you can call methods on it, java-data-types
+what does a wrapper class method always return, its associated primitive (e.g. Integer.parseInt("9") returns int 9), java-data-types
+give an example of a time that you should use Integer vs int, use Integer when you need to pass an object into a method - instead of a primitive, java-data-types
+are booleans capitalized or lowercase in java, lowercase - true and false, java-data-types
+what is the precedence of these: && || ! - which will java read first in the absence of parentheses, 1) ! 2) && 3) ||, java-data-types
+'A'== 1 vs "hello"==1, 'A'== 1 => false b/c ok to compare primitives but "hello"==1 => error b/c can't compare these types, java-data-types
+how do you use shorthand to raise 10 to a power (e.g. 1*10 ^-9), 1E-9, java-data-types
+explain final, it's a keyword in java that prevents an entity from being assigned more than once which means the pointer can never be moved (e.g. final String s = "Hello" - s can be mutated but never reassigned), java-data-types
+java is statically-typed - what is the benefit of this, an entire class of errors (type errors like trying to assign a string to an int var) are caught at compile-time instead of waiting for runtime, java
+is there a gradient of statically-typed languages or is it binary, there is a gradient - java is looser than swift - in java you can declare a var but forget to assign it (so the variable points to null) - in swift that is impossible, java
+benefits of java, established libraries/communities & object-oriented & WORA, java
+what is WORA, write-once-run-anywhere ...you write code for the java platform (bytecode executed by the JVM) which can be read by any system, java
+can java run on linux and macOS and windows,yes because the JVM can be read by all of these, java
+what translates the bytecode instructions into native machine code, JRE= java runtime environment, java
+what are the two components of the JRE, the JVM and libraries, java
+how does JRE work, Bytecode Verifier (security check) + Class Loader + Just-In-Time Compiler (JIT)...to produce native code for the operating system/hardware platform AT RUNTIME, java
+what is a java package, a collection of java classes and the directory structure for java classes, java
+how does the JVM use packages, it uses the directory structure specified in the import statements to find the classes, java
+what is javadoc, a tool for automatically generating documentation with the java compiler, java
+how is javadoc generated, run > javadoc <filename> in terminal - it will generate index.html and you can do >open index.html to see the documentation, java
+how are java classes documented, javadoc notation /** <insert explanation of method> *@params <insert explanation of params*/, java
+how do you talk to different types of databases using java, JDBC packages (in java.sql) allow you to write different SQL strings to different types of databases (as long as they have a driver that JDBC can talk to it), java
+is Java open source, no oracle owns it and requires a license to use standard edition (SE) but OpenJDK is an open-source implementation of SE, java
+what's the difference between Java Standard Edition (SE) and Java Enterprise Edition (EE), they are two totally different things - SE is the language + JVM + core libraries - EE is an application server framework to help make dynamic websites (e.g. servlets for HTTP protocol), java
+what is javac, pronounced "java-see" is the java compiler tool, java
+how do you run the compiler from the terminal, javac <java filename>, java
+how do you compile multiple files at once from terminal, a) javac <filename1> <filename2> or b) compiling the driver class should compile everything that the driver class calls, java
+compile multiple files with similar names from terminal, use asterisk as wildcard: javac MyJavaFile*.java, java
+what results from running the compiler, a new bytecode file with type .class will be created, java
+how to you execute a java file from the terminal, java <java classname only> ...no extension, java-io
+ask the user in the terminal for some information, System.out.println("<Ask a question>"), java-io
+what do you need to import in order to collect information from the user in terminal, import java.util.Scanner, java-io
+save info provided by the user in the terminal as a variable, Scanner keyboard = new Scanner(System.in); Sting x = keyboard.next(), java-io
+capture a number from the user in the terminal and save it as a double, double x = keyboard.nextDouble(), java-io
+what two items do you need to import to read from a file, import java.io.File and import java.util.Scanner, java-io
+how do you open a file in read-only mode, Scanner fileIn = new Scanner(new File(<filepath and name>)), java-io
+how do you import strings or ints from a file, String x = fileIn.next(); int y = fileIn.nextInt(); - you have to know the content of the file in order to know how to import it, java-io
+what must you do after reading from a file, fileIn.close();, java-io
+how would you read through all the words in a file, while (fileIn.hasNext()) {String myString = fileIn.next(); <insert code to do what you need with it>;}, java-io
+what do you need to import to write to a file, import java.io.PrintWriter;, java-io
+create a new file if it doesn't exist, PrintWriter fileOut = new PrintWriter(<insert path and filename>);, java-io
+write to a file, fileOut.println("<insert some text>"); fileOut.close(); - don't forget to close the file to save everything, java-io
+how do you see where java is installed, which java, java
+what is the jar file, an 'archive' file that is zipped - the jar program is a simplified zip tool, java
+definition of a java program, any java class that has a 'main' method that is static (the entry point) - otherwise the code cannot be run, java
+what is a driver class, the class that contains the main method which kicks off the program, java
+what is the significance of the method named 'main', when you execute a java program everything in the 'main' method executes and the program exits when all the code in 'main' has been run, java
+how could you write a driver class that calls other classes all on the same file, make the driver class public and the other classes private - if the classes were on different files they would need to be public to be accessed, java
+capitalization conventions, classes have first letter capitalized and match filename, java
+what is the requirement for java filename, it must be the same as the public class on that file, java
+does the order of classes on a java file matter, no, java
+how do you access a file in java (to work with it), File f = new File(<filepath and name>), java
+how do you access the filename and file path of a File object, f.getName() and f.getPath(), java
+single and multi-line comments, // for single /** * * */ for multiple lines using javadoc, java
+what is the only place that java can hold data?, primitives, java-data-types
+if you write a number literal (e.g. 4) what does java assume this is, an integer (32 bit) - not a long (64 bit), java-data-types
+if you write a decimal number literal (e.g. 4.3) what does java assume this is, a double (precision to 15 decimals) - not float (precision to 6 decimals),java-data-types
+declare a long,long myLong = 23L, java-data-types
+declare a float, float myFloat = 2.34F, java-data-types
+what are the proper names for double and float and the difference between them, float: "single precision floating point" double:"double-precision floating point" - the float has less figs, java-data-types
+generate a random number, double x = Math.random() - this will give you something between 0 and 1 I think, java-data-types
+generate a random integer between 1 and 10, 1 + (int)(10*Math.random()) - multiplying by 10 brings the amplitude up to the right level + cast as an int + add one otherwise range will be 0 to 9, java-data-types
+generate a random integer between any given min and max, min + (int)(1 + max - min)*Math.random(), java-data-types
+find the square root of a number, Math.sqrt(x), java-data-types
+if you declare (but do not yet assign) a primitive variable does java give it a default value, yes - whatever the equivalent of zero is for that data type, java-data-types
+what is the size and default value of boolean, 1 bit and false, java-data-types
+what is the size of char, 16 bits, java-data-types
+what are the size and min value and max value of byte, 8 bits and -128 and 127, java-data-types
+what are the size and min value and max value of short, 16 bits and -32768 and 32767, java-data-types
+what are the size and min value and max value of int, 32 bits and roughly -2 billion and 2 billion, java-data-types
+what are is the size of a long, 64 bits, java-data-types
+what are is the size of a float, 32 bits, java-data-types
+what are is the size of a double, 64 bits, java-data-types
+what is integer division, when the fractional part of the remainder is totally discarded, misc
+how can you prevent integer division in java, divide by a double instead of an integer (e.g. (a+b)/2.0)), java
+assign a variable to an int and another to a boolean, int i = 3; bool myVariable = true;, java-data-types
+assign variable to a char and another to a string, char myChar = 'A'; String myString = "hello" - note always single quotes for char and always double quotes for String, java-data-types
+can you use underscores in numbers in java, yes 1_000_000_000 is a valid number, java-data-types
+what is wrong with float c = 2.7182, that number is assumed to be a double - if you really want a float ...float c = 2.7182f or F, java-data-types
+what is \uFFFF, the symbol for a unicode character, java-data-types
+how do you compare to strings, x.equals(y) - otherwise java will compare object references b/c Strings are objects, java-data-types
+how do you order strings, "dog".compareTo("cat") - works like hamburger - returns number greater than zero in this case, java-data-types
+"d".compareTo("D"), some number greater than zero because lowercase letters come after capitalized letters, java-data-types
+how do you tell if the first letter of a string is capitalized, Character.isUpperClass(someString.charAt(0)), java-data-types
+split a string into an array of words using spaces as delimiters, String[] words = someString.split(""), java-data-types
+index into a string, someString.substring(0<comma>1), java-data-types
+how do you do string interpolation in java, String.format("There are %s days in %s." <comma> num <comma> month), java-data-types
+can strings be mutated in java and why, No b/c java wants "hello".hash == "hello".hash so it can use hashsets in a specific way - this is different than ruby where these would not be equivalent because the two hello strings would be different objects, java-data-types
+what is boxing, when you assign a primitive to an instance of a wrapper class (e.g. Integer i = 5), java-data-types
+what does  i stand for in Integer i = 5, i is a pointer in this case because we made an Integer object using the wrapper class - i is not the actual primitive in this case, java-data-types
+what is unboxing, when you assign a wrapper class instance to a primitive (e.g. box: Integer i = 5; unbox: int j = i), java-data-types
+does (Car myCar;) create a reference, not yet - not until you assign it to something - declaring something does not create it b/c the compiler doesn't yet know how much space to reserve, java-data-types
+when do you use the word 'new' to create something in java, for everything that is an object - not a primitive (e.g. Integer myInteger = new Integer(3) vs int i = 3), java-data-types
+create a new array of ints with a specified size of 5 elements, int[] myArray = new int[5], java-data-types
+what is the size of this array and how do you find it: int[] myArray = new int[5], myArray.size() with parens - 0 because there are no elements in this array yet, java-data-types
+what is the length of this array and how do you find it: int[] myArray = new int[5], myArray.length no parens - 5 because that is the capacity of this array, java-data-types
+what are the values in each spot for this array: new int[3], all three elements are null because they are not yet assigned, java-data-types
+explain the difference among length() length and size() in java, length() is a method on String that gives the number of characters present in the string - length is a field on Array that denotes the total capacity - size() is a method of Collections that denotes the number of elements currently in the collection, java-data-types
+create an array literal (where the elements are pre-assigned), int[] myArray = { 11<comma> 12<comma> 13 };) - note that you don't have to use 'new' here, java-data-types
+what will this print out: System.out.println(myArray), the objectId of the array - not the contents, java-data-types
+print out the elements of an array - not the objectId, System.out.println(Array.toString(myArray)), java-data-types
+get the number of elements currently i an array, myList.size(); - this is not the total capacity of the array, java-data-types
+given an array called myList that looks like [95<comma> 80<comma> 72] add an element to the front of the array, myList.add(0<comma> 100) - the first element is the index the second element is the value and it shifts everything to the right, java-data-types
+how do you verbalize int[] and String[] and SomeClass[], "array of ints" + "array of strings" + "array of <insert classname>", java-data-types
+what is an original array, when dealing with 2D and 3D arrays etc - it is the most deeply nested array that contains real elements - not more arrays, java-data-types
+on which classes are .push() and .pop() methods available, Stack and LinkedList - they are not available on array/ArrayList, java-data-types
+create a new ArrayList of strings, ArrayList<String> myList = new ArrayList<String>();, java-data-types
+how do you add elements to an ArrayList and at what position will they be added, myList.add(80) - the 80 will go to the first unassigned spot (e.g. myList => ["hello"]; myList.add("goodbye") => ["hello"<comma> "goodbye"]), java-data-types
+isolate one element of an ArrayList given the index i, myList.get(i);, java-data-types
+add an element to an ArrayList in the middle of the list (instead of to the end), myList.add(<index><comma> <value>) - everything in the list after the index will shift to the right, java-data-types
+how to convert between arrays and collections, to convert from collection to an array use myCollection.toArray(); to convert from array to collection use asList(<insert array>)...this alone creates an array - you don't append it to a class, java-data-types
+how do you increase performance of .toArray(), <someClass> someClass[] Collection.toArray(someClass[] someArray) - pass in a pre-allocated array with the type pre-assigned which prevents creating a new array and iterating over it, java-data-types
+what do you need to import to use Set in java, import java.util.Set or java.util.*, java-data-types
+what does Set.add() do, adds element to the set (unless already present in the set), java-data-types
+what does Set.addAll() do, adds collection to the set(unless already present in the set), java-data-types
+what does Set.remove() do, removes element from the set , java-data-types
+what does Set.removeAll() do, removes collection from the set, java-data-types
+what does Set.clear() do, removes all elements from the set, java-data-types
+what does Set.isEmpty() do, returns true if it contains zero elements,java-data-types
+what does Set.equals() do, compares to another set - returns true if both sets are the same size and contain the same elements,java-data-types
+what does Set.iterator() do, returns iterator over the elements in a set,java-data-types
+what does Set.retainAll() do, retains only the given elements in that set,java-data-types
+what does Set.size() do, returns the number of elements in a set,java-data-types
+what does Set.contains() do, checks is a single element is present in the set or not,java-data-types
+what does Set.containAll() do, takes a set as a parameter and returns true if all the elements of that set are present in the other set,java-data-types
+why would you want to use an immutable array to implement a set, the elements of a set should be immutable, java-data-types
+create a HashMap with keys that are Strings and values that are Integers, HashMap<String<comma> Integer> myHash = new HashMap<String<comma> Integer>();, java-data-types
+add a key/value pair to a HashMap or a Map (same method), myHashMap.put("Two"<comma> 2) or myMap.put("Two"<comma> 2);, java-data-types
+access the value in a HashMap or a Map (same method), myHashMap.get(<key>) or myMap.get(<key>);, java-data-types
+declare a HashMap literally, Map<String<comma> String> doubleBraceMap  = new HashMap<String<comma> String>() {{put("key1"<comma> "value1"); put("key2"<comma> "value2");}};, java-data-types
+difference between HashMap and Map, HashMap does not maintain any insertion order of its elements hence it is quicker than Map and HashMap can hold duplicate values, java-data-types
+declare a Map literally with contents already assigned, Map<String<comma> String> myMap = Map.ofEntries(entry("a"<comma> "b")<comma> entry("c"<comma> "d"));, java-data-types
+how to look up java documentation, "javadocs", java
+what are these called: ++ and --, unary increment and unary decrement, java-data-types
+when can you use relational operators (< == > <= != >=), only when comparing primitives - if you are comparing objects it will be comparing the reference only (you need 'methods' to compare object), java-data-types
+what are bitwise operators, (& | ~ ^ << >> >>>) work only on primitives by first converting each primitive operand to their binary equivalents and then performing operation and finally converting result back to decimal, java-data-types
+what is 'exclusive or', a logical operator (x^y) that results in boolean (like x && y) but the result is only true if one of the values it true (true ^ true -> false), java-data-types
+what is the extended way to write x + = y, x = x + y, java-data-types
+write a switch statement, switch (expression) { case x: <result>; break; case y: <result>; break; default: <result>; }, java
+why do we put a 'break' in each case of a switch statement, to prevent the computer from checking the other cases - this could be part of the logic or just to optimize performance, java
+write an if statement, if (<some condition) {}, java
+write an if/else statement, if (<some condition>) {} else {}, java
+write a while loop, while (<insert condition>) {}, java-loops
+what is while (count++ <n), while loop that on the first round does not increment count and only increments on subsequent loops - benefit is keeping the code that impacts the value and the code that compares that value in one place - easier to debug, java-loops
+what is a do while loop and why would you use it, do {} while (<some condition); - use it when you want the code in the loop to start executing on the first time always and when you want the condition to be checked at the end instead of at the beginning, java-loops
+for loop with a counter that increments by 1 for every iteration, for (inti=0; i<10; i++) {}, java-loops
+for loop that iterates over a string backwards, for (int i=string.length()-1; i>=0; i--) {} - note the parens after length because this is a method for strings instead of a property, java-loops
+for loop that iterates over a collection using indices, for(int i=0; i<myList.size(); i++) {},java-loops
+for loop that iterates over a collection without using indices, for(int x : my List) {}, java-loops
+for loop that iterates over the keys of a HashMap, for (String key: myHashMap.keySet()) {}, java-loops
+for loop that iterates over the keys of a Map, for (String key: myMap.entrySet()) {}, java-loops
+for loop that increments by 0.01 every loop (instead of 1), for (double n=0; n<2; n+=0.01) - remember you have to declare double instead of int, java-loops
+list six ways to increment/decrement a number while looping, ++ -- += -+ *= /= e.g. (...i*=2), java-loops
+iterate over a collection, for (type name : collection) {}, java-loops
+what happens if you don't use brackets after a loop e.g. for () <some code>, only the first line of the block will be executed in the loop + subsequent lines will be executed outside the loop, java-loops
+when do you use break vs continue in a loop, break will exit the looping completely vs continue will just not execute any more code in that iteration and return to the top of the loop for the next iteration and loop again, java-loops
+what is required when you run the main method from the command line, parameters must include String[] args, java
+define encapsulation, isolation of code (OOP) in such a way that one can use the code without having to understand the details of how it works - you only need to know the interface/contract, misc
+benefits of OOP, encapsulation + reuse of code (remove redundancy) ...these make the code easier to change, misc
+define single responsibility principle, a class should only do one thing, misc
+how many public classes can you have in one file, only one public class with private -git supporting classes (supports single responsibility principle), java
+how do you write a public class, public class Cow {}, java
+how do you write a private class, class Cow{}, java
+what are the two components of a class, 1) data - the attributes 2) code - the methods, misc
+how do you code a Cat class that includes all the methods of an existing Animal class, public class Cat extends Animal {}, java-oop
+what is the 'state' of an instance, its the same as 'this' - all of the current values of its attributes, misc
+what is the java bean pattern, using getters and setters and access and change attributes + features such as events and persistence (via serialization), java-oop
+super simple example of java getters/setters with 'getName' and 'setName', getName -> return name; setName -> this.name = x;, java-oop
+what do you call the full name of a class (including nesting within package - aka the path) like com.xy.zz.<MyClass>, the class's fully qualified name - note the correct hierarchy (.com or.org first) instead of how it gets reversed in urls, java
+how do you find the root of the package structure, the environment variable CLASSPATH should be set to the root and it should be called 'com' or 'org' (a top-level domain), java
+how do you run a program and tell it where to find the packages root, <myFile>.exe -classpath <insert path>, java
+what are the three types of accessibility for classes, public (most classes are public) + abstract (cannot create instance) + final (can not create sub-classes), java-oop
+what are the four types of accessibility for methods, public (accessible to any class in any package) + private (accessible only to the class in which it is defined) + default (no modifier required, accessible to classes in the same package...not even to subclasses if they are not in the same package) + protected(accessible to all classes in same package and any subclass), java-oop
+if you don't specify that your class extends (inherits) from another class ...which class does java assume that it inherits from, java.lang.object, java-oop
+when should use 'extends', when you want to inherit attributes and methods as they are implemented - only overwriting a small portion if any,java-oop
+when should use 'implements', when you are extending an API/structure but you want the methods to do different things - you must define all the methods that are present inside the interface you are implementing (extending) - if you don't provide a new implementation for one of the methods then you must label it as abstract. ,java-oop
+why is it important to use packages (paths) instead of just defaulting, to prevent class collision (so that you can have a class called Driver in two different packages - otherwise we would run out of names quickly, java
+what is the first line of a java file, the package declaration (where this class lives in the hierarchy) - it must be the first non-commented line, java
+what is the convention for declaring and naming packages, package com.<myWebsite>.xxx.yyy.zzz.<ClassName> - you should only use the domain that you actually own, java
+for class called Apple ...what is the name of the source code file and the name of the byte file, Apple.java and Apple.class respectively, java
+do spaces/indentation matter in java, no - but good for readability, java
+what should be private (vs public) in a method - aka accessibility, only api methods should be public - all attributes (the data) should be private and all helper methods should be private, java-oop
+which methods should be allowed to call on class attributes (e.g. car.speed) directly, only the getters and setters of that attribute - all other methods should use the getters/setters if they need access to that attribute (no performance impact b/c of how java works after compiled), java-oop
+write a method that takes two ints as parameters and has no return value, public void myMethod (int x<comma> int y) {}, java
+write a method that returns an int, public int myMethod (int x) {}, java
+how can you return multiple values from a method, you cannot do this in java, java
+how can you return multiple values from a method, you cannot do this in java, java
+what is over-riding / over-loading, when you use the same name for two methods but they have different signature - different parameters, java
+what are the components of a method signature, method name + parameter list (return value is NOT part of the signature) ,java
+how do you set up a method to take a variable number of parameters, myMethod(int ... v) - you can call this method with any number of parameters but they must all be ints - it's called "var args" and it uses an array under the hood, java
+what is ... called, ellipsis (3 dots), misc
+what kind of method doesn't have any return value...not even void, a constructor method, java-oop
+how do you call the constructor of a class, new <className> - this creates a new instance of the class using whichever constructor you coded that matches the method signature of the call, java-oop
+when is it questionable to refer to java functions as 'methods', technically all functions in java are a method because they are always inside of a class but you may not be doing object-oriented programming - for example you might just be writing a bunch of convenience methods instead of creating meaningful objects, java-oop
+what happens if you don't write a constructor for a class and someone calls new <myClass> on it, java will create a constructor under-the-hood and make a new instance and assign a value to ALL attributes...the lowest value possible - equivalent of zero for each type, java-oop
+write a no-argument constructor for Car class, Car() {}, java-oop
+write a 1-argument constructor for Car class that takes color attribute, Car(String color) {this.color = color;} // though you should be using setters here, java-oop
+what is the impact of defining an instance variable at the top level of a class (e.g. someClass {String name;}), it makes the variable super public - it allows the instance variable to be set directly without using a traditional setter (e.g. instance.name = "xxx") - this is a loss of control for some gain of performance, java-oop
+should you use getters/setters inside a constructor, yes - this is a good example of not touching the attributes directly..always use getters/setters, java-oop
+write a getter for a car's speed, public int getSpeed() {return this.speed}, java-oop
+write a setter for a car's speed, public void setSpeed(int speed) {this.speed = speed;}, java-oop
+what does static mean, of the class - it is not related to an instance of the class - could be an attribute or method, java-oop
+declare a public static attribute of a class, public static int MAX_SPEED = 50, java-oop
+give an example of a java class that uses a lot of static methods, System (e.g. System.out) and Math (e.g. Math.sqrt()), java-oop
+what is "Car()" in this statement: "Car racer = new Car()", a reference to the no-argument constructor for Car, java-oop
+what happens when you call "new" to create a new object, a) load the class in memory - if not already loaded + b) allocate enough memory to hold all the attributes/data for the new instance + c) link the variable name with a reference to the new memory location + d) link the variable name with the loaded class (which contains the methods available to the instance), java-oop
+what manages everything that happens when you call "new" to create a new object, the JVM manages this and the details of how it happens depend on that particular JVM implementation, java-oop
+if an attribute is public how can you assign a value to that attribute, carInstance.speed = 12, java-oop
+how did java webapps originally work, browser would load an applet (a class) - from there the browser could see all the classes available but then it would have to load those classes in subsequent calls to the backend, java
+what are JAR files, zip files containing all the classes in a program so the browser doesn't have to call the server every time a new class needs to be loaded - it immediately loads the jar file into RAM, java
+why are they called JAR files, there was the notion of java beans - the zip files contain all the classes - you put beans in a jar, java
+where are JAR files located, in the lib directory, java
+what is a "namespace clash", when two classes have the same name - packages help to deal with this, java
+how do you import an entire package - instead of just one class from it, import java.io.* (using a wildcard) - this is discouraged b/c could lead to name collisions, java
+what does the compiler do when it reads import statement, it makes a name table - mapping a name (e.g. class name) to the path, java
+how do you differentiate when importing two classes of the same name (e.g. a.b.Box and x.y.Box), you import one - for the other you have to use the fully qualified name when referring to it in code, java
+which package is implicitly available - you never have to import it, java.lang and any class in the same package, java
+when in java would you need to handle null, when you declare a variable (points it to null) and then forget to assign it, java
+how do you handle null in java, first try to avoid it altogether by returning -1 instead of null - if you must use it ...if(someVar != null) {}, java
+write a ternary statement in java, char someVar = (5>2) ? 'Y' : 'N';, java
+how does java treat white space, it ignores it - in java we only use white space to make code more readable for humans, java
+how do you account for an error being thrown when you write a method, void myMethod(<params>) throws Exception {}, java
+how do you exi the code before getting to the end of the main method, System.exit(0) - exits and signals everything is ok - or System.exit(1) - exits and signals that something went wrong like an error, java
+how do you handle errors, 1) import the type of error you need to catch (e.g. import java.io.IOException) 2) try/catch (e.g. try { <insert code> } catch { Systems.exit(1);}, java
+what is the inheritance order of List + Iterable + Collection, 1) Iterable 2) Collection extends Iterable 3) List extends Collection, java

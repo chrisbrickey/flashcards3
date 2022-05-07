@@ -9,9 +9,9 @@ start();
 
 function start(){
     $.ajax({
-        type: 'GET',
-        url: '/v1/deck',
-        // data: {},
+        type: "GET",
+        url: "/v1/deck",
+        data: {"filepath" : "/static/content1.csv"},
         cache: false,
         success: function(result) {
             playDeck(result)

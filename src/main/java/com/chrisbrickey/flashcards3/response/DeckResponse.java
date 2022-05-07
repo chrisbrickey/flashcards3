@@ -12,6 +12,7 @@ public class DeckResponse {
 
     public List<CardResponse> getCards() { return cards; }
 
+    // TODO: move most of this parsing logic to a DeckService
     public void setCards(List<List<String>> cardData) {
         List<CardResponse> deck = new ArrayList<>();
         for(int i=0; i< cardData.size(); i++) {
