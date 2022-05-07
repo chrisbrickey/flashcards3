@@ -10,8 +10,8 @@ public class CsvParsingTest {
     @Test
     public void ensureAllCsvFilesCanBeParsed() {
         String[] filepaths = new String[] {
-                "/static/sample.csv",
-                "/static/content1.csv"
+                "/static/css/sample.csv",
+                "/static/css/content1.csv"
         };
 
         for (String filepath : filepaths) {
