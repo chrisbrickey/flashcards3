@@ -15,11 +15,13 @@ import java.util.Scanner;
 @RestController
 public class DeckController {
 
-    //        TODO: pass in category as parameter - to filter deck
+    // TODO: add a POST method instead of passing data packet to GET
+    // TODO: pass in category as parameter - to filter deck
     @RequestMapping(value="/v1/deck", method= RequestMethod.GET)
     public DeckResponse getDeck(@RequestParam String filepath)
             throws FileNotFoundException {
 
+        // TODO: extract reading of csv file into memory to a DeckService
         // TODO: consider transforming each CSV line to a map instead of an array
         List<List<String>> records = new ArrayList<>();
 
