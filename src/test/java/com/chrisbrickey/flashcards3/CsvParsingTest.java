@@ -9,9 +9,10 @@ public class CsvParsingTest {
 
     @Test
     public void ensureAllCsvFilesCanBeParsed() {
+        // TODO: change this to detect and loop over all files in the csv directory
         String[] filepaths = new String[] {
                 "/static/csv/sample.csv",
-                "/static/csv/content1.csv"
+                "/static/csv/content2.csv"
         };
 
         for (String filepath : filepaths) {
