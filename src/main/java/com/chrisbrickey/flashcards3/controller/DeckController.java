@@ -34,17 +34,17 @@ public class DeckController {
         // parse file content into 2D array of formatted strings
         while (scanner.hasNextLine()) {
             String nextLine = scanner.nextLine();
-            String[] unformattedContent = nextLine.split(",");
+            String[] cardStrings = nextLine.split(",");
 
             // TODO: extract to method
-            for (int i=0; i<unformattedContent.length; i++) {
-                String cardString = unformattedContent[i];
+            for (int i=0; i<cardStrings.length; i++) {
+                String cardString = cardStrings[i];
                 if (cardString.contains("`")) {
-                    unformattedContent[i] = cardString.replace('`', ',');
+                    cardStrings[i] = cardString.replace('`', ',');
                 }
             }
 
-            content.add(unformattedContent);
+            content.add(cardStrings);
         }
 
         // construct response object
