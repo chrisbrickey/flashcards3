@@ -1,3 +1,4 @@
 question,answer,category
 cat,el gato,spanish
 cat,le chat,french
+index into a String,someString.substring(0`1),java

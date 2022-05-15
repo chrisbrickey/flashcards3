@@ -35,7 +35,15 @@ public class DeckController {
         while (scanner.hasNextLine()) {
             String nextLine = scanner.nextLine();
             String[] unformattedContent = nextLine.split(",");
-            // TODO: format each element of the line (e.g. ` -> ,)
+
+            // TODO: extract to method
+            for (int i=0; i<unformattedContent.length; i++) {
+                String cardString = unformattedContent[i];
+                if (cardString.contains("`")) {
+                    unformattedContent[i] = cardString.replace('`', ',');
+                }
+            }
+
             content.add(unformattedContent);
         }
 

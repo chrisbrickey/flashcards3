@@ -34,19 +34,25 @@ public class DeckControllerTest {
         DeckResponse response = controller.getDeck("/static/csv/sample.csv");
         List<CardResponse> cards = response.getCards();
 
-        assertEquals(cards.size(), 2);
+        assertEquals(cards.size(), 3);
 
         var firstCard = cards.get(0);
-        assertEquals(firstCard.getId(), 1L);
-        assertEquals(firstCard.getQuestion(), "cat");
-        assertEquals(firstCard.getAnswer(), "el gato");
-        assertEquals(firstCard.getCategory(), "spanish");
+        assertEquals(1L, firstCard.getId());
+        assertEquals("cat", firstCard.getQuestion());
+        assertEquals("el gato", firstCard.getAnswer());
+        assertEquals("spanish", firstCard.getCategory());
 
         var secondCard = cards.get(1);
-        assertEquals(secondCard.getId(), 2L);
-        assertEquals(secondCard.getQuestion(), "cat");
-        assertEquals(secondCard.getAnswer(), "le chat");
-        assertEquals(secondCard.getCategory(), "french");
+        assertEquals(2L, secondCard.getId());
+        assertEquals("cat", secondCard.getQuestion());
+        assertEquals("le chat", secondCard.getAnswer());
+        assertEquals("french", secondCard.getCategory());
+
+        var thirdCard = cards.get(2);
+        assertEquals(3L, thirdCard.getId());
+        assertEquals("index into a String", thirdCard.getQuestion());
+        assertEquals("someString.substring(0,1)", thirdCard.getAnswer());
+        assertEquals("java", thirdCard.getCategory());
     }
 
     @Test
@@ -55,8 +61,10 @@ public class DeckControllerTest {
         List<String[]> deckOfCards = new ArrayList<>();
         String[] item1 = new String[] {"cat", "el gato", "spanish"};
         String[] item2 = new String[] {"cat", "le chat", "french"};
+        String[] item3 = new String[] {"index into a String", "someString.substring(0,1)", "java"};
         deckOfCards.add(item1);
         deckOfCards.add(item2);
+        deckOfCards.add(item3);
         DeckResponse expectedResponseObject = new DeckResponse(deckOfCards);
 
         ObjectMapper mapper = new ObjectMapper();
