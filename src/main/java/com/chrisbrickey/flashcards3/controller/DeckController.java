@@ -23,7 +23,7 @@ public class DeckController {
 
         // TODO: extract reading of csv file into memory to a DeckService
         // TODO: consider transforming each CSV line to a map instead of an array
-        List<List<String>> content = new ArrayList<>();
+        List<String[]> content = new ArrayList<>();
 
         File file = new File(getClass().getResource(filepath).getFile());
         Scanner scanner = new Scanner(file);
@@ -31,27 +31,16 @@ public class DeckController {
         // skip header row of csv file
         scanner.nextLine();
 
+        // parse file content into 2D array of formatted strings
         while (scanner.hasNextLine()) {
             String nextLine = scanner.nextLine();
-            List<String> newStrings = splitLine(nextLine);
+            String[] unformattedContent = nextLine.split(",");
             // TODO: format each element of the line (e.g. ` -> ,)
-            content.add(newStrings);
+            content.add(unformattedContent);
         }
 
         // construct response object
         DeckResponse deck = new DeckResponse(content);
         return deck;
-    }
-
-    // TODO: Refactor. Try splitting the string into array using comma delimeter.
-    private List<String> splitLine(String line) {
-        List<String> values = new ArrayList<>();
-        try (Scanner rowScanner = new Scanner(line)) {
-            rowScanner.useDelimiter(",");
-            while (rowScanner.hasNext()) {
-                values.add(rowScanner.next());
-            }
-        }
-        return values;
     }
 }
