@@ -21,7 +21,7 @@ public class DeckController {
     public DeckResponse getDeck(@RequestParam String filepath)
             throws FileNotFoundException {
 
-        // TODO: extract reading of csv file into memory to a DeckService
+        // TODO: extract reading of csv file to DeckService
         // TODO: consider transforming each CSV line to a map instead of an array
         List<String[]> content = new ArrayList<>();
 
@@ -31,24 +31,31 @@ public class DeckController {
         // skip header row of csv file
         scanner.nextLine();
 
-        // parse file content into 2D array of formatted strings
+        // parse file content into 2D array of formatted strings; TODO: extract to method
         while (scanner.hasNextLine()) {
             String nextLine = scanner.nextLine();
             String[] cardStrings = nextLine.split(",");
-
-            // TODO: extract to method
-            for (int i=0; i<cardStrings.length; i++) {
-                String cardString = cardStrings[i];
-                if (cardString.contains("`")) {
-                    cardStrings[i] = cardString.replace('`', ',');
-                }
-            }
-
+            formatCardStrings(cardStrings); // mutates
             content.add(cardStrings);
         }
 
         // construct response object
         DeckResponse deck = new DeckResponse(content);
         return deck;
+    }
+
+    /**
+     * Mutates the collection of strings - transforming special characters
+     * For example, commas are used as delimeters so if we need to show a comma within the content of a card,
+     * then we use different character to represent it in the source file (e.g. `) and transform the backtick to a comma here.
+     * @param unformatted: array of strings from some source file
+     */
+    private void formatCardStrings(String[] unformatted) {
+        for (int i=0; i<unformatted.length; i++) {
+            String cardString = unformatted[i];
+            if (cardString.contains("`")) {
+                unformatted[i] = cardString.replace('`', ',');
+            }
+        }
     }
 }
