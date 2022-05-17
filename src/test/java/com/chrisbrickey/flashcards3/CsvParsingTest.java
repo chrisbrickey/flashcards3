@@ -16,7 +16,7 @@ public class CsvParsingTest {
         };
 
         for (String filepath : filepaths) {
-            assertEquals(canParseCsv(filepath), true);
+            assertEquals(true, canParseCsv(filepath));
         }
     }
 
