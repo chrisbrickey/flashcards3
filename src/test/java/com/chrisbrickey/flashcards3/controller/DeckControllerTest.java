@@ -52,14 +52,18 @@ public class DeckControllerTest {
     @Test
     // integration test
     public void returnCardResponse() throws Exception {
-        List<List<String>> deckOfCards = new ArrayList<>();
-        deckOfCards.add(Arrays.asList("cat", "el gato", "spanish"));
-        deckOfCards.add(Arrays.asList("cat", "le chat", "french"));
-        DeckResponse expectedResponseObject = new DeckResponse(deckOfCards);
 
+        // construct expected response
+        List<String[]> deckOfCards = new ArrayList<>();
+        String[] item1 = new String[] {"cat", "el gato", "spanish"};
+        String[] item2 = new String[] {"cat", "le chat", "french"};
+        deckOfCards.add(item1);
+        deckOfCards.add(item2);
+        DeckResponse expectedResponseObject = new DeckResponse(deckOfCards);
         ObjectMapper mapper = new ObjectMapper();
         String expectedResponseJson = mapper.writeValueAsString(expectedResponseObject);
 
+        // assert properties and content
         this.mockMvc.perform(MockMvcRequestBuilders.get("/v1/deck")
                 .param("filepath", "/static/csv/sample.csv")
                 .contentType(MediaType.APPLICATION_JSON)
