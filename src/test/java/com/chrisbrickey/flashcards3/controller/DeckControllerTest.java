@@ -34,19 +34,19 @@ public class DeckControllerTest {
         DeckResponse response = controller.getDeck("/static/csv/sample.csv");
         List<CardResponse> cards = response.getCards();
 
-        assertEquals(cards.size(), 2);
+        assertEquals(2, cards.size());
 
         var firstCard = cards.get(0);
-        assertEquals(firstCard.getId(), 1L);
-        assertEquals(firstCard.getQuestion(), "cat");
-        assertEquals(firstCard.getAnswer(), "el gato");
-        assertEquals(firstCard.getCategory(), "spanish");
+        assertEquals(1L, firstCard.getId());
+        assertEquals("cat", firstCard.getQuestion());
+        assertEquals("el gato", firstCard.getAnswer());
+        assertEquals("spanish", firstCard.getCategory());
 
         var secondCard = cards.get(1);
-        assertEquals(secondCard.getId(), 2L);
-        assertEquals(secondCard.getQuestion(), "cat");
-        assertEquals(secondCard.getAnswer(), "le chat");
-        assertEquals(secondCard.getCategory(), "french");
+        assertEquals(2L, secondCard.getId());
+        assertEquals("cat", secondCard.getQuestion());
+        assertEquals("le chat", secondCard.getAnswer());
+        assertEquals("french", secondCard.getCategory());
     }
 
     @Test
