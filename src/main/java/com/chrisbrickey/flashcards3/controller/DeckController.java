@@ -21,9 +21,10 @@ public class DeckController {
     public DeckResponse getDeck(@RequestParam String filepath)
             throws FileNotFoundException {
 
-        // TODO: extract reading of csv file into memory to a DeckService
+        // TODO: extract reading of csv file to a DeckService
         // TODO: consider transforming each CSV line to a map instead of an array
-        List<List<String>> records = new ArrayList<>();
+        // TODO: Transform to Array of Arrays instead of List of Arrays
+        List<String[]> content = new ArrayList<>();
 
         File file = new File(getClass().getResource(filepath).getFile());
         Scanner scanner = new Scanner(file);
@@ -31,21 +32,15 @@ public class DeckController {
         // skip header row of csv file
         scanner.nextLine();
 
-        while (scanner.hasNextLine()) { records.add(getRecordFromLine(scanner.nextLine())); }
-
-        DeckResponse deck = new DeckResponse(records);
-        return deck;
-    }
-
-    // TODO: Refactor. Try splitting the string into array using comma delimeter.
-    private List<String> getRecordFromLine(String line) {
-        List<String> values = new ArrayList<>();
-        try (Scanner rowScanner = new Scanner(line)) {
-            rowScanner.useDelimiter(",");
-            while (rowScanner.hasNext()) {
-                values.add(rowScanner.next());
-            }
+        // parse file content into 2D array of formatted strings; TODO: extract to method
+        while (scanner.hasNextLine()) {
+            String nextLine = scanner.nextLine();
+            String[] cardStrings = nextLine.split(",");
+            content.add(cardStrings);
         }
-        return values;
+
+        //construct response object
+        DeckResponse deck = new DeckResponse(content);
+        return deck;
     }
 }
