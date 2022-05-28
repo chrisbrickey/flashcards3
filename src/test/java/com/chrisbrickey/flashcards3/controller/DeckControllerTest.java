@@ -63,7 +63,7 @@ public class DeckControllerTest {
         deckOfCards.add(Arrays.asList("cat", "le chat", "french"));
         deckOfCards.add(Arrays.asList("Index into a String.", "someString.substring(0,1)", "java"));
         DeckResponse expectedResponseObject = new DeckResponse(deckOfCards);
-        
+
         ObjectMapper mapper = new ObjectMapper();
         String expectedResponseJson = mapper.writeValueAsString(expectedResponseObject);
 
