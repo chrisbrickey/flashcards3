@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.io.*;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
-// TODO: extract logic to a DeckService
 @RestController
 public class DeckController {
 
@@ -23,8 +23,7 @@ public class DeckController {
 
         // TODO: extract reading of csv file to a DeckService
         // TODO: consider transforming each CSV line to a map instead of an array
-        // TODO: Transform to Array of Arrays instead of List of Arrays
-        List<String[]> content = new ArrayList<>();
+        List<List<String>> content = new ArrayList<>();
 
         File file = new File(getClass().getResource(filepath).getFile());
         Scanner scanner = new Scanner(file);
@@ -32,15 +31,35 @@ public class DeckController {
         // skip header row of csv file
         scanner.nextLine();
 
-        // parse file content into 2D array of formatted strings; TODO: extract to method
+        // TODO: extract to method
         while (scanner.hasNextLine()) {
             String nextLine = scanner.nextLine();
-            String[] cardStrings = nextLine.split(",");
+
+            // Parse file content into 2D array of formatted strings.
+            List<String> cardStrings = Arrays.asList(nextLine.split(","));
+
+            // Mutation!
+            formatCardStrings(cardStrings);
+
             content.add(cardStrings);
         }
 
-        //construct response object
+        // construct response object
         DeckResponse deck = new DeckResponse(content);
         return deck;
+    }
+
+    /**
+     * Mutates content to accommodate special characters in a CSV source. See README.
+     * @param unformatted: List of Strings
+     */
+    private void formatCardStrings(List<String> unformatted) {
+        for (int i = 0; i < unformatted.size(); i++) {
+            String cardString = unformatted.get(i);
+            if (cardString.contains("`")) {
+                String formattedString = cardString.replace('`', ',');
+                unformatted.set(i, formattedString);
+            }
+        }
     }
 }

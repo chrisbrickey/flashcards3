@@ -34,7 +34,7 @@ public class DeckControllerTest {
         DeckResponse response = controller.getDeck("/static/csv/sample.csv");
         List<CardResponse> cards = response.getCards();
 
-        assertEquals(2, cards.size());
+        assertEquals(3, cards.size());
 
         var firstCard = cards.get(0);
         assertEquals(1L, firstCard.getId());
@@ -47,6 +47,12 @@ public class DeckControllerTest {
         assertEquals("cat", secondCard.getQuestion());
         assertEquals("le chat", secondCard.getAnswer());
         assertEquals("french", secondCard.getCategory());
+
+        var thirdCard = cards.get(2);
+        assertEquals(3L, thirdCard.getId());
+        assertEquals("Index into a String.", thirdCard.getQuestion());
+        assertEquals("someString.substring(0,1)", thirdCard.getAnswer());
+        assertEquals("java", thirdCard.getCategory());
     }
 
     @Test
@@ -54,11 +60,10 @@ public class DeckControllerTest {
     public void returnCardResponse() throws Exception {
 
         // construct expected response
-        List<String[]> deckOfCards = new ArrayList<>();
-        String[] item1 = new String[] {"cat", "el gato", "spanish"};
-        String[] item2 = new String[] {"cat", "le chat", "french"};
-        deckOfCards.add(item1);
-        deckOfCards.add(item2);
+        List<List<String>> deckOfCards = new ArrayList<>();
+        deckOfCards.add(Arrays.asList("cat", "el gato", "spanish"));
+        deckOfCards.add(Arrays.asList("cat", "le chat", "french"));
+        deckOfCards.add(Arrays.asList("Index into a String.", "someString.substring(0,1)", "java"));
         DeckResponse expectedResponseObject = new DeckResponse(deckOfCards);
         ObjectMapper mapper = new ObjectMapper();
         String expectedResponseJson = mapper.writeValueAsString(expectedResponseObject);
