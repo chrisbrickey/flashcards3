@@ -6,6 +6,9 @@ Test-driven, Java Spring Boot webapp with Maven
 * Maven 3
 * Spring Boot 2.6.7
 
+## Run
+* From command line: `./mvnw spring-boot:run`
+
 ## Testing
 * Run test suite: `./mvnw test`
 
