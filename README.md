@@ -8,6 +8,7 @@ Test-driven, Java Spring Boot webapp with Maven
 
 ## Run
 * From command line: `./mvnw spring-boot:run`
+* Navigate to `http://localhost:8080/` in browser
 
 ## Testing
 * Run test suite: `./mvnw test`
