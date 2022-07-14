@@ -14,7 +14,7 @@
 	<name>flashcards3</name>
 	<description>dynamic webapp for learning with flashcards</description>
 	<properties>
-		<java.version>18</java.version>
+		<java.version>11</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
