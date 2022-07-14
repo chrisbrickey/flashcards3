@@ -1,0 +1,4 @@
+question,answer,category
+How do you write assertions in coderpad?,import org.junit.Assert; Assert.assertEquals(expected` actual),java
+How do you handle OOP in coderpad?,they provide a static class Solution - to get it to work add public static class X nested within Solution class.,java
+How do you look up java documentation?,"javadocs",java
