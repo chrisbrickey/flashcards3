@@ -1,5 +1,5 @@
 # Flashcards3
-[www.flashcards4u.com](https://www.flashcards4u.com) is a test-driven, Java Spring Boot webapp. 
+[www.flashcards4u.com](http://www.flashcards4u.com) is a test-driven, Java Spring Boot webapp. 
 It loads content into flashcards for studying.
 
 ## Development
