@@ -1,4 +1,6 @@
 question,answer,category
-How do you write assertions in coderpad?,import org.junit.Assert; Assert.assertEquals(expected` actual),java
-How do you handle OOP in coderpad?,they provide a static class Solution - to get it to work add public static class X nested within Solution class.,java
-How do you look up java documentation?,"javadocs",java
+What is implicit conversion?,when you have an int and want to convert to a double then you can just reassign (int x=3; double d=x;)...in this case the compiler will do the conversion for you,java-data-types
+When can you use implicit conversion?,when the compiler thinks the conversion is safe and therefore does not error,java-data-types
+What is casting?,When you explicitly tell the compiler to convert a reference frome one type to another (when the compiler will not do it automatically). It only changes the references type (the methods we have access to). It doesn't actually transform the object that the reference points to. It only changes the filter through which we see that object...like casting an actor in a play.,java-data-types
+What is the danger in casting?,Java wont' know until runtime if the casting is possible.,java-data-types
+What is upcasting?,Casting a reference to an object from a subclass to any class above it in the inheritance heirarchy. e.g. Car myCar = new SportsCar();...treat the object of subclass SportsCar like its superclass Car,java-oop
