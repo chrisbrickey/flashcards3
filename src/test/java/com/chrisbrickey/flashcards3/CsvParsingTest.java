@@ -11,8 +11,8 @@ public class CsvParsingTest {
     public void ensureAllCsvFilesCanBeParsed() {
         // TODO: change this to detect and loop over all files in the csv directory
         String[] filepaths = new String[] {
-                "/static/csv/sample.csv",
-                "/static/csv/java_content.csv"
+                "static/csv/sample.csv",
+                "static/csv/java_content.csv",
         };
 
         for (String filepath : filepaths) {
