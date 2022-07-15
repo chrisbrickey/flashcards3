@@ -46,12 +46,12 @@ function showFlashCard(){
  $("#cardArea").append('<div id="cardBottom" class="card">' + store[currentCard]['answer'] + '</div>');
  $("#cardTop").css("background-color",color1);
  $("#cardBottom").css("background-color",color2);
- $("#cardBottom").css("top","300px");
+ $("#cardBottom").css("top","420px");
  $("#cardArea").on("click",function(){
   if(cardState!=1){
    cardState=1;
-   $("#cardTop").animate({top: "-=300"}, 150, function() {cardState=0;toggleTopToBottom();});
-   $("#cardBottom").animate({top: "-=300"}, 150, function() {toggleBottomToTop();});
+   $("#cardTop").animate({top: "-=420"}, 150, function() {cardState=0;toggleTopToBottom();});
+   $("#cardBottom").animate({top: "-=420"}, 150, function() {toggleBottomToTop();});
   }
  });
  currentCard++;
@@ -64,11 +64,11 @@ function showFlashCard(){
 }
 
 function toggleTopToBottom(){
- if($("#cardTop").position().top==-300){$("#cardTop").css("top","300px");};
+ if($("#cardTop").position().top==-420){$("#cardTop").css("top","420px");};
 }
 
 function toggleBottomToTop(){
- if($("#cardBottom").position().top==-300){$("#cardBottom").css("top","300px");};
+ if($("#cardBottom").position().top==-420){$("#cardBottom").css("top","420px");};
 }
 
 function displayGameOver(){

@@ -1,13 +1,14 @@
 # Flashcards3
 [www.flashcards4u.com](http://www.flashcards4u.com) is a test-driven, Java Spring Boot webapp. 
-It loads content into flashcards for studying.
+It loads content into flashcards for studying. Click the card to toggle between front and back.
+Click the 'next' button to view the subsequent card.
 
 ## Development
 
 ### Dependencies
 * Java 18
-* Maven 3
 * Spring Boot 2.6.7
+* Maven 3
 
 ### Run
 * From command line: `./mvnw spring-boot:run`

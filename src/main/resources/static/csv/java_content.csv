@@ -1,6 +1,10 @@
 question,answer,category
-What is implicit conversion?,when you have an int and want to convert to a double then you can just reassign (int x=3; double d=x;)...in this case the compiler will do the conversion for you,java-data-types
-When can you use implicit conversion?,when the compiler thinks the conversion is safe and therefore does not error,java-data-types
-What is casting?,When you explicitly tell the compiler to convert a reference frome one type to another (when the compiler will not do it automatically). It only changes the references type (the methods we have access to). It doesn't actually transform the object that the reference points to. It only changes the filter through which we see that object...like casting an actor in a play.,java-data-types
-What is the danger in casting?,Java wont' know until runtime if the casting is possible.,java-data-types
-What is upcasting?,Casting a reference to an object from a subclass to any class above it in the inheritance heirarchy. e.g. Car myCar = new SportsCar();...treat the object of subclass SportsCar like its superclass Car,java-oop
+Is ArrayList a generic?,It depends. If you don't specify the type of contents when you declare it then it is not a generic (e.g. ArrayList a = new ArrayList();) because you could literally add anything into and then when you remove something you need to cast it to a type (String s = (String) myList.get(0);); But if you assign a type at instantiation then it is a generic (e.g. ArrayList<Employee> staff = new ArrayList<Employee>();) - you don't have to downcast when retrieving an object from this,java data structures
+Create a new ArrayList of Strings.,List&ltString&gt myList = new ArrayList&ltString&gt();...really important to only use the actual class (ArrayList) when using 'new' and to use the interface (List) when defining the reference.,java data structures
+Create a 2D ArrayList of Integers.,List<List<Integer>> listOfLists = new ArrayList<List<Integer>>(); ,java data structures
+How do you know which interface to use for the reference when instantiating some object?,always use the most abstract interface possible (e.g. choose Collection instead of ArrayList b/c the latter is more specific),java data structures
+How do you add elements to an ArrayList and at what position will they be added by default?,myList.add(80) - the 80 will go to the first unassigned spot (e.g. if myList is ["hello"]; myList.add("goodbye") ... then myList is ["hello"` "goodbye"]),java data structures
+Add an element to an ArrayList in the middle of the list (instead of to the end).,myList.add(index` value) - everything in the list after the index will shift to the right,java data structures
+Given an ArrayList that looks like [95` 80` 72] add an element to the front of the array.,myList.add(0` 100),java data structures
+Isolate one element of an ArrayList.,myList.get(index);,java data structures
+Get the index of the first occurrence and last occurrence of an object in a List.,myList.indexOf(someObject) and myList.lastIndexOf(someObject),java data structures
