@@ -11,6 +11,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
+import java.lang.*;
 
 @RestController
 public class DeckController {
@@ -18,22 +19,22 @@ public class DeckController {
     // TODO: add a POST method instead of passing data packet to GET
     // TODO: pass in category as parameter - to filter deck
     @RequestMapping(value="/v1/deck", method= RequestMethod.GET)
-    public DeckResponse getDeck(@RequestParam String filepath)
-            throws FileNotFoundException {
+    public DeckResponse getDeck(@RequestParam String filepath) throws IOException {
 
         // TODO: extract reading of csv file to a DeckService
         // TODO: consider transforming each CSV line to a map instead of an array
         List<List<String>> content = new ArrayList<>();
 
-        File file = new File(getClass().getResource(filepath).getFile());
-        Scanner scanner = new Scanner(file);
+        ClassLoader classLoader = Thread.currentThread().getContextClassLoader();
+        InputStream inputStream = classLoader.getResourceAsStream(filepath);
+        BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream)); // wrapper class to improve efficiency
 
         // skip header row of csv file
-        scanner.nextLine();
+        reader.readLine();
 
         // TODO: extract to method
-        while (scanner.hasNextLine()) {
-            String nextLine = scanner.nextLine();
+        while (reader.ready()) {
+            String nextLine = reader.readLine();
 
             // Parse file content into 2D array of formatted strings.
             List<String> cardStrings = Arrays.asList(nextLine.split(","));

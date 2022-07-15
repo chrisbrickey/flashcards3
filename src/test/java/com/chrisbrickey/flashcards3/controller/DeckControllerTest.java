@@ -12,7 +12,7 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
-import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -29,9 +29,9 @@ public class DeckControllerTest {
 
     @Test
     // unit test
-    public void returnDeckResponseAttributes() throws FileNotFoundException {
+    public void returnDeckResponseAttributes() throws IOException {
         DeckController controller = new DeckController();
-        DeckResponse response = controller.getDeck("/static/csv/sample.csv");
+        DeckResponse response = controller.getDeck("static/csv/sample.csv");
         List<CardResponse> cards = response.getCards();
 
         assertEquals(3, cards.size());
@@ -70,7 +70,7 @@ public class DeckControllerTest {
 
         // assert properties and content
         this.mockMvc.perform(MockMvcRequestBuilders.get("/v1/deck")
-                .param("filepath", "/static/csv/sample.csv")
+                .param("filepath", "static/csv/sample.csv")
                 .contentType(MediaType.APPLICATION_JSON)
                 .accept(MediaType.APPLICATION_JSON))
                 .andExpect(MockMvcResultMatchers.status().isOk())
