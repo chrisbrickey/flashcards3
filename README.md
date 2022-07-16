@@ -3,6 +3,8 @@
 It loads content into flashcards for studying. Click the card to toggle between front and back.
 Click the 'next' button to view the subsequent card.
 
+![Screenshot](https://res.cloudinary.com/dckkkjkuz/image/upload/v1658001860/portfolio/flashcards4u-screenshot.png)
+
 ## Development
 
 ### Dependencies
