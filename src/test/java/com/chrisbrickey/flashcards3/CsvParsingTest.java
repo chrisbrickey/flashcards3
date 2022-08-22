@@ -12,7 +12,7 @@ public class CsvParsingTest {
         // TODO: change this to detect and loop over all files in the csv directory
         String[] filepaths = new String[] {
                 "static/csv/sample.csv",
-                "static/csv/java_content.csv",
+                "static/csv/english_to_french.csv",
         };
 
         for (String filepath : filepaths) {

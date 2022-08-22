@@ -1,0 +1,395 @@
+question,answer,category
+1 2 3 4 5,un deux trois quatre cinq (pronounced 'sanq'),numbers
+6 7 8 9 10, six ('sis') sept ('set') huit ('uit') neuf dix ('dis') ,numbers
+11 12 13,onze douze treize ('trez'),numbers
+14 15 16,quatorze ('katorz') quinze ('kaz') seize ('sez'),numbers
+17 18 19,dix-sept ('diset') dex-huit ('diswheat') dex-neuf ('disnuff'),numbers
+20,vingt ('vah'),numbers
+21 22 23,vingt et un ('vante-oon') vingt-deux ('vant-dew') vingt-troix ('van-twoh'),numbers
+24 25 26,vingt-quatre vingt-cinq vingt-six,numbers
+27 28 29,vingt-sept vingt-huit vingt-neuf,numbers
+For which 10's (under 100) do you have to add elements together?,70s (60 and add 10 11 12 13 etc to make the 70s) 80s (4 x 20) and 90s (80 and add 10 11 12 13 etc to make the 90s),numbers
+30,trente ('tront'),numbers
+40,quarante ('karant' where the 'k' is almost like a 'g'),numbers
+50,cinquante ('sanq-ont'),numbers
+60,soixante ('swois-onT'),numbers
+70,soixante-dix ('sois-on-dees'),numbers
+80,quatre-vingt ('catre-von'),numbers
+90,quatre-vingt-dix ('catre-von-dees'),numbers
+60 61 62 63,soixante + soixante et un + soixante-duex + soixant-trois,numbers
+70 71 72 73,soixante-dix + soixante et onze + soixante-douze + soixante-treize,numbers
+80 81 82 83,quatre-vingts + quatre-vingt-un + quatre-vingt-duex + quatre-vingt-trois,numbers
+90 91 92 93,quatre-vingt-dix + quatre-vingt-onze + quatre-vingt-douze + quatre-vingt-treize,numbers
+100,cent (kind of like 'saw' in english but pronounced like sont in french),numbers
+101,cent un ('saw uh'),numbers
+200,deux cents ('duh saw'),numbers
+201,deux cent un,numbers
+300,trois cents,numbers
+1.000,mille ...one thousand - not one with decimals (exchange commas and periods moving from english to french),numbers
+6.000,six mille,numbers
+1.000.000,un million ...one million,numbers
+5.000.000,cinq million ...no plural s,numbers
+1.000.000.000,un milliard ...one billion,numbers
+What time is it?,Quelle heure est-il?,numbers
+midday/noon,midi,numbers
+midnight,minuit,numbers
+1:00,une heure,numbers
+7:00,sept heures,numbers
+2:05,duex heures cinq ...don't use 'et' (and) if you are using numbers instead of quarter or half,numbers
+8:10,huit heures dix,numbers
+9:15,neuf heures et quart,numbers
+4:20,quatre heures vingt,numbers
+5:30,cinq heures et demie,numbers
+3:35,troix heures moins vingt-cinq,numbers
+6:40,six heures moins vingt,numbers
+10:45,dix heures moins le quart,numbers
+first,première / 1e ...this is how you talk about building floors and the arrodissiments e.g. 5e arrodissiment, numbers
+second,deuxième / 2e,numbers
+third,troisième / 3e,numbers
+fourth,quatrième / 4e,numbers
+fifth,cinqième / 5e, numbers
+sixth,sixième / 6e, numbers
+degrees celsius,degré Celsius,vocabulary
+degrees fahrenheit,degré Fahrenheit,vocabulary
+How to pronounce a b c d e,ah beh seh deh uh (like wool),pronunciation
+How to pronounce f g h i j,eff zhey (like massage) ah-sh ee zhee/jhee,pronunciation
+How to pronounce k l m n o,kah ell ehm ehn oh,pronunciation
+How to pronounce p q r s t,peh keoo (like KEE with rounded lips) ehr ess teh,pronunciation
+How to pronounce u v w x y z,eew veh doobluh-veh eeks ee-grehk zehd,pronunciation
+How do you pronounce 'r' at end of a word?,light "gh" at back of throat - put tongue at the top of back of mouth and blow air across it almost like a hiss (e.g. noir,catre,etre) - it's more like a rolling g instead of a rolling r,pronunciation
+How do you say ___ in french?,Comment dit-on ___ en francais?,conversation
+Excuse me,Excusez-moi,conversation
+I do not understand.,Je ne comprends pas (note: je sounds like "juh" not "jee)",conversation
+Can you repeat?,Pouvez-vous répéter?,conversation
+How is it written?,Ca s'écrit comment?,conversation
+How are you? (informal),Comment vas-tu?,conversation
+What's up?,Quoi de neuf? (remember 'de' is pronounced 'duh'),conversation
+It's ok / it's going alright,çe va! + ce va? ...it is used as both question and response,conversation
+so-so,comme si comme ça,conversation
+and you (informal)?,et toi?,conversation
+Have a good afternoon!,bon aprés-midi,conversation
+Have a good weekend!,bonne fin de semaine,conversation
+See you next week!,a la semaine prochaine,conversation
+What is it?,Qu'est-ce que c'est?,conversation
+What kind/type is it?,Quel genre est-il? ...e.g. type of car or dance or music,conversation
+I think..,je pense,conversation
+My name is x.,Je m'appelle x.,conversation
+I am x years old.,J'ai x ans.,conversation
+I am American.,Je suis Américain.,conversation
+You are French(f).,Tu es francaise.,conversation
+I live in New York.,J'habite à New York.,conversation
+I am a software engineer.,Je suis Développeur + Je suis software injènieure,conversation
+What is the formal name for a software engineer - if you write it?,Ingénieur en développement logiciel or Ingénieur en génie logiciel,conversation
+conjugate 'to be' (a profession or a nationality),être: je suis + tu es + il/elle/on est + nous sommes + vous êtes + ils/elles sont,verbs
+conjugate 'to have',avoir: j'ai + tu as + il/elle/on a + nous avons + vous avez + ils/elles ont,verbs
+conjugate to like',j'aime + tu aimes + il/elle/on aime + nous aimons + ovus aimez + ile/elles aiment,verbs
+I am hungry.,J'ai faim.,conversation
+You are thirsty.,Tu as soif.,conversation
+to be wrong / We are wrong.,avoir tort / Nous avons tort.,conversation
+to be right / They are right.,avoir raison / Ils ont raison.,conversation
+to have good luck / I have good luck.,avoir de la chance / J'ai de la chance.,conversation
+to have the need for / You need water.,avoir besoin / Tu as besoin d'eau.,conversation
+to seem or look / She looks sad., avoir l'air / Elle a l'air triste...literally 'to have he air of',conversation
+She looks like Mary., Elle ressemble a Mary...for this kind of scenario use ressembler instead of avoir l'air,conversation
+There is milk. / There is no milk.,Il y a du lait. / Il n'y a pas de lait.,conversation
+There are eggs. / There are no eggs.,Il y a des oeufs. / Il n'y a pas d'oeufs.,conversation
+I speak English.,Je parle anglais.,conversation
+I do not speak Mandarin.,Je ne parle pas mandarin.,conversation
+I speak a little Spanish + French + German.,Je parle un peu espagnol et français et allemand.,conversation
+I like chocolate.,J'aime le chocolat.,conversation
+I don't like rose wine.,Je n'aime pas vin rosé.,conversation
+I like red wine.,J'aime le vin rouge.,conversation
+the vineyard,le vignoble ("veen-yo"),vocabulary
+Burgundy,Bourgogne ("Bore-goi-ng"),vocabulary
+Bordeaux,Bordeaux ("Boor-doh"),vocabulary
+I don't like peanut butter.,Je n'aime pas le beurre de cacahouète,conversation
+I like to dance.,J'aime danser.,conversation
+I like cocktails.,J'aime les cocktails.,conversation
+I like both.,J’aime les deux.,conversation
+Do you like... ?,Vous aimez... ? / Tu aimes?,conversation
+I don't like sing.,Je n'aime pas chanter.,conversation
+I am allergic to shellfish + walnuts + hazelnuts.,Je suis allergique aux crustacés + noix + noisettes.,conversation
+I don't see well.,je ne vois pas bien,conversation
+I have one dog and one cat.,J'ai un chien et un chat.,conversation
+indefinite articles for masculine + feminine + plural,un (masculine..make a smile when you speak it like 'aahn') + une (feminine...make a closed o-shape with mouth like 'oooh-ne' and really pronounce the n separately it's almost like two syllables...like bier in german) + des (for all plurals regardless of gender),vocabulary
+keys,des cles,vocabulary
+an umbrella,un parapluie,vocabulary
+a telephone (mobile),un téléphone,vocabulary
+a change purse,un porte-monnaie,vocabulary
+a wallet,un portefeuille,vocabulary
+a purse,un sac,vocabulary
+tissues,des mouchoirs,vocabulary
+a pen,un stylo,vocabulary
+subway tickets,des tickets de métro,vocabulary
+jewelry,des bijoux,vocabulary
+a toothbrush,une brosse à dents,vocabulary
+sunglasses,des lunettes a soleil,vocabulary
+headphones,un casque audio,vocabulary
+a camera,un appareil photo,vocabulary
+a laptop,un ordinateur portable,vocabulary
+a hairbrush,une brosse á cheveux,vocabulary
+a squirrel,un écureuil,vocabulary
+everyone,tout le monde,vocabulary
+also,aussi ('osi'),vocabulary
+once,une fois,vocabulary
+only,seulement OR seul,vocabulary
+maybe,peut-être ('poo-eht'),vocabulary
+because,parce que ('parsa queue'),vocabulary
+close to,prés de,vocabulary
+here,ici ('eecee'),vocabulary
+nothing else,rein d'autre ('ron-doot'),vocabulary
+no more,non plus,vocabulary
+it is / they are,c'est / ce sont,vocabulary
+it is not / they are not,ce n'est pas / ce ne sont pas,vocabulary
+the people,les gens,vocabulary
+the friends,les amis,vocabulary
+the beach(s),la plage / les plages,vocabulary
+the mountain(s),la montagne / les montagnes,vocabulary
+shopping,le shopping (remember 'le' is pronounced 'luh'), vocabulary
+the docks of the Seine,les quais de Seine,vocabulary
+the water / some water, l'eau / d'eau ...pronounced "duh-low",vocabulary
+the market(s),le marché / le marchés,vocabulary
+the artichoke(s),l'artichaut / les artichauts,vocabulary
+the vegetable(s),le légume / les légumes,vocabulary
+the fruit,le fruit / les fruits,vocabulary
+the bread(s),le pain / les pains,vocabulary
+the butter,le beurre,vocabulary
+the sneakers,les baskets,vocabulary
+the notebook,le cahier,vocabularly
+the book,le livre,vocabulary
+the bookstore,la librairie,vocabulary
+the library,la bibliothèque,vocabulary
+all type of dance,toutes les danses,vocabulary
+ballet (the dance form - not the location/performance),danse classique,vocabulary
+coffee for dessert with a cookie,café gourmand,vocabulary
+I walk a lot.,Je marche beaucoup.,conversation
+I was born in the United States.,Je suis nè aux états-unis "oo-zeta-zuni"...two liason,conversation
+It's cool / That's cool.,C'est cool.,conversation
+That's it / you got it.,C'est bien ca.,conversation
+It's boring.,C'est ennuyeaux,conversation
+Do you know of...?,Qu'est-ce que tu connais ...?,conversation
+first name / last name,prénom / nom OR nom de famille,vocabulary
+my husband, mon mari,vocabulary
+my wife,ma femme,vocabulary
+my darling,mon chéri,vocabulary
+How do you conjugate for 'we' when speaking?,when writing: nous ___ but when speaking: on ___ (same conjugation as il/elle) and there is often a liason between 'on' and the verb,conversation
+What is the preposition 'in' for any city (e.g. I live in Berlin)?,à Berlin à Paris à Detroit...same for any city,vocabulary
+What is the preposition 'from' for any city (e.g. I am from Berlin)?,de Berlin de Paris de Detroit...same for any city,vocabulary
+What is the preposition 'in' for a country (e.g. I live in France)?,it depends on the gender...feminine: en France; masculine: au Canada; plural: aux États-Unis,vocabulary
+What is the preposition 'from' for a country(e.g. I am from Germany)?,it depends on the gender...feminine: de France; masculine: du Brésil;plural: des États-Unis,vocabulary
+a city,une ville  ...do not use cité...it's not idiomatic french...it's like a greek city-state,vocabulary
+a village,un village,vocabulary
+in Paris,á Paris,vocabulary
+in Berlin,á Berlin,vocabulary
+in NYC,á New York (pronounced same as in English),vocabulary
+in France,en France (feminine),vocabulary
+in Canada,au Canada (masculine),vocabulary
+in Belgium,en Belgique (feminine),vocabulary
+in Spain,en Espagne (feminine),vocabulary
+in United States,aux États-Unis (plural); aux is pronounced 'ooh',vocabulary
+in Mexico,au Mexique (masculine),vocabulary
+from NYC, de New York,vocabulary
+from France,de France (feminine),vocabulary
+from Brazil, du Brésil (masculine),vocabulary
+from the United States, des États-Unis (plural),vocabulary
+from Virginia,de Virginie ('duh'),vocabulary
+from Japan,du Japon ('dooh'),vocabulary
+I live in Paris.,Je vis à Paris.,conversation
+I live in France.,Je vis en France. (feminine),conversation
+I would like to live in Mexico.,Je voudrais vivre au Mexique. (masculine),conversation
+I come (am) from New York City.,Ju viens de New York.,conversation
+I come (am) from the United States.,Je viens des États-Unis. (plural),conversation
+I am late.,Je suis en retard.,conversation
+the pronoun,lu pronom,vocabulary
+with me,avec moi,vocabulary
+with you (informal),avec toi,vocabulary
+with him,avec lui,vocabulary
+with her,avec elle,vocabulary
+with us (using on) / with us (using nous),avec nous ...same for both,vocabulary
+with you (formal),avec vous,vocabulary
+with them (masculine),avec eux ('oo'),vocabulary
+with them (feminine),avec elles,vocabulary
+Michael and I are playing tennis.,Michel et moi jouons au tennis.; When there are two subjects you use the pronoun for 'me' (+ 'him' + 'them' etc) not 'I'.,vocabulary
+Who is going to the beach? He is.,Qui va à la plage? Lui.; Use the pronoun for 'him' (+ 'me' + 'them' etc) - not 'he' - when answering a question.,vocabulary
+They (masculine) want to come too.,Eux aussi veulent venir.;Use the pronouns for 'them' (+ 'him' 'me' etc) when you are using words like aussi + non plus + seul...emphatic phrases.,vocabulary
+neither you nor I,Ni toi ni moi; Use the pronounds for 'me' (+ 'him' + 'them' etc) when negating.,vocabulary
+She is taller than you (are).,Elle est plus grande que toi.,vocabulary
+mine,à moi,vocabulary
+yours (informal),à toi,vocabulary
+his,à lui,vocabulary
+hers,à elle,vocabulary
+ours,à nous,vocabulary
+yours (formal),à vous,vocabulary
+theirs (masculine),à eux,vocabulary
+theirs (feminine),à elles,vocabulary
+This pen is mine.,Ce stylo est à moi.,vocabulary
+Which book is yours?,Quel livre est à toi?,vocabulary
+Everyone is going home.,On va chez soi.; Soi is used for unspecified persons. It is equivalent to 'one' or 'oneself' in English. But in English we typically use 'everyone' instead.,vocabulary
+Everyone has to do it himself/herself.,Tout le monde doit le faire soi-méme.,vocabulary
+He is going to do it himself.,Il va le faire lui-méme.,vocabulary
+to return,rentrer,vocabulary
+to live/stay at,habiter,vocabulary
+to like/enjoy,aimer,vocabulary
+to dine,dîner,vocabulary
+to wash oneself,se laver,vocabulary
+to pass/spend,passer,vocabulary
+to cry/weep,pleurer,vocabulary
+to help,aider,vocabulary
+to take care of / deal with,s'occuper,vocabulary
+to watch / look at,regarder,vocabulary
+I learn / I learned, j'apprends ("prawn")/ J'ai appris,vocabulary
+You are in good shape.,Tu es en forme.,conversation
+too cold,trop froid ('troy fwa'),vocabulary
+too hot, trop chaud ('troy show'),vocabulary
+before,avant,vocabulary
+after,après,vocabulary
+book of metro tickets,carnet,vocabulary
+getting around,SNCF trains (TGV are very nice) + RATP + metro,conversation
+It's very convenient.,C'est très practique.,vocabulary
+Date of Birth (for forms),date de naissance,vocabulary
+birthday,dated'anniversaire,vocabulary
+marriage anniversary,anniversaire de mariage,vocabulary
+to celebrate,féter,vocabulary
+the months,les mois,vocabulary
+january february march,janvier février mars,vocabulary
+april may june,avril mai juin,vocabulary
+july august september,juiliet août septembre,vocabulary
+october november december,octobre novembre décembre,vocabulary
+pedestrian street,rue piétonne,vocabulary
+5 masculine and feminine endings for professions,-ien/-ienee + -teur/-trice + -eur/-euse + -er/-ére + -e/-e,vocabulary
+a comedian (masc + fem),un comédien / une comédienne,vocabulary
+a directory (masc + fem),un réalisateur / une réalisatrice,vocabulary
+a hairdresser (masc + fem),un coiffeur / une coiffeuse ("qwuf.."),vocabulary
+a nurse (masc + fem),un infirmier / une infirmière,vocabulary
+a journalist (masc + fem),un journaliste / une journaliste,vocabulary
+a singer (masc + fem),un chanteur / une chanteuse,vocabulary
+a baker (masc + fem),un boulanger / une boulangère,vocabulary
+an engineer (masc + fem),un ingénieur / une ingéniere,vocabulary
+a professor (masc + fem),un professeur / une professeure,vocabulary
+an architect (masc + fem),un architecte / une architecte,vocabulary
+a police officer (masc + fem),un policier / une policière,vocabulary
+a tennis player (masc + fem),un jouer / une joueuse de tennis,vocabulary
+a dancer (masc + fem),un danseur / une danseuse,vocabulary
+an actor (masc + fem),un acteur / une actrice,vocabulary
+a doctor (masc + fem),un docteur / une doctoresse,vocabulary
+a writer (masc + fem),un écrivain/ une écrivaine,vocabulary
+a apartment,un apartement,vocabulary
+a house,une maison ...the s sounds like a z here ('may-zon'),vocabulary
+a room,une pièce ...apartments are advertised by count of total rooms sans kitchen; so 3 pièce is likely 1 or 2 bedrooms plus a main room and maybe a dining room,vocabulary
+on the ground floor,au rez-de-chaussée,vocabulary
+on the first floor,au premier étage ...this means an American second floor; same as UK,vocabulary
+an elevator,un ascenseur,vocabulary
+the bathroom (with shower),la salle de bains (sal-duh-bah) ...when it's more than just a toilet,vocabulary
+the bathroom (small; toilet only),les toilettes,vocabulary
+the bedroom,la chambre (shom),vocabulary
+the window,la fenêtre (foo-net),vocabulary
+the lamp,la lampe (lom),vocabulary
+the desk,le pupitre (poo-peet),vocabulary
+the bed,le lit ...un gran lit (a large bed for two people),vocabulary
+the pillow,l'oreiller (lor-ee-yay),vocabulary
+the rug, le tapis,vocabulary
+the stairs,l'escalier (luh-sca-lee)...not plural in French; you only use the plural form when thinking of the stairs as a room e.g. stairwell,vocabulary
+the kitchen,la cuisine (same pronunciation as in english) ...cuisine americain means kitchen open to another room (not galley or separate room),vocabulary
+the washing machine (laundry machine),la machine à laver,vocabulary
+the table, la table,vocabulary
+the dining room,la salle à manger,vocabulary
+the chair,la chaise (shez),vocabulary
+the living room,le salon,vocabulary
+the terrace,la terrasse,vocabulary
+the shelves,les étagères (le-ze-ta-ger),vocabulary
+the sofa,le canapé,vocabulary
+the cushions,les coussins (ku-son),vocabulary
+the entrance,l'entrée,vocabulary
+the office,le bureau ...can also mean business desk,vocabulary
+the armchair,le fauteuil (foot-oil),vocabulary
+the computer,l'ordinateur,vocabulary
+the lugggage,le bagage / des bagages,vocabulary
+a suitcase,une valise,vocabulary
+a shower,une douche,vocabulary
+a bathtub,bains ...this usually means the presence of a bathtub instead of a shower,vocabulary
+a bar,un bar,vocabulary
+a telephone,un téléphone,vocabulary
+a television,une télévision,vocabulary
+a wall,un mur,vocabulary
+a vase,un vase,vocabulary
+a basket,un panier,vocabulary
+a plant,une plant,vocabulary
+a flower,une fluer,vocabulary
+a tree,un arbre / l'arbre,vocabulary
+a candle,une bougie,vocabulary
+a cactus,un cactus,vocabulary
+a painting,un tableau,vocabulary
+a poster,une affiche,vocabulary
+a frame,un cadre,vocabulary
+a statue,une statue,vocabulary
+a mirror,le miroir,vocabulary
+a clock,une horloge,vocabulary
+a box,ue boîte,vocabulary
+an espresso machine,une machine á expresso,vocabulary
+a gas stove,une cuisinière a gaz,vocabulary
+an induction stove,une cuisinière à induction,vocabulary
+an electric stove,une cuisinière électrique,vocabulary
+an oven,un four,vocabulary
+a microwave,un micro-onde,vocabulary
+the sink,el évier,vocabulary
+the dishwasher,le lave-vaisselle,vocabulary
+the refrigerator,le réfrigérateur,vocabulary
+the pan,la casserole,vocabulary
+a skillet,une poêle,vocabulary
+the plate/plates,l'assiette / des assiettes,vocabulary
+a bowl,un bol,vocabulary
+the cup / the cups,la tasse / des tasses,vocabulary
+the glass,le verre,vocabulary
+the wine glass,le verre á vin,vocabulary
+the cutlery,les couverts,vocabulary
+the spoon,la cuillére,vocabulary
+the knife,le couteau,vocabulary
+the fork,la fourchette,vocabulary
+the napkin,la serviette,vocabulary
+the cutting board,la planche á découper,vocabulary
+the spatula,la spatule,vocabulary
+the wine opener,le tire-bouchon,vocabulary
+the ladel,la louche,vocabulary
+the measuring cup,le verre doseur,vocabulary
+the drawer,le tiroir,vocabulary
+the cabinet,l'armoire,vocabulary
+the chandelier,le lustre,vocabulary
+the faucet,le robinet,vocabulary
+the shower head,les pommeaux de douche,vocabulary
+the toilet paper,le papier toilette,vocabulary
+the coffee table,la table basse,vocabulary
+the side table,la table d'appoint ('dupwoh'),vocabulary
+the closet,le placard,vocabulary
+the hanger,le cintre ('sont'),vocabulary
+the clothes rack (for drying clothes),le portant á vêtements,vocabulary
+the headboard,la tête de lit,vocabulary
+the matress,le matelas,vocabulary
+the sheet,le drap,vocabulary
+the pillowcase,le taie d'oreiller,vocabulary
+the ottoman,le pouf,vocabulary
+the leather,le cuir,vocabulary
+the suede,le daim,vocabulary
+the fabric,tissu,vocabulary
+for three nights,pour trois nuits,vocabulary
+Do you (formal) have a room?,Vous avez une chambre? ("voo-zaveh"...with liason),conversation
+it's possible,c'est possible,vocabulary
+country code (for phone numbers),code pays,vocabulary
+square meters,métres carreś,vocabulary
+dog allowed,chien admi,vocabulary
+free,gratuit,vocabulary
+the wood stove,le poêle á bois,vocabulary
+It's different.,C'est différent,vocabulary
+in (inside of),dans ...locaton prepositions: http://andrea-enroute.blogspot.com/2013/10/les-prepositions-de-lieu.html,vocabulary
+in front of,devant ("devon"),vocabulary
+behind,derriér,vocabulary
+on top of,sur (pronounced with the high-pitched 'ooouh' that you make by first singing 'eeee' and then rounding the lips; and then there is a soft but guteral 'gch' sound at the end for the 'r'),vocabulary
+below/under,sous (pronounced with the low-pitched 'oo' like being punched in the stomach; no ending consonant or sound),vocabulary
+between,entre,vocabulary
+next to,à coté de,vocabulary
+far from,loin de,vocabulary
+to the right of,à droit de,vocabulary
+to the left of,à gauche de,vocabulary
+at the top,en haut,vocabulary
+downstairs,en bas,vocabulary
+charming,charmant,vocabulary
+afternoon tea,le goûter ...happens at 4pm every day with snack,vocabulary
