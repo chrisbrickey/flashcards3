@@ -40,7 +40,7 @@ midnight,minuit,numbers
 9:15,neuf heures et quart,numbers
 4:20,quatre heures vingt,numbers
 5:30,cinq heures et demie,numbers
-3:35,troix heures moins vingt-cinq,numbers
+2:35,troix heures moins vingt-cinq,numbers
 6:40,six heures moins vingt,numbers
 10:45,dix heures moins le quart,numbers
 first,première / 1e ...this is how you talk about building floors and the arrodissiments e.g. 5e arrodissiment, numbers
@@ -82,7 +82,7 @@ I am a software engineer.,Je suis Développeur + Je suis software injènieure,co
 What is the formal name for a software engineer - if you write it?,Ingénieur en développement logiciel or Ingénieur en génie logiciel,conversation
 conjugate 'to be' (a profession or a nationality),être: je suis + tu es + il/elle/on est + nous sommes + vous êtes + ils/elles sont,verbs
 conjugate 'to have',avoir: j'ai + tu as + il/elle/on a + nous avons + vous avez + ils/elles ont,verbs
-conjugate to like',j'aime + tu aimes + il/elle/on aime + nous aimons + ovus aimez + ile/elles aiment,verbs
+conjugate to like',j'aime + tu aimes + il/elle/on aime + nous aimons + vous aimez + ile/elles aiment,verbs
 I am hungry.,J'ai faim.,conversation
 You are thirsty.,Tu as soif.,conversation
 to be wrong / We are wrong.,avoir tort / Nous avons tort.,conversation
@@ -148,7 +148,7 @@ the mountain(s),la montagne / les montagnes,vocabulary
 shopping,le shopping (remember 'le' is pronounced 'luh'), vocabulary
 the docks of the Seine,les quais de Seine,vocabulary
 the water / some water, l'eau / d'eau ...pronounced "duh-low",vocabulary
-the market(s),le marché / le marchés,vocabulary
+the market(s),le marché / les marchés,vocabulary
 the artichoke(s),l'artichaut / les artichauts,vocabulary
 the vegetable(s),le légume / les légumes,vocabulary
 the fruit,le fruit / les fruits,vocabulary
@@ -200,7 +200,7 @@ I would like to live in Mexico.,Je voudrais vivre au Mexique. (masculine),conver
 I come (am) from New York City.,Ju viens de New York.,conversation
 I come (am) from the United States.,Je viens des États-Unis. (plural),conversation
 I am late.,Je suis en retard.,conversation
-the pronoun,lu pronom,vocabulary
+the pronoun,le pronom,vocabulary
 with me,avec moi,vocabulary
 with you (informal),avec toi,vocabulary
 with him,avec lui,vocabulary
@@ -247,7 +247,7 @@ book of metro tickets,carnet,vocabulary
 getting around,SNCF trains (TGV are very nice) + RATP + metro,conversation
 It's very convenient.,C'est très practique.,vocabulary
 Date of Birth (for forms),date de naissance,vocabulary
-birthday,dated'anniversaire,vocabulary
+birthday,date d'anniversaire,vocabulary
 marriage anniversary,anniversaire de mariage,vocabulary
 to celebrate,féter,vocabulary
 the months,les mois,vocabulary
@@ -258,7 +258,7 @@ october november december,octobre novembre décembre,vocabulary
 pedestrian street,rue piétonne,vocabulary
 5 masculine and feminine endings for professions,-ien/-ienee + -teur/-trice + -eur/-euse + -er/-ére + -e/-e,vocabulary
 a comedian (masc + fem),un comédien / une comédienne,vocabulary
-a directory (masc + fem),un réalisateur / une réalisatrice,vocabulary
+a director (masc + fem),un réalisateur / une réalisatrice,vocabulary
 a hairdresser (masc + fem),un coiffeur / une coiffeuse ("qwuf.."),vocabulary
 a nurse (masc + fem),un infirmier / une infirmière,vocabulary
 a journalist (masc + fem),un journaliste / une journaliste,vocabulary
@@ -303,7 +303,7 @@ the entrance,l'entrée,vocabulary
 the office,le bureau ...can also mean business desk,vocabulary
 the armchair,le fauteuil (foot-oil),vocabulary
 the computer,l'ordinateur,vocabulary
-the lugggage,le bagage / des bagages,vocabulary
+the luggage,le bagage / des bagages,vocabulary
 a suitcase,une valise,vocabulary
 a shower,une douche,vocabulary
 a bathtub,bains ...this usually means the presence of a bathtub instead of a shower,vocabulary
@@ -324,7 +324,7 @@ a frame,un cadre,vocabulary
 a statue,une statue,vocabulary
 a mirror,le miroir,vocabulary
 a clock,une horloge,vocabulary
-a box,ue boîte,vocabulary
+a box,une boîte,vocabulary
 an espresso machine,une machine á expresso,vocabulary
 a gas stove,une cuisinière a gaz,vocabulary
 an induction stove,une cuisinière à induction,vocabulary
