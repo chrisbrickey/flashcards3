@@ -11,7 +11,7 @@ function start(){
     $.ajax({
         type: "GET",
         url: "/v1/deck",
-        data: {"filepath" : "static/csv/java_content.csv"},
+        data: {"filepath" : "static/csv/english_to_french.csv"},
         cache: false,
         success: function(result) {
             playDeck(result)

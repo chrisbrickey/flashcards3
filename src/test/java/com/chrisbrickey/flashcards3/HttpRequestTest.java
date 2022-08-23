@@ -20,6 +20,6 @@ public class HttpRequestTest {
     @Test
     public void rootReturnsInterimMessage() throws Exception {
         assertThat(this.restTemplate.getForObject("http://localhost:" + port + "/", String.class))
-            .contains("Chris' Flashcards");
+            .contains("flashcards4u");
     }
 }
