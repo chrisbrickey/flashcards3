@@ -377,6 +377,9 @@ the heating,le chauffage,vocabulary
 hot water,l'eau chaude,vocabulary
 the electricity,l'électricité,vocabulary
 an elevator,un ascenseur,vocabulary
+the roof,le toit ('twa'),vocabulary
+the door, la porte, vocabulary
+the balcony,le balcon,vocabulary
 the bathroom (with shower),la salle de bains (sal-duh-bah) ...when it's more than just a toilet,vocabulary
 the bathroom (small; toilet only),les toilettes,vocabulary
 the bedroom,la chambre (shom),vocabulary
@@ -476,7 +479,7 @@ the coffee table,la table basse,vocabulary
 the side table,la table d'appoint ('dupwoh'),vocabulary
 the closet,la placard (a small room or area with a door; not a separate piece of furniture),vocabulary
 the cabinet,l'armoire (same as word for wardrobe),vocabulary
-the armoire,l'armoire  ...a separate piece of furniture; not a closet (same word as for cabinet),vocabulary
+an armoire / the armoire,une armoire / l'armoire ...a separate piece of furniture; not a closet (same word as for cabinet),vocabulary
 the hanger,le cintre ('sont'),vocabulary
 the clothes rack (for drying clothes),le portant á vêtements,vocabulary
 the headboard,la tête de lit,vocabulary
@@ -520,14 +523,17 @@ It's different.,C'est différent,conversation
 It's unusual.,C'est insolites.,conversation
 Its not serious.,C'est moins sérieux / grave.,conversation
 You are better / healed.,Tu vas mieux.,conversation
+a woman,une femme,vocabulary
+a man,un homme,vocabulary
 a family,une famille ('fam-ee'),vocabulary
 a brother,un frère ('frer'),vocabulary
 a sister,une souer ('sir'),vocabulary
 a father,un père ('pear'),vocabulary
+a sibling,un fratrie,vocabulary
 a mother,une mère ('mer'),vocabulary
 a son,un fils ('fees'),vocabulary
 a daughter,une fille ('fee'),voc abulary
-husband,un mari,vocabulary
+a husband,un mari,vocabulary
 a wife,une femme,vocabulary
 a spouse,un époux ('eh-poo') / une épouse ('eh-poos')...depending on the spouse's gender,vocabulary
 an uncle,un oncle ('onk'),vocabulary
