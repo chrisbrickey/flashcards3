@@ -3,7 +3,7 @@ question,answer,category
 6 7 8 9 10, six ('sis') sept ('set') huit ('uit') neuf dix ('dis') ,numbers
 11 12 13,onze douze treize ('trez'),numbers
 14 15 16,quatorze ('katorz') quinze ('kaz') seize ('sez'),numbers
-17 18 19,dix-sept ('diset') dex-huit ('diswheat') dex-neuf ('disnuff'),numbers
+17 18 19,dix-sept ('diset') dix-huit ('diswheat') dix-neuf ('disnuff'),numbers
 20,vingt ('vah'),numbers
 21 22 23,vingt et un ('vante-oon') vingt-deux ('vant-dew') vingt-troix ('van-twoh'),numbers
 24 25 26,vingt-quatre vingt-cinq vingt-six,numbers
@@ -41,8 +41,8 @@ midnight,minuit,numbers
 4:20,quatre heures vingt,numbers
 5:30,cinq heures et demie,numbers
 2:35,troix heures moins vingt-cinq,numbers
-6:40,six heures moins vingt,numbers
-10:45,dix heures moins le quart,numbers
+6:40,sept heures moins vingt,numbers
+10:45,onze heures moins le quart,numbers
 first,première / 1e ...this is how you talk about building floors and the arrodissiments e.g. 5e arrodissiment, numbers
 second,deuxième / 2e,numbers
 third,troisième / 3e (twah-ziem),numbers
@@ -53,6 +53,7 @@ seventh,septième / 7e, numbers
 eighth,huitième / 8e (wheat-iem),numbers
 ninth,neuvième / 9e,numbers
 tenth,dixième / 10e (deez-iem),numbers
+eleventh,onzième / 11e,numbers
 degrees celsius,degré Celsius,vocabulary
 degrees fahrenheit,degré Fahrenheit,vocabulary
 How to pronounce a b c d e,ah beh seh deh uh (like wool),pronunciation
@@ -60,13 +61,20 @@ How to pronounce f g h i j,eff zhey (like massage) ah-sh ee zhee/jhee,pronunciat
 How to pronounce k l m n o,kah ell ehm ehn oh,pronunciation
 How to pronounce p q r s t,peh keoo (like KEE with rounded lips) ehr ess teh,pronunciation
 How to pronounce u v w x y z,eew veh doobluh-veh eeks ee-grehk zehd,pronunciation
+How do you know whether or not to pronounce the 'e' at the end of a word?,you never pronounce an 'e' if it's at the end of a word,pronunciation
+How do you know whether or not to pronounce a consonant at the end of a word?,LCFR ('lucifer') are the only four consonants that are pronounced when at the end of a word (e.g. aérobic) OR if at the end and followed only by an 'e' (e.g. livre) - otherwise the final consonants (regardless of if they are followed by an 'e' are not pronounced),pronunciation
 How do you pronounce 'r' at end of a word?,light "gh" at back of throat - put tongue at the top of back of mouth and blow air across it almost like a hiss (e.g. noir + catre + etre) - it's more like a rolling g instead of a rolling r,pronunciation
+How does the pronunciation of adjectives change as the noun changes gender and number?,general rules for spelling: add 'e' for feminine nouns + add 's' for masculine plural + add 'es' for feminine plural; the pronunciation result is that final consonants are not pronounced in the masculine form but are pronounced in the feminine form; no change in pronunciation from singular to plural - sounds exactly the same regardless of added 's' and 'es',pronunciation
+Pronounce petit (masc singular) + petite (fem singular) + petits (masc plural) + petites (fem plural),'puh-tee' + 'puh-teet' + 'puh-tee' + 'puh-teet',pronunciation
+When do adjectives have the same spelling and pronunciation for masculine and feminine and plural?,generally any adjectives that ends in an 's' or an 'x',pronunciation
 yes / no,oui / non,vocabulary
+thank you / you're welcome,merci / de rien (literally it's nothing),vocabulary
 How do you say ___ in french?,Comment dit-on ___ en francais?,conversation
 Excuse me,Excusez-moi,conversation
 I do not understand.,Je ne comprends pas (note: je sounds like "juh" not "jee)",conversation
 Can you repeat?,Pouvez-vous répéter?,conversation
 How is it written?,Ca s'écrit comment? (say-si-creet-como),conversation
+I remember.,Je me souviens. (juh-muh-soo-vyuh),conversation
 How are you? (informal),Comment vas-tu? / Comment ça va?,conversation
 What's up?,Quoi de neuf? (remember 'de' is pronounced 'duh'),conversation
 It's ok / it's going alright,çe va! + ce va? (say-va)...it is used as both question and response,conversation
@@ -120,9 +128,15 @@ I am a software engineer.,Je suis Développeur + Je suis software injènieure,co
 What is the formal name for a software engineer - if you write it?,Ingénieur en développement logiciel or Ingénieur en génie logiciel,conversation
 conjugate 'to be' (a profession or a nationality),être: je suis + tu es + il/elle/on est + nous sommes + vous êtes + ils/elles sont,verbs
 conjugate 'to have',avoir: j'ai + tu as + il/elle/on a + nous avons + vous avez + ils/elles ont,verbs
-conjugate to like',j'aime + tu aimes + il/elle/on aime + nous aimons + vous aimez + ile/elles aiment,verbs
-I am hungry.,J'ai faim.,conversation
-You are thirsty.,Tu as soif.,conversation
+conjugate 'to like',j'aime + tu aimes + il/elle/on aime + nous aimons + vous aimez + ile/elles aiment,verbs
+I love,j'adore,verbs
+I know (it),je said,verbs
+I know (of it),je conais,verbs
+I would like to find...,Je voudrais trouver...,verbs
+I hope,J'espère,verbs
+I am hungry.,J'ai faim. ('fom'),conversation
+You are thirsty.,Tu as soif. ('swof'),conversation
+We are tired.,On a fatigué. ('fa-teeg-ay'),conversation
 to be wrong / We are wrong.,avoir tort / Nous avons tort.,conversation
 to be right / They are right.,avoir raison / Ils ont raison.,conversation
 to have good luck / I have good luck.,avoir de la chance / J'ai de la chance.,conversation
@@ -176,11 +190,17 @@ shopping,le shopping (remember 'le' is pronounced 'luh'), vocabulary
 the docks of the Seine,les quais de Seine,vocabulary
 the water / some water, l'eau / d'eau ...pronounced "duh-low",vocabulary
 the market(s),le marché / les marchés,vocabulary
+the food,la nourriture,vocabulary
 the artichoke(s),l'artichaut / les artichauts,vocabulary
 the vegetable(s),le légume / les légumes,vocabulary
 the fruit,le fruit / les fruits,vocabulary
 the bread(s),le pain / les pains,vocabulary
 the butter,le beurre,vocabulary
+the chicken,le poulet,vocabulary
+the salad,la salade,vocabulary
+the cookies,les cookies,vocabulary
+the pizza,la pizza,vocabulary
+the birthday cake,le gâteau d'anniversaire,vocabulary
 the sneakers,les baskets,vocabulary
 the notebook,le cahier,vocabularly
 the book,le livre,vocabulary
@@ -370,6 +390,8 @@ a room,une pièce ...apartments are advertised by count of total rooms sans kitc
 on the ground floor,au rez-de-chaussée,vocabulary
 on the first floor,au premier étage ...this means an American second floor; same as UK,vocabulary
 a building,un immeuble,vocabulary
+some buildings,quelques immeubles,vocabulary
+a boat,un bateau,vocabulary
 to find an apartment,pour trouver un apartment,verbs
 to rent an apartment,pour louer un apartment,verbs
 to buy,pour acheter,verbs
@@ -380,6 +402,7 @@ an elevator,un ascenseur,vocabulary
 the roof,le toit ('twa'),vocabulary
 the door, la porte, vocabulary
 the balcony,le balcon,vocabulary
+the blue shutters,des volets bleus,vocabulary
 the bathroom (with shower),la salle de bains (sal-duh-bah) ...when it's more than just a toilet,vocabulary
 the bathroom (small; toilet only),les toilettes,vocabulary
 the bedroom,la chambre (shom),vocabulary
@@ -415,12 +438,14 @@ a telephone,un téléphone,vocabulary
 a television,une télévision,vocabulary
 a wall,un mur,vocabulary
 on the wall,sur le mur,vocabulary
+the curtain / the curtains,le rideau / les rideaux,vocabulary
 a vase,un vase,vocabulary
 a basket,un panier,vocabulary
 a plant,une plant,vocabulary
 a pot (for a plant),un pot,vocabulary
 a flower,une fluer,vocabulary
 a tree,un arbre / l'arbre,vocabulary
+a palm tree,un palmier,vocabulary
 a candle,une bougie,vocabulary
 a cactus,un cactus,vocabulary
 a painting,une peinture (a formal piece of art),vocabulary
@@ -516,6 +541,7 @@ free,gratuit,vocabulary
 all-included,tout compris,vocabulary
 charming,charmant,vocabulary
 lots of questions,beaucoup de questions (la question - feminine),vocabulary
+one other question,une autre question,vocabulary
 afternoon tea,le goûter ...happens at 4pm every day with snack,vocabulary
 Do you (formal) have a room?,Vous avez une chambre? ("voo-zaveh"...with liason),conversation
 It's possible,c'est possible,conversation
@@ -525,12 +551,14 @@ Its not serious.,C'est moins sérieux / grave.,conversation
 You are better / healed.,Tu vas mieux.,conversation
 a woman,une femme,vocabulary
 a man,un homme,vocabulary
+a neighbor,un voisin,vocabulary
 a family,une famille ('fam-ee'),vocabulary
 a brother,un frère ('frer'),vocabulary
 a sister,une souer ('sir'),vocabulary
-a father,un père ('pear'),vocabulary
 a sibling,un fratrie,vocabulary
+a father,un père ('pear'),vocabulary
 a mother,une mère ('mer'),vocabulary
+a parent,un parent,vocabulary
 a son,un fils ('fees'),vocabulary
 a daughter,une fille ('fee'),voc abulary
 a husband,un mari,vocabulary
@@ -547,4 +575,11 @@ grandson,un petit-fils ('puh-ti-fees') ...the 't' at the end of petit is pronoun
 granddaughter,une petite-fille ('puh-teet-fee') ...the 't' at the end of petit is pronounced if it describes a female noun; it is silent when it describes a male noun,vocabulary
 great grandfather,arrière-grand-père ('aria-gron-pear'),vocabulary
 great grandmother,arrière-grand-mère ('aria-gron-mer'),vocabulary
+We go to a concer.,On va à un concert.,vocabulary
+to see a band,voir un groupe de musique,vocabulary
+the french motto,la devise de la Republique -> la liberté l'égalité et la fraternité,vocabulary
+the title,la titre,vocabulary
+in the country,à la campagne,vocabulary
+the lodging/accommodation,la logement,vocabulary
+back to school,la rentrée scolaire,vocabulary
 placeholders,parts of the body + animals (la souris = mouse),vocabulary
