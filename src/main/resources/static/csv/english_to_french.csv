@@ -44,16 +44,16 @@ midnight,minuit,numbers
 6:40,sept heures moins vingt,numbers
 10:45,onze heures moins le quart,numbers
 first,première / 1e ...this is how you talk about building floors and the arrodissiments e.g. 5e arrodissiment, numbers
-second,deuxième / 2e,numbers
+second,deuxième / 2e (doo-ziem),numbers
 third,troisième / 3e (twah-ziem),numbers
-fourth,quatrième / 4e,numbers
+fourth,quatrième / 4e (ke-treim),numbers
 fifth,cinqième / 5e (sanq-em), numbers
-sixth,sixième / 6e, numbers
-seventh,septième / 7e, numbers
+sixth,sixième / 6e (see-ziem), numbers
+seventh,septième / 7e (seeup-tiem), numbers
 eighth,huitième / 8e (wheat-iem),numbers
-ninth,neuvième / 9e,numbers
-tenth,dixième / 10e (deez-iem),numbers
-eleventh,onzième / 11e,numbers
+ninth,neuvième / 9e (nu-viem),numbers
+tenth,dixième / 10e (dee-ziem),numbers
+eleventh,onzième / 11e (ohn-ziem),numbers
 degrees celsius,degré Celsius,vocabulary
 degrees fahrenheit,degré Fahrenheit,vocabulary
 How to pronounce a b c d e,ah beh seh deh uh (like wool),pronunciation
@@ -62,9 +62,9 @@ How to pronounce k l m n o,kah ell ehm ehn oh,pronunciation
 How to pronounce p q r s t,peh keoo (like KEE with rounded lips) ehr ess teh,pronunciation
 How to pronounce u v w x y z,eew veh doobluh-veh eeks ee-grehk zehd,pronunciation
 How do you know whether or not to pronounce the 'e' at the end of a word?,you never pronounce an 'e' if it's at the end of a word,pronunciation
-How do you know whether or not to pronounce a consonant at the end of a word?,LCFR ('lucifer') are the only four consonants that are pronounced when at the end of a word (e.g. aérobic) OR if at the end and followed only by an 'e' (e.g. livre) - otherwise the final consonants (regardless of if they are followed by an 'e' are not pronounced),pronunciation
+How do you know whether or not to pronounce a consonant at the end of a word?,LCFR ('lucifer') are the only four consonants that are pronounced when at the end of a word (e.g. aérobic) OR if at the end and followed only by an 'e' (e.g. livre) - otherwise the final consonants (regardless of if they are followed by an 'e') are not pronounced; one caveat... the end consonant (regardless of if they are followed by an 'e' and regardless of whether or not LCFR) will be pronounced if it is the female version of an adjective (e.g. cuit is masculine and pronounced 'quee' while cuite is feminine and pronounced 'queet'),pronunciation
 How do you pronounce 'r' at end of a word?,light 'gh' at back of throat - put tongue at the top of back of mouth and blow air across it almost like a hiss (e.g. noir + catre + etre) - it's more like a rolling g instead of a rolling r,pronunciation
-How does the pronunciation of adjectives change as the noun changes gender and number?,general rules for spelling: add 'e' for feminine nouns + add 's' for masculine plural + add 'es' for feminine plural; the pronunciation result is that final consonants are not pronounced in the masculine form but are pronounced in the feminine form; no change in pronunciation from singular to plural - sounds exactly the same regardless of added 's' and 'es',pronunciation
+How does the pronunciation of adjectives change as the noun changes gender and number?,general rules for spelling: add 'e' for feminine nouns + add 's' for masculine plural + add 'es' for feminine plural; the pronunciation result is that any final consonants are not pronounced in the masculine form but are pronounced in the feminine form; no change in pronunciation from singular to plural - sounds exactly the same regardless of added 's' and 'es',pronunciation
 Pronounce petit (masc singular) + petite (fem singular) + petits (masc plural) + petites (fem plural),'puh-tee' + 'puh-teet' + 'puh-tee' + 'puh-teet',pronunciation
 When do adjectives have the same spelling and pronunciation for masculine and feminine and plural?,generally any adjectives that ends in an 's' or an 'x',pronunciation
 yes / no,oui / non,vocabulary
@@ -96,7 +96,7 @@ How much is X? / How much is it?,Combien coûte ...? ('kom-bien-coot') / Combien
 How much does it cost?,Combien ça coûte?,conversation
 It costs...,ça coûte ...,conversation
 Why?,Pourquoi? ('poor-kwa'),conversation
-because,parce que ('par-se-kyuh'),vocabulary
+because,parce que ('parse-kuh'),vocabulary
 for example,par exemple ('par-ex-ompl'),vocabulary
 also,aussi ('osi'),vocabulary
 once,une fois,vocabulary
@@ -105,9 +105,38 @@ entirely,entièrement,vocabulary
 maybe,peut-être ('poo-eht'),vocabulary
 close to,prés de,vocabulary
 here,ici ('eecee'),vocabulary
+in (inside of),dans ...locaton prepositions: http://andrea-enroute.blogspot.com/2013/10/les-prepositions-de-lieu.html,vocabulary
+in front of,devant ("devon"),vocabulary
+behind,derriér,vocabulary
+on top of,sur (pronounced with the high-pitched 'ooouh' that you make by first singing 'eeee' and then rounding the lips; and then there is a soft but guteral 'gch' sound at the end for the 'r'),vocabulary
+below/under,sous (pronounced with the low-pitched 'oo' like being punched in the stomach; no ending consonant or sound),vocabulary
+between,entre,vocabulary
+next to,à coté de,vocabulary
+far from,loin de,vocabulary
+to the right of,à droit de,vocabulary
+to the left of,à gauche de,vocabulary
+at the top,en haut,vocabulary
+too cold,trop froid ('trow fwa'),vocabulary
+too hot, trop chaud ('trow show'),vocabulary
+before,avant,vocabulary
+after,après,vocabulary
+open,ouvert ('ooh-ver'),vocabulary
+closed,fermé ('fer-meh'),vocabulary
+today,aujourd'hui ('on-jour-dwi'),vocabulary
+tomorrow,demain ('duh-mwa'),vocabulary
+monday tuesday wednesday,lundi ('luhn-di') + mardi ('MAR-di' ...remember to let the r catch in the throat a bit) + mercredi ('MEH-cri-di'),vocabulary
+thursday friday saturday sunday,jeudi ('jooh-di' ...the j is really soft) + vendredi ('VON-dra-di') + samedi ('sam-di') + dimanche ('DEE-monsh'),vocabulary
+january february march,janvier février mars,vocabulary
+april may june,avril mai juin,vocabulary
+july august september,juiliet août septembre,vocabulary
+october november december,octobre novembre décembre,vocabulary
+the day,le jour,vocabulary
+the month,le mois ('mwa'),vocabulary
+the word,le mot ('mow'),vocabulary
+the year,it's feminine; l'année (une année),vocabulary
 nothing else,rein d'autre ('ron-doot'),vocabulary
 no more,non plus,vocabulary
-the thing,la chose,vocabulary
+the thing,la chose ('shows'),vocabulary
 red,rouge,vocabulary
 orange,orange ('or-onj'),vocabulary
 yellow,jaune ('joon'),vocabulary
@@ -128,18 +157,33 @@ I am a software engineer.,Je suis Développeur + Je suis software injènieure,co
 What is the formal name for a software engineer - if you write it?,Ingénieur en développement logiciel or Ingénieur en génie logiciel,conversation
 conjugate 'to be' (a profession or a nationality),être: je suis + tu es + il/elle/on est + nous sommes + vous êtes + ils/elles sont,verbs
 conjugate 'to have',avoir: j'ai + tu as + il/elle/on a + nous avons + vous avez + ils/elles ont,verbs
+How do you conjugate regular -er verbs in present tense?,endings: je -e (silent) + tu -es (silent) + il/elle/on -e (silent) + nous -ons (pronounced) + vous -ez (pronounced) + ils/elles -ent (silent),verbs
 conjugate 'to like',aimer: j'aime + tu aimes + il/elle/on aime + nous aimons + vous aimez + ile/elles aiment,verbs
 conjugate 'to want',vouloir: je veux + tu veux + il/elle/on veut + nous voulons + vous voulez + ils/elle veulent,verbs
 conjugate 'to go',aller: je vais + tu va + il/elle/on va + nous allons + vous allez +ils/elles vont,verbs
+conjugate 'to be able to'; often used as a helper verb (e.g. I can wait. You can work.),pouvoir: je peux ('juh pooh') + tu peux ('pooh') + il/elle/on peut ('pooh') + nous pouvons + vous pouvez ('pooh-vay') + ils/elles peuvent,verbs
 conjugate 'to be called',se appelle: he m'appelle + tu t'appelles + il/elle/on s'appelle + nous nous appelons + vous vous appelez + ils/elles s'appellent ...note how this is a reflexive verb that uses 'se'.,verbs
 Your name is X.,Tu t'appelles X.,verbs
 I call you X.,Je t'appelles X.,verbs
 How do you conjugate for 'we' when speaking?,when writing: nous ___ but when speaking: on ___ (same conjugation as il/elle) and there is often a liason between 'on' and the verb,verbs
+to go to Paris,pour aller à Paris,verbs
+to buy,acheter,verbs
+to return,rentrer,verbs
+to live/stay at,habiter,verbs
+to dine,dîner,verbs
+to wash oneself,se laver,verbs
+to pass/spend,passer,verbs
+to cry/weep,pleurer,verbs
+to help,aider,verbs
+to take care of / deal with,s'occuper,verbs
+to watch / look at,regarder,verbs
+to celebrate,féter,vocabulary
 I love,j'adore,verbs
 I know (it),je said,verbs
 I know (of it),je conais,verbs
-I would like to find...,Je voudrais trouver...,verbs
+I would like to find...,Je voudrais trouver...  I think this is a future tense of the verb 'to want' (vouloir),verbs
 I hope,J'espère,verbs
+I learn / I learned, j'apprends ("prawn")/ J'ai appris,vocabulary
 I am hungry.,J'ai faim. ('fom'),conversation
 You are thirsty.,Tu as soif. ('swof'),conversation
 We are tired.,On a fatigué. ('fa-teeg-ay'),conversation
@@ -245,7 +289,7 @@ in Mexico,au Mexique (masculine),vocabulary
 from NYC, de New York (feminine) ('duh'),vocabulary
 from France,de France (feminine) ('duh'),vocabulary
 from Brazil, du Brésil (masculine) ('dooh'),vocabulary
-from the United States, des États-Unis (plural),vocabulary
+from the United States, des États-Unis ('day' because plural),vocabulary
 from Virginia,de Virginie ('duh'),vocabulary
 from Japan,du Japon ('dooh'),vocabulary
 I live in Paris.,Je vis à Paris.,conversation
@@ -273,7 +317,7 @@ her shirt,sa chemise ...une chemise is feminine so use 'sa' ...regardless of whe
 her t-shirt,son t-shirt ...un t-shirt is masculine so use 'son' ...regardless of whether or not the person is male/female,vocabulary
 her sandals,ses sandales ...des sandales (f) is plural so use 'ses',vocabulary
 his tie,sa cravate ...une cravate is feminine so use 'sa',vocabulary
-his suit,son constume ...un constume is masculine so use 'son',vocabulary
+his suit,son costume ...un constume is masculine so use 'son',vocabulary
 his sneakers,ses tennis ...des tennis (m) is plural so use 'ses',vocabulary
 our pants,notre pantalon ...un pantalon is singular masculine in french,vocabulary
 our boot, notre botte ...une botte is feminine,vocubulary
@@ -334,39 +378,14 @@ Which book is yours?,Quel livre est à toi?,vocabulary
 Everyone is going home.,On va chez soi.; Soi is used for unspecified persons. It is equivalent to 'one' or 'oneself' in English. But in English we typically use 'everyone' instead.,vocabulary
 Everyone has to do it himself/herself.,Tout le monde doit le faire soi-méme.,vocabulary
 He is going to do it himself.,Il va le faire lui-méme.,vocabulary
-to return,rentrer,vocabulary
-to live/stay at,habiter,vocabulary
-to like/enjoy,aimer,vocabulary
-to dine,dîner,vocabulary
-to wash oneself,se laver,vocabulary
-to pass/spend,passer,vocabulary
-to cry/weep,pleurer,vocabulary
-to help,aider,vocabulary
-to take care of / deal with,s'occuper,vocabulary
-to watch / look at,regarder,vocabulary
-I learn / I learned, j'apprends ("prawn")/ J'ai appris,vocabulary
 You are in good shape.,Tu es en forme.,conversation
-too cold,trop froid ('troy fwa'),vocabulary
-too hot, trop chaud ('troy show'),vocabulary
-before,avant,vocabulary
-after,après,vocabulary
 book of metro tickets,carnet,vocabulary
 getting around,SNCF trains (TGV are very nice) + RATP + metro,conversation
+pedestrian street,rue piétonne,vocabulary
 It's very convenient.,C'est très practique.,vocabulary
 Date of Birth (for forms),date de naissance,vocabulary
 birthday,date d'anniversaire,vocabulary
 marriage anniversary,anniversaire de mariage,vocabulary
-to celebrate,féter,vocabulary
-today,aujourd'hui ('on-jour-dwi'),vocabulary
-tomorrow,demain ('duh-mwa'),vocabulary
-monday tuesday wednesday,lundi ('luhn-di') + mardi ('MAR-di' ...remember to let the r catch in the throat a bit) + mercredi ('MEH-cri-di'),vocabulary
-thursday friday saturday sunday,jeudi ('jooh-di' ...the j is really soft) + vendredi ('VON-dra-di') + samedi ('sam-di') + dimanche ('DEE-monsh'),vocabulary
-the months,les mois,vocabulary
-january february march,janvier février mars,vocabulary
-april may june,avril mai juin,vocabulary
-july august september,juiliet août septembre,vocabulary
-october november december,octobre novembre décembre,vocabulary
-pedestrian street,rue piétonne,vocabulary
 5 masculine and feminine endings for professions,-ien/-ienee + -teur/-trice + -eur/-euse + -er/-ére + -e/-e,vocabulary
 a comedian (masc + fem),un comédien / une comédienne,vocabulary
 a director (masc + fem),un réalisateur / une réalisatrice,vocabulary
@@ -384,21 +403,10 @@ a dancer (masc + fem),un danseur / une danseuse,vocabulary
 an actor (masc + fem),un acteur / une actrice,vocabulary
 a doctor (masc + fem),un docteur / une doctoresse,vocabulary
 a writer (masc + fem),un écrivain/ une écrivaine,vocabulary
-in (inside of),dans ...locaton prepositions: http://andrea-enroute.blogspot.com/2013/10/les-prepositions-de-lieu.html,vocabulary
-in front of,devant ("devon"),vocabulary
-behind,derriér,vocabulary
-on top of,sur (pronounced with the high-pitched 'ooouh' that you make by first singing 'eeee' and then rounding the lips; and then there is a soft but guteral 'gch' sound at the end for the 'r'),vocabulary
-below/under,sous (pronounced with the low-pitched 'oo' like being punched in the stomach; no ending consonant or sound),vocabulary
-between,entre,vocabulary
-next to,à coté de,vocabulary
-far from,loin de,vocabulary
-to the right of,à droit de,vocabulary
-to the left of,à gauche de,vocabulary
-at the top,en haut,vocabulary
-downstairs,en bas,vocabulary
 a apartment,un apartement,vocabulary
 a house,une maison ...the s sounds like a z here ('may-zon'),vocabulary
 a room,une pièce ...apartments are advertised by count of total rooms sans kitchen; so 3 pièce is likely 1 or 2 bedrooms plus a main room and maybe a dining room,vocabulary
+downstairs,en bas,vocabulary
 on the ground floor,au rez-de-chaussée,vocabulary
 on the first floor,au premier étage ...this means an American second floor; same as UK,vocabulary
 a building,un immeuble,vocabulary
@@ -406,7 +414,6 @@ some buildings,quelques immeubles,vocabulary
 a boat,un bateau,vocabulary
 to find an apartment,pour trouver un apartment,verbs
 to rent an apartment,pour louer un apartment,verbs
-to buy,pour acheter,verbs
 the heating,le chauffage,vocabulary
 hot water,l'eau chaude,vocabulary
 the electricity,l'électricité,vocabulary
@@ -426,10 +433,10 @@ the pillow,l'oreiller (lor-ee-yay),vocabulary
 the rug, le tapis,vocabulary
 the stairs,l'escalier (luh-sca-lee)...not plural in French; you only use the plural form when thinking of the stairs as a room e.g. stairwell,vocabulary
 the kitchen,la cuisine (same pronunciation as in english) ...cuisine americain means kitchen open to another room (not galley or separate room),vocabulary
-furniture,muebles,vocabulary
+the furniture,les muebles,vocabulary
 the table,la table,vocabulary
 the dining room,la salle à manger,vocabulary
-the chair,la chaise (shez),vocabulary
+the chair,la chaise ('shez'),vocabulary
 the stool,le tabouret,vocabulary
 the living room,le salon,vocabulary
 the terrace,la terrasse,vocabulary
@@ -551,7 +558,6 @@ square meters,métres carreś,vocabulary
 dog allowed,chien admi,vocabulary
 free,gratuit,vocabulary
 all-included,tout compris,vocabulary
-charming,charmant,vocabulary
 lots of questions,beaucoup de questions (la question - feminine),vocabulary
 one other question,une autre question,vocabulary
 afternoon tea,le goûter ...happens at 4pm every day with snack,vocabulary
@@ -572,7 +578,7 @@ a father,un père ('pear'),vocabulary
 a mother,une mère ('mer'),vocabulary
 a parent,un parent,vocabulary
 a son,un fils ('fees'),vocabulary
-a daughter,une fille ('fee'),voc abulary
+a daughter,une fille ('fee'),vocabulary
 a husband,un mari,vocabulary
 a wife,une femme,vocabulary
 a spouse,un époux ('eh-poo') / une épouse ('eh-poos')...depending on the spouse's gender,vocabulary
@@ -588,7 +594,7 @@ granddaughter,une petite-fille ('puh-teet-fee') ...the 't' at the end of petit i
 great grandfather,arrière-grand-père ('aria-gron-pear'),vocabulary
 great grandmother,arrière-grand-mère ('aria-gron-mer'),vocabulary
 We go to a concert.,On va à un concert.,vocabulary
-to see a band,voir un groupe de musique,vocabulary
+to see a band,pour voir un groupe de musique,vocabulary
 the french motto,la devise de la Republique -> la liberté l'égalité et la fraternité,vocabulary
 the title,la titre,vocabulary
 in the country,à la campagne,vocabulary
