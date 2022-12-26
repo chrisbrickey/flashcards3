@@ -1,9 +1,9 @@
 question,answer,category
 1 2 3 4 5,un deux trois quatre cinq (pronounced 'sanq'),numbers
-6 7 8 9 10, six ('sis') sept ('set') huit ('uit') neuf dix ('dis') ,numbers
+6 7 8 9 10, six ('sees') sept ('set') huit ('ueet') neuf dix ('dees') ,numbers
 11 12 13,onze douze treize ('trez'),numbers
 14 15 16,quatorze ('katorz') quinze ('kaz') seize ('sez'),numbers
-17 18 19,dix-sept ('diset') dix-huit ('diswheat') dix-neuf ('disnuff'),numbers
+17 18 19,dix-sept ('deeset') dix-huit ('deeswheat') dix-neuf ('deesnuff'),numbers
 20,vingt ('vah'),numbers
 21 22 23,vingt et un ('vante-oon') vingt-deux ('vant-dew') vingt-troix ('van-twoh'),numbers
 24 25 26,vingt-quatre vingt-cinq vingt-six,numbers
@@ -17,7 +17,7 @@ For which 10's (under 100) do you have to add elements together?,70s (60 and add
 80,quatre-vingt ('catre-von'),numbers
 90,quatre-vingt-dix ('catre-von-dees'),numbers
 60 61 62 63,soixante + soixante et un + soixante-duex + soixant-trois,numbers
-70 71 72 73,soixante-dix + soixante et onze + soixante-douze + soixante-treize,numbers
+70 71 72 73,soixante-dix + soixante et onze (use the 'et' with 1 and 11) + soixante-douze + soixante-treize,numbers
 80 81 82 83,quatre-vingts + quatre-vingt-un + quatre-vingt-duex + quatre-vingt-trois,numbers
 90 91 92 93,quatre-vingt-dix + quatre-vingt-onze + quatre-vingt-douze + quatre-vingt-treize,numbers
 100,cent (kind of like 'saw' in english but pronounced like sont in french),numbers
@@ -27,22 +27,29 @@ For which 10's (under 100) do you have to add elements together?,70s (60 and add
 300,trois cents,numbers
 1.000,mille ...one thousand - not one with decimals (exchange commas and periods moving from english to french),numbers
 6.000,six mille,numbers
+10.000,dix mille (pronounced 'dimil' because we drop the x when a noun follows the 10),numbers
+100.000,cent mille,numbers
 1.000.000,un million ...one million,numbers
 5.000.000,cinq million ...no plural s,numbers
 1.000.000.000,un milliard ...one billion,numbers
-What time is it?,Quelle heure est-il?,numbers
+What time is it?,Quelle heure est-il?; pronounced ...'ay-teel' because we link almost all words AND when a vowel follows est then we must pronunce the T - otherwise it would be two vowel sounds together which does not work in french,numbers
+At what time does the class start?,A quelle heure commence la classe?; A quelle heure + VERB + SUBJECT?,conversation
+the morning (6h -> 12h),le matin,numbers
 midday/noon,midi,numbers
+the afternoon (12h -> 18h),l'après midi,numbers
+the evening(18h -> 22h),le soir,numbers
+the night(22h -> 6h),la nuit,numbers
 midnight,minuit,numbers
 1:00,une heure,numbers
 7:00,sept heures,numbers
 2:05,duex heures cinq ...don't use 'et' (and) if you are using numbers instead of quarter or half,numbers
 8:10,huit heures dix,numbers
 9:15,neuf heures et quart,numbers
+20:45,neuf heures moins le quart; !!when you use demi/quart then you cannot use military time,numbers
 4:20,quatre heures vingt,numbers
 5:30,cinq heures et demie,numbers
-2:35,troix heures moins vingt-cinq,numbers
-6:40,sept heures moins vingt,numbers
-10:45,onze heures moins le quart,numbers
+13:35,quatorze heures moins vingt-cinq,numbers
+16:40,dix-sept heures moins vingt,numbers
 first,première / 1e ...this is how you talk about building floors and the arrodissiments e.g. 5e arrodissiment, numbers
 second,deuxième / 2e (doo-ziem),numbers
 third,troisième / 3e (twah-ziem),numbers
@@ -54,89 +61,250 @@ eighth,huitième / 8e (wheat-iem),numbers
 ninth,neuvième / 9e (nu-viem),numbers
 tenth,dixième / 10e (dee-ziem),numbers
 eleventh,onzième / 11e (ohn-ziem),numbers
-degrees celsius,degré Celsius,vocabulary
-degrees fahrenheit,degré Fahrenheit,vocabulary
-How to pronounce a b c d e,ah beh seh deh uh (like wool),pronunciation
+How to pronounce a b c d e,ah beh seh deh uh (like wool but the lips are a bit puckered and the sound is made high in the mouth),pronunciation
 How to pronounce f g h i j,eff zhey (like massage) ah-sh ee zhee/jhee,pronunciation
 How to pronounce k l m n o,kah ell ehm ehn oh,pronunciation
 How to pronounce p q r s t,peh keoo (like KEE with rounded lips) ehr ess teh,pronunciation
 How to pronounce u v w x y z,eew veh doobluh-veh eeks ee-grehk zehd,pronunciation
-How do you know whether or not to pronounce the 'e' at the end of a word?,you never pronounce an 'e' if it's at the end of a word,pronunciation
-How do you know whether or not to pronounce a consonant at the end of a word?,LCFR ('lucifer') are the only four consonants that are pronounced when at the end of a word (e.g. aérobic) OR if at the end and followed only by an 'e' (e.g. livre) - otherwise the final consonants (regardless of if they are followed by an 'e') are not pronounced; one caveat... the end consonant (regardless of if they are followed by an 'e' and regardless of whether or not LCFR) will be pronounced if it is the female version of an adjective (e.g. cuit is masculine and pronounced 'quee' while cuite is feminine and pronounced 'queet'),pronunciation
+When is G pronounced softly 'zsh' vs hard 'ghu'?,'ge' and 'gi' are soft; 'ga' and 'go' and 'gu' have the hard g sound. But this will change some if accents are added on the vowels.,pronunciation
+When is J pronounced softly 'zsh' vs hard 'ghu'?,J is always pronounced as a soft sound.,pronunciation
+What is this called: ç?,C cédille,pronunciation
+How do you pronounce 'ce' and 'ci'?,The C here is soft like S; to make it sound harder like K you write 'cue' + 'cui',pronunciation
+How do you pronounce 'ca' and co' and 'cu'?,The C here is hard like K; to make it sound soft like S you use C cédille ...'ça' + 'ço' + 'çu',pronunciation
+When is a D pronounced like a T?,when you are using a liaison and the end of the first word is D then it becomes a T sound (e.g. un grand architecte is pronounced 'ehn-gran-tar-shee-techkt'),pronunciation
+How do you prounounce 'h' at the beginning of a word?,It's totally silent and you totally ignore it. This means that if the second word in the letter is a vowel - then you may need to use a liason to connect.,pronunciation
 How do you pronounce 'r' at end of a word?,light 'gh' at back of throat - put tongue at the top of back of mouth and blow air across it almost like a hiss (e.g. noir + catre + etre) - it's more like a rolling g instead of a rolling r,pronunciation
+How to you pronounce 's' at the end of word? what about 'se'?,if just one 's' then it is totally silent; but if an e follows the s 'se' (like francaise) then it makes a z sound,pronunciation
+What's the difference in pronunciation between u and û?,no difference in pronunciation but it changes the meaning of the word in writing,pronunciation
+How do you know whether or not to pronounce the 'e' at the end of a word?,you never pronounce an 'e' (without accent) if it's at the end of a word; if the e has an accent (e.g. é) then you pronounce it as 'ay' regardless of where it is in the word,pronunciation
+How do you pronounce le métro odéon?,luh-may-tro-da-yon'; everything flows together and é is pronounced 'ay' instead of 'uh',pronunciation
+How do you know whether or not to pronounce a consonant at the end of a word?,1)DPST ('DePoSiTo') never pronounce these consonants at the end of a word - but pronounce them lightly if followed by 'e'; 2) LCFR ('lucifer') are the only four consonants that are pronounced when at the end of a word (e.g. aérobic) OR if at the end and followed only by an 'e' (e.g. livre) - otherwise the final consonants (regardless of if they are followed by an 'e') are not pronounced unless feminine adjective,pronunciation
+Explain pronunciation of feminine adjectives,the end consonant (regardless of if they are followed by an 'e' and regardless of whether or not LCFR) will be pronounced if it is the female version of an adjective (e.g. cuit is masculine and pronounced 'quee' while cuite is feminine and pronounced 'queet'); but it's a light touch on the consonant...it's not hard or heavy,pronunciation
+What is the name of this character and how is it pronounced? é,L'accent aigu (acute accent) sounds like 'ay' instead of a regular e which sounds like 'uh',pronunciation
+What is the name of this character and how is it pronounced? è,L'accent grave (grave accent) is pronounced exactly the same as ê... sounds like a light 'eh' sound with open mouth,pronunciation
+What is the name of this character and how is it pronounced? ê,L'accent circonflexe (circumflex) is pronounced exactly the same as è... sounds like a light 'eh' sound with open mouth,pronunciation
+How do you pronounce Zoe v Zoé?,'zo' v 'zo-ee',pronunciation
+How do you pronounce 'll' in french and what are the two exceptions?,ll is pronounced like Y (e.g. fille = 'feey' and famille = 'fa-meey'); the two exceptions are mille ('mil') and ville ('vil') which are pronounced like L,pronunciation
+When you are spelling a word out loud how to you say two L or two O?,deux L + deux O (duh-zoo because liason),pronunciation
 How does the pronunciation of adjectives change as the noun changes gender and number?,general rules for spelling: add 'e' for feminine nouns + add 's' for masculine plural + add 'es' for feminine plural; the pronunciation result is that any final consonants are not pronounced in the masculine form but are pronounced in the feminine form; no change in pronunciation from singular to plural - sounds exactly the same regardless of added 's' and 'es',pronunciation
 Pronounce petit (masc singular) + petite (fem singular) + petits (masc plural) + petites (fem plural),'puh-tee' + 'puh-teet' + 'puh-tee' + 'puh-teet',pronunciation
 When do adjectives have the same spelling and pronunciation for masculine and feminine and plural?,generally any adjectives that ends in an 's' or an 'x',pronunciation
+How do you pronounce 'Je viens de'?,'juh-vee-yun-duh'; the two vowels make two separate sounds,vocabulary
+Explain how academic disciplines are pronounced.,They can be spelled and spoken with full greek ending (e.g. sociology + philosophy + physiology) but generally they are spoken and written as socio + philo + physio etc.,vocabulary
 yes / no,oui / non,vocabulary
+Excuse me,Excusez-moi,vocabulary
+How do you make a noun plural?,generally just add 's' but don't pronounce it - does not impact pronunciation; there are only a few exceptions (for example sometimes you add x like un bateau changes to des bateaux),vocabulary
 thank you / you're welcome,merci / de rien (literally it's nothing) 'duh-rian',vocabulary
-How do you say ___ in french?,Comment dit-on ___ en francais?,conversation
-Excuse me,Excusez-moi,conversation
+ok / alright / ok? / do you agree?,d'accord / d'accord? ('duh-cor'),conversation
+How do you say ___ in french?,Comment on dit ___ en francais? ('co-mun-dee'),conversation
+How do you write ___? / How is it written?,Comment ça s'écrit ___? (comm-on-sa-say-creet) / Ca s'écrit comment? (sa-say-creet),conversation
+How do you pronounce ___?,Comment ça se pronounce?,conversation
+What do you mean?,C'est à dire?,conversation
+What does it mean? / It means...,Qu'est-ce qu ça veut dire? (kes-kuh-sa-voo-deer) / ça signifie...,conversation
 I do not understand.,Je ne comprends pas (note: je sounds like "juh" not "jee)",conversation
-Can you repeat?,Pouvez-vous répéter?,conversation
-How is it written?,Ca s'écrit comment? (say-si-creet-como),conversation
-I remember.,Je me souviens. (juh-muh-soo-vyuh),conversation
-How are you? (informal),Comment vas-tu? / Comment ça va?,conversation
+I don't know.,Je ne sais pas.; pronounced 'shay-pa' in paris - very short and common,conversation
+Can you repeat? / Repeat please.,Est-ce que vous pouvez répéter? / Répétez s'il vous plaît.; informal: Est-ce que tu peux répéter? / Répètes s'il te plaît.,conversation
+What is this and how do you pronounce it? Est-ce que,this is the beginning of a yes/no question...it is not asking how or what; The whole thing is pronounced 'ssss kuh' - the s sound is long at the beginning.; This is a super common / less formal way to ask a question. If you want to speak in higher / more formal french then use the reversal of subject and verb (plus upward intonation) to pose the question - instead of Est-ce que,conversation
+That makes sense.,C'est logique.; or you can say: ça a du sens.,conversation
+It's helpful.,C'est util.,conversation
+Was I right/correct?,Est-ce que j'avais bon?,conversation
+I hope you are doing well (for emails/texts),J'espère que tu vas bien.,conversation
+How do you ask what is something?,Qu'est-ce que ...?; pronounced 'kes-kuh',conversation
+How do you ask which is something?,Quel ...?; pronounced 'kel',conversation
+How do you ask how is something?,Comment ...; pronounced 'como',conversation
+How are you? (informal),Comment vas tu? / Comment ça va?,conversation
+How are you doing? (formal),Comment allez vous?,conversation
+What's the different between 'Comment allez vous?' and 'Vous allez bien?'?,They mean the same thing but the former uses the interrogative form (so no upward intonation required - it's obviously a question); the latter uses the affirmative form (just a statement) so you must say with upward intonation to make it sound like a question.; The latter (reversal of subject verb) is more formal / 'nicer'.,conversation
 What's up?,Quoi de neuf? (remember 'de' is pronounced 'duh'),conversation
-It's ok / it's going alright,çe va! + ce va? (say-va)...it is used as both question and response,conversation
+It's ok / it's going alright,ça va! + ca va? (sa-va)...it is used as both question (is it going ok?) and response (it's going ok); the literal translation is "it goes" and it is conjugated in that way e.g. il/elle/on va,conversation
+How was it? (informal),Ça a été? (sa-EH-tay) ...really common and shortened; there is an implied 'bien' in there; the full formal version might be "(Est-ce que) ça a (bien) été ?",conversation
+please (formal and informal),s'il te plaît (when you are familiar) / s'il vous plaît (when you are unfamiliar) = S.V.P.,conversation
+a greeting that is strictly formal and a greeting that is strictly informal, enchanté (pleased to meet you only when formal) + salut (for hello only when familiar),conversation
+What do you say when someone sneezes?,á tes souhaits (a-te-sway) ...familiar / á vos souhaits ...formal,conversation
+No problem.,pas de probléme,conversation
+Hold on (when putting someone on hold),Ne quittez pa ('nuh-key-tay-pa'); literally you (formal) do not leave; the verb is quitter,conversation
 It tastes good.,C'est bon.,conversation
 It was good.,c'etait bien,conversation
 so-so,comme si comme ça,conversation
+So...,donc; watch out because donk means fuck or damn,conversation
 and you (informal)?,et toi?,conversation
+Have a nice day.,bonne journée,conversation
 Have a good afternoon!,bon aprés-midi,conversation
-Have a good weekend!,bonne fin de semaine,conversation
+Have a good evening!,bonne soirée,conversation
+Good night!,bonne nuit,conversation
+Have a good weekend!,bonne week-end! ...'fin de semaine' means Friday - not weekend,conversation
 See you next week!,a la semaine prochaine,conversation
+that last week / the previous week,la semaine dernière / la semaine précédente; you could make the latter plural: les semaines précedentes - the previous weeks,conversation
+Goodbye,au revoir (in paris this is pronounced as two syllables 'ah-voi'),conversation
+Until tomorrow!,à demain ('ah-doo-ma'),conversation
+I have a health issue.,J'ai des problèmes de santé.,conversation
 It is / They are,C'est / Ce sont,vocabulary
 It is not / They are not,Ce n'est pas / Ce ne sont pas,vocabulary
-What is ...? / What is it?,Quelle est ...? ('kel-ay-...') / Qu'est-ce que c'est? ('kes-kuh-say'),conversation
+That's all. / It's finished.,C'est tout ('too'). / C'est fini.,vocabulary
+How do you change this to be a fully interogative question: Il est bon le poulet?,Est-ce qu'il est bon le poulet?; note how the QUE and subject IL get pushed together with apostrophe but don't try to make them sound like two sounds - push all the sounds together and ignore the apostrophe,conversation
+What are you doing this evening? (formal and informal),Qu'est-ce que vous faites / tu fais su soir?,conversation
+You do what this evening? (formal and informal),Vous faites / Tu fais quoi su soir?,conversation
+Do you want to eat? (formal and informal),Ça vous / te ('tuh') dit ('dee') DE manger?; This is very idiomatic french. It doesn't translate exactly but it means Do you want to do + DE + INFINITIVE.; A server might ask 'Ça vous dit?' to take your order.,conversation
+Do you want to go to the movies? (formal and informal),Ça vous/ te ('tuh') dit ('dee') d'aller au cinéma?; Note how the DE transformed to D' because the infinitive verb starts with a vowel.,conversation
+Do you like it? (idiomatic phrase that might be used by venders when presenting an item).,Ça vous plaît?,conversation
+You come with us? (formal and informal),Vous venez / Tu viens AVEC nous?,conversation
+What do you (formal) do for a living?,Qu'est-ce que vous faites dans la vie?,conversation
+What is your (informal) profession?,Quelle est ton profession?,conversation
+What color is the dress?,DE quelle couleur est la robe?; Why do we use 'de quel..' instead of just 'quel..' here? - similar to English because if we ask the question properly in English it becomes 'What is the color OF the dress?'  - the presence of that preposition in English indicates that we need to use DE QUEL... in French.,conversation
+What do you study? (formal and informal),Qu'est-ce que vous étudiez / tu étudie?; tu étudie is pronounced 'too-uh-tood' ...present singular verb forms are usually short with downward intonation,conversation
+What is ...? / What is it?,Qu'est-ce que ...? (followed by subject then verb) / Qu'est-ce que c'est? ('kes-kuh-say') ...literally 'what it is',conversation
+Which is ...?,Quelle est ...? ('kel-ay-...'),conversation
 What kind/type is it?,Quel genre est-il? ('kel-jon-ray-til')...e.g. type of car or dance or music,conversation
+What is your name? (formal and informal),Quel est votre/ton nom / prénom?,conversation
+How do you write your name? (formal and informal),Comment s'écrit votre/ton nom?,conversation
+What is your age?,Quel est votre/ton âge?,conversation
 Where is ...? / Where is it?,Où est ...? ('ooh-ay-...') / Où est-il? ('ooh-ay-eel'),conversation
 Who is ...? / Who is it?,Qui est ...? ('kee-ah-...')/ Qu'est-ce? ('kes'),conversation
 When is ...? / When is it?,Quand est ...? ('kon-ah-...')/ Quand est-ce? ('kon-tes'),conversation
 How much is X? / How much is it?,Combien coûte ...? ('kom-bien-coot') / Combien ça coûte? ('kom-bien-sa-coot'),conversation
 How much does it cost?,Combien ça coûte?,conversation
 It costs...,ça coûte ...,conversation
+I want to introduce Anna.,Je veux présenter Anna.,conversation
 Why?,Pourquoi? ('poor-kwa'),conversation
-because,parce que ('parse-kuh'),vocabulary
+because,parce que ('par-se-kuh'),vocabulary
 for example,par exemple ('par-ex-ompl'),vocabulary
 also,aussi ('osi'),vocabulary
+a way (of doing something),une façon / une manière,vocabulary
 once,une fois,vocabulary
-only,seulement OR seul,vocabulary
+only,seulement / uniquement,vocabulary
+alone,seul,vocabulary
+already,déja,vocabulary
 entirely,entièrement,vocabulary
 maybe,peut-être ('poo-eht'),vocabulary
+rarely,rarement,vocabulary
+frequently,souvent,vocabulary
+always,toujours,vocabulary
+never,jamais,vocabulary
+soon,bientôt ('beey-en-toe'),vocabulary
+right away / right now,tout suit,vocabulary
+everyone,tout le monde,vocabulary
+everywhere,n'importe où,vocabulary
+somewhere,quelque part ...some location is the literal translation,vocabulary
+sometimes,quelques fois,vocabulary
+someone,quelqu'un (masculine) or quelqu'une (feminine),vocabulary
+nothing else,rein d'autre ('ron-doot'),vocabulary
+a lot more; specify the pronunciation,beaucoup plus ('ploos'),vocabulary
+too much,trop / beaucoup trop ('trow'),vocabulary
+the most;specify the pronunciation,le plus ('ploos'),vocabulary
+more than X; specify the pronunciation,plus que ('ploos-kuh'); the S is pronounced because we are dealing with a positive quantity,vocabulary
+no more; specify the pronunciation,non plus ('pa-ploo'); the S is silent because we are dealing with a negative/lack of quantity,vocabulary
+Given: I would like more wine. - Is the S in plus pronounced? Why?,Je voudrais plus de vin; S in plus is pronounced because it relates to a noun with a positive quantity.,pronunciation
+Given: There is no more school. - Is the S in plus pronounced? Why?,Il n'y a plus d'école.; The S is NOT pronounced because it relates to a noun with a negative/lack of quantity.,pronunciation
+Given: You are more intelligent than an apple. - Is the S in plus pronounced? Why?,Tu es plus intelligent que une pomme.; S in plus is pronounced because it precedes an adjective that starts with a vowel or a silent h followed by vowel.,pronunciation
+Given: I am taller than you. - Is the S in plus pronounced? Why?,Je suis plus grande que toi.; S in plus is NOTpronounced because it precedes an adjective that DOES NOT start with a vowel or a silent h followed by vowel.,pronunciation
+How do you pronounce "3 + 4 = 7"?,trois plus quatre égal sept ('twa-ploos-cat-ree-gal-set'); the S is pronounced because it is being used as a mathematical sign,vocabulary
+I an stronger than you.,Je suis plus fort que toi.,vocabulary
+better / best,meilleur / mieux,vocabulary
+about,à propos ...this works most of the time - it's not the best but it works as a beginner,vocabulary
+aside from / exluding,à part,vocabulary
 close to,prés de,vocabulary
 here,ici ('eecee'),vocabulary
 in (inside of),dans ...locaton prepositions: http://andrea-enroute.blogspot.com/2013/10/les-prepositions-de-lieu.html,vocabulary
-in front of,devant ("devon"),vocabulary
-behind,derriér,vocabulary
+in front of / in front of the table,devant ("devon") / devant la table; no DE,vocabulary
+behind / behind the table,derriér / derriér la table,vocabulary
 on top of,sur (pronounced with the high-pitched 'ooouh' that you make by first singing 'eeee' and then rounding the lips; and then there is a soft but guteral 'gch' sound at the end for the 'r'),vocabulary
+The apple is on the table. It's 'on top'.,La pomme est sur la table. C'est dessus.,vocabulary
 below/under,sous (pronounced with the low-pitched 'oo' like being punched in the stomach; no ending consonant or sound),vocabulary
+The apple is under the table. It's 'underneath'.,La pomme est sous la table. C'est dessous.,vocabulary
 between,entre,vocabulary
 next to,à coté de,vocabulary
+next to the table / next to the sneakers,a côte de la table / a côte des baskets; de + les = des,vocabulary
+It's nearby. / It's far away.,C'est prés. / C'est loin.,vocabulary
+What are the different words for 'of' based on gender/situation/etc?,When you are talking about a specific person (e.g. of Mr. X / of Suzanne) then you ALWAYS use de (if name starts with consonant regardless of gender) or d' (if name starts with vowel or H regardless of gender); If not a specific person then...du (de + le) + de la + d' (de + vowel or H regardless of gender) + des (de + les); Note that 'des' can mean de + les (of the ...something plural) or simply des (some of  ...something plural),vocabulary
+in this case,dans ce cas ('don-suh-ka'),vocabulary
+most of the time,la plupart du temps,vocabulary
 far from,loin de,vocabulary
 to the right of,à droit de,vocabulary
 to the left of,à gauche de,vocabulary
+at the beginning,au début,vocabulary
+at the end,à la fin; the noun for ending is 'la fin' but if you are talking about the ending of a verb (the conjugated part) then use 'terminaison',vocabulary
+going through, passé par,vocabulary
 at the top,en haut,vocabulary
 too cold,trop froid ('trow fwa'),vocabulary
 too hot, trop chaud ('trow show'),vocabulary
-before,avant,vocabulary
-after,après,vocabulary
 open,ouvert ('ooh-ver'),vocabulary
 closed,fermé ('fer-meh'),vocabulary
+before / after,avant / après,vocabulary
+now,maintenant ('mont-a-no') ...three syllables,vocabulary
 today,aujourd'hui ('on-jour-dwi'),vocabulary
-tomorrow,demain ('duh-mwa'),vocabulary
+tomorrow / tomorrow morning,demain ('duh-ma') / demain matin ('duh-ma-ma-ton'),vocabulary
+yesterday,heir ('ee-air'),vocabulary
+for,pour; generally this is true but there are some situations where 'pour' is not the correct word to use when replacing 'for',vocabulary
+during,pendant,vocabulary
+since - an action that started in the past and continues to present,depuis ('duh-pwi'),vocabulary
+When do you use 'pour' vs 'pendant' vs 'depuis'?,Generally you can always replace the word 'for' with 'pour'. One exception is when you talk about doing something for a length of time (e.g. for 2 weeks) - in the latter case you use either pendant (e.g. Je l'ai fait pendant 2 semainese = I did it for 2 weeks.) OR dupuis (e.g. Je le fais depuis 2 semaines.= I have been doing it for/since 2 weeks.); General rule: Use 'depuis' (like since) with present tense. Use 'pendant' (like for some length of time) with past tense.,vocabulary
+I have been here for 3 days.,Je suis là depuis trois jours.; use depuis in this case... like since because the time frame continues to the present,conversation
+How long have you (formal) studied french?,Depuis quand ètudiez-vous le francais?; use depuis in this case... like since because the time frame continues to the present,conversation
+I've danced since I was 3 years old.,Je danse depuis que j'ai 3 ans.,conversation
+for - the duration of some time frame either past or future,pendant; use this word instead of depuis when you are talking about some time frame that has no relation to the present; general rule: use present tense with 'depuis' and past tense with 'pendant',vocabulary
+I saw a film during my stay in Paris.,J'ai vu un film pendant mon séjour à Paris.; use pendant because the time frame has no relation to the present... you can't use depuis; you also cannot use pour because the time frame is not in the future,conversation
+for - the duration of some time frame strictly in the future,pour; use this sparingly it is only reserved for a time frame in the future and you can always use pendant instead of pour in the future,vocabulary
+I will be in France for 5 years.,Je serai en France pour cinq ans.; you can only use pour here because the time frame is strictly in the future with no relation to the present,conversation
 monday tuesday wednesday,lundi ('luhn-di') + mardi ('MAR-di' ...remember to let the r catch in the throat a bit) + mercredi ('MEH-cri-di'),vocabulary
 thursday friday saturday sunday,jeudi ('jooh-di' ...the j is really soft) + vendredi ('VON-dra-di') + samedi ('sam-di') + dimanche ('DEE-monsh'),vocabulary
 january february march,janvier février mars,vocabulary
 april may june,avril mai juin,vocabulary
-july august september,juiliet août septembre,vocabulary
+july august september,juiliet + août ('oot') + septembre,vocabulary
 october november december,octobre novembre décembre,vocabulary
+March 1,le premiere mars; the 1st of a month is always spoken as 'premiere' - the other dates in a month use numbers (e.g. deux); dates always must have an article in front and they are always masculine,vocabulary
+Friday December 2,vendredi 2 décembre; !! no 'le' in front of the date when you give the day of the week too,vocabulary
 the day,le jour,vocabulary
+the week,la semaine,vocabulary
+the weekend,le week-end,vocabulary
+this week,cette semaine,vocabulary
 the month,le mois ('mwa'),vocabulary
+in a few months,dans quelques mois,vocabulary
 the word,le mot ('mow'),vocabulary
 the year,it's feminine; l'année (une année),vocabulary
-nothing else,rein d'autre ('ron-doot'),vocabulary
-no more,non plus,vocabulary
+the winter,l'hiver,vocabulary
+the spring,le printemps,vocabulary
+the summer,l'été,vocabulary
+the autumn,l'automne,vocabulary
+the north,le nord,vobulary
+the south,le sud,vobulary
+the east,l'est,vobulary
+the west,l'ouest,vobulary
+indefinite articles for masculine + feminine + plural,un (masculine..make a smile when you speak it like 'aahn') + une (feminine...make a closed o-shape with mouth like 'oo-yn' and really pronounce the n separately it's almost like two syllables...like bier in german) + des (for all plurals regardless of gender; pronounced 'day'),vocabulary
+femine masculine plural,féminin masculin pluriel,vocabulary
+What are some ways to determine if a noun is féminin?,1) ends with 'e' 2) ends with 'tion'; add more from private lessons,vocabulary
+When should there be an apostrophe instead of spelling out le/la?,when the noun starts with a vowel OR when the second letter is a vowel and the first letter is not pronouned (e.g. h); l'académie instead of la académie; l'ordinateur instead of le ordinateur; l'hôtel,vocabulary
+Aside from a definite article (the) when do you use le/la/l'?,These are also the pronouns for ils/elle when he/she/it is the direct object of a verb; e.g. I read it. = Je le lis. (I + it masculine + read conjugated in present tense),vocabulary
+the vowel,__ voyelle,vocabulary
+When should you use a liason 'z' ('lez') instead of ('les')?,when the noun is a vowel; e.g. write les ordinateurs but pronounce it 'lez-or-din-at-ors',vocabulary
 the thing,la chose ('shows'),vocabulary
+things to do,des choses a faire,vocabulary
+common word for work,le travail ...in the SnowWhite song 'off to work we go',vocabulary
+a job,un travail / un job,vocabulary
+common word for going to sleep - like a child,dodo,vocabulary
+common saying that means all I do is work and sleep - no fun,C'est métro boulot dodo.,vocabulary
+a bicycle,un vélo,vocabulary
+a car,une voiture,vocabulary
+a bus,un bus,vocabulary
+a train,un train (pronounced 'tron' and the r rolls a bit),vocabulary
+public transport,les transports en commun,vocabulary
+a boat,un bateau,vocabulary
+an airplane,un avion,vocabulary
+a taxi,un taxi,vocabulary
+a restaurant,un restaurant,vocabulary
+a customer (at a restaurant or store),le client,vocabulary
+a salesperson,un vendeur ('von-dur') / une vendeuse ('von-dooz'),vocabulary
+a cafe / a brasserie / a bar,un café / une brasserie / un bar,vocabulary
+a bakery / a baker (masculine + feminine),une boulangerie / un boulanger + une boulongère,vocabulary
+a cobbler store / a cobbler person (masculine + feminine),une cordonnerie / un cordonnier + une cordonnière,vocabulary
+We go to the bakery.,On va à la boulangerie.; Use à la OR au (à + le) OR aux (à + les) when you are talking about a place/location.,vocabulary
+We go to the baker (to see the baker).,On va chez boulanger.; Use chez when you are talking about person/people.,vocabulary
+a pharmacy,une pharmacie,vocabulary
+a hospital,un hôpital,vocabulary
+a hotel,un hôtel,vocabulary
+a movie theater,un cinéma,vocabulary
+the bookstore,la librairie,vocabulary
+the library,la bibliothèque,vocabulary
+an appointment,un rendez-vous,vocabulary
 red,rouge,vocabulary
 orange,orange ('or-onj'),vocabulary
 yellow,jaune ('joon'),vocabulary
@@ -147,43 +315,236 @@ brown,marron ('meh-ron'),vocabulary
 black,noir,vocabulary
 white,blanc ('blon'),vocabulary
 pink,rose ('roos'),vocabulary
+the sky,le ciel,vocabulary
+the sea,la mer,vocabulary
+the sand,le sable,vocabulary
 I think..,je pense,conversation
-My name is x.,Je m'appelle x.,conversation
-I am x years old.,J'ai x ans.,conversation
-I am American.,Je suis Américain.,conversation
-You are French(f).,Tu es francaise.,conversation
+What is your name? (informal),Comment tu t'appelles?,conversation
+What is your name? (formal),Comment vous vous appelez?,conversation
+My name is x.,Je m'appelle x. OR...informally: Moi c'est x.,conversation
+But my friends call me Chris.,Mais mes amis m'appellent Chris.,conversation
+I am x years old.,J'ai x ans.; The number + ans is spoken very quickly; it's also fully linked together (e.g. 44 ans = 'catr-von-ca-TRON' where the end of the number has a liason with ans); ans is a very quick nasal sound 'on' on the end,conversation
+How do you pronounce when saying you or someone's age?,there is always a linking between number and 'ans'; 'ans' is pronounced 'oh' super nasal,conversation
+I am American.,Je suis Américain (m) / Américainne (f).; the 'n' is pronounced very lightly and only in the feminine version,conversation
+You are French(f).,Tu es francais (m) / francaise (f).; masc pronounced 'fran-say'; fem pronounced 'fran-seZ',conversation
+How is the name of a language related to nationality?,There are masculine and feminine versions of every nationality. The language is always the masculine version.; e.g. Il est allemand. Elle est allemande. Elle parle allemand.,conversation
 I live in New York.,J'habite à New York.,conversation
 I am a software engineer.,Je suis Développeur + Je suis software injènieure,conversation
 What is the formal name for a software engineer - if you write it?,Ingénieur en développement logiciel or Ingénieur en génie logiciel,conversation
-conjugate 'to be' (a profession or a nationality),être: je suis + tu es + il/elle/on est + nous sommes + vous êtes + ils/elles sont,verbs
+with / without,avec / sans, vocabulary
+a noun / a verb, un nom / un verbe,vocabulary
+conjugate 'to be' (a profession or a nationality),être: je suis + tu es ('ay') + il/elle/on est ('ay') + nous sommes + vous êtes ('vooz-eht')+ ils/elles sont ('ssson'),verbs
+When is est (conjugated 'to be') pronounced as 'ayt' instead of 'ay'?,when the adjective following it starts with a vowel; e.g. Ils est intelligente; If the t in est was not pronounced is would be two vowels together and that is not how french is spoken; But otherwise the t at the end of est is never pronounced.,verbs
+When is et (and) pronounced as 'ayt' instead of 'ay'?,Never. Never make the t sound - even when the next word starts with a vowel; e.g. Elle est grande et intelligente - the pronounciation of et does not change.,verbs
 conjugate 'to have',avoir: j'ai + tu as + il/elle/on a + nous avons + vous avez + ils/elles ont,verbs
-How do you conjugate regular -er verbs in present tense?,endings: je -e (silent) + tu -es (silent) + il/elle/on -e (silent) + nous -ons (pronounced) + vous -ez (pronounced) + ils/elles -ent (silent),verbs
+What is the only verb ending in -er that is irregular?,aller (to go),verbs
+How do you conjugate regular -er verbs in present tense?,endings: je -e (silent means only pronouce the base without an ending) + tu -es (silent) + il/elle/on -e (silent) + nous -ons (pronounced) + vous -ez (pronounced like 'ay') + ils/elles -ent (silent),verbs
+How do you remember the ending for nous in regular -er verbs?,the ending for nous is -ons ('ohn' very nasal without much of an 'n' sound on the end); this is the same sound as the on in il/elle/on ..when we use the casual form of 'we' when speaking,verbs
+What is the intonation on the conjugated forms for first person singular (je)?,the intonation is always downward and shortened; e.g. je travaille sounds like 'ju tru-vay' not 'ju trav-a-ye'.,verbs
+When do you need to use a liason between subject and verb?,If the verb starts with a vowel (or 'ha..' because h is silent) then you must use liason after nous/vous/ils/els even though the 's' at the end of those subjects is silent.,verbs
+How are these pronounced differently?: on / -ont / -ons,They are pronounced exactly the same.,verbs
+How are these pronounced differently?: -ez / -er / -é / -et / -ai,They are pronounced exactly the same.,verbs
 conjugate 'to like',aimer: j'aime + tu aimes + il/elle/on aime + nous aimons + vous aimez + ile/elles aiment,verbs
-conjugate 'to want',vouloir: je veux + tu veux + il/elle/on veut + nous voulons + vous voulez + ils/elle veulent,verbs
+conjugate 'to want',vouloir: je veux + tu veux + il/elle/on veut + nous voulons + vous voulez + ils/elle veulent; Note! veux and veut are NOT pronounced 'voo'; vous is pronounced 'voo'; veux and veut are pronounced like something between 'vuh' and 'voo' (same as peux) so that it is possible to distinguish them from vous,verbs
+How do you pronounce... I want + I go + I see?,Je veux ('voo' but higher in the mouth similar to 'vuh') + Je vais ('vay') + Je vois ('vwa'),pronunciation
 conjugate 'to go',aller: je vais + tu va + il/elle/on va + nous allons + vous allez +ils/elles vont,verbs
+conjugate 'to come',venir: je vien ('vyon') + tu viens ('vyon') + il/elle/on vient ('vyon') + nous venons ('vo-non') + vous venez ('ve-nay') + ils/elles viennent ('vyen'),verbs
+conjugate 'to do' / 'to make',faire: je fais + tu fais + il/elle/on fait + nous faisons + vous faites + ils/elles font,verbs
+conjugate 'to take' / 'to order food',prendre is irregular: je prends ('pruh') + tu prends ('pruh') + il/elle/on prend ('pruh') + nous prenons ('pruh-non' ...nasal ending)+ vous prenez ('pruh-nay') + ils/els prennent ('pren'),verbs
 conjugate 'to be able to'; often used as a helper verb (e.g. I can wait. You can work.),pouvoir: je peux ('juh pooh') + tu peux ('pooh') + il/elle/on peut ('pooh') + nous pouvons + vous pouvez ('pooh-vay') + ils/elles peuvent,verbs
-conjugate 'to be called',se appelle: he m'appelle + tu t'appelles + il/elle/on s'appelle + nous nous appelons + vous vous appelez + ils/elles s'appellent ...note how this is a reflexive verb that uses 'se'.,verbs
-Your name is X.,Tu t'appelles X.,verbs
-I call you X.,Je t'appelles X.,verbs
+conjugate 'to have to' / 'must', devoir followed by infinitive of action verb: je dois X + tu dois X + il/elle/on doit X + nous devons X + vous devez X + ils/els doivent X (pronounced same as je dois),verbs
+conjugate 'to know',savoir: je sais + tu sais + il/elle/on sait + nous nous + vous savons + ils/els savent ('sav'),verbs
+conjugate 'to hate',détester: je déteste + tu détestes + il/elle/on déteste + nous détestons + vous détestez + ils/els détestent,verbs
+conjugate 'to appreciate',apprécier: j'apprécie + tu apprécies + il/elle/on apprécie + nous apprécions + vous appréciez + ils/elles apprécient,verbs
 How do you conjugate for 'we' when speaking?,when writing: nous ___ but when speaking: on ___ (same conjugation as il/elle) and there is often a liason between 'on' and the verb,verbs
 to go to Paris,pour aller à Paris,verbs
-to buy,acheter,verbs
+to go swimming,aller à la piscine,verbs
+I go to the office at 8am.,Je vais au bureau à 8 heures.,verbs
+I hate being cold.,Je déteste avoid froid.,verbs
+listen to the music,ècouter de la musique,verbs
+a lesson,une leçon / un cours (more like 'a class'),vocabulary
+I have french lessons every Sunday with Hugo online.,J'ai des cours de français tous les dimanches avec Hugo en ligne.,verbs
+How do you express that you are doing some activity? (e.g. I ski / I go skiing),je fais + du (masc; de + le which is not possible) / de la (fem) / d' (sing if starts with vowel - regardless of gender) / des (pl) + thing you are doing,verbs
+How do you know which word follows 'je fais'?,DU if masculine e.g. Je fais du ski.; DE LA if feminine e.g. Je fais de la danse.; DE if negating / not doing something; e.g. Je ne fais pas de danse.,verbs
+Explain why we us 'du' with masculine nouns.,in french we never use 'de le'; 'du' is what is used in place of 'de le'; so we use 'de la' in front of fem nouns and 'du' (de + le) in front of masc nouns,verbs
+to give kisses hello and goodbye,faire les bis,verbs
+I ski.,Je fais du ski - ski is masculine so use 'du',verbs
+I dance.,Je fais de la danse - danse is femine so use 'de la',verbs
+His friend plays the flute.,Son amis joue de la flûte.; flûte is feminine,verbs
+She rides a bike / She's biking.,Elle fait du vélo.; vélo is masculine,verbs
+My children go swimming.,Mes enfants font de la natation.,verbs
+play sports,faire du sport; sport is masculine,verbs
+to play a sport,jouer à un sport,verbs
+I play piano.,Je joue (intonation down and short) du piano.; du = de le which is never used in French,verbs
+practice an activity,pratique une activité,verbs
+watch television,regarder la télé,verbsm
+What are you thinking about?,Vous pensez à quoi,verbs
+I read lots of books about history.,Je lis beaucoup de livres à propos d'histoire.,verbs
+We stay here.,On reste ici.,verbs
+to buy,acheter; NB: achats ('ah-sha') is the noun for purchases and is derived from acheter,verbs
 to return,rentrer,verbs
 to live/stay at,habiter,verbs
 to dine,dîner,verbs
-to wash oneself,se laver,verbs
+to travel,voyager,verbs
+to go hiking,randonner,verbs
+We picnic.,On pique-nique. OR On fait un pique-nique. Pique-nique can be a noun or a verb.,verbs
+to go shopping (for luxury clothing or goods),faire du shopping; this is not running errands - it's specifically for a luxurious experience,verbs
+to go shopping (for daily food + home goods/furniture + clothing + gifts),faire les courses; this is more like running errands,verbs
+to think,penser,verbs
+to know (to be familiar with),connaître,verbs
+I don't know. ...when you're not familiar with something,Je ne connais pa.,verbs
+I haven't seen/heard of that (before).,Je n'ai jamais entendu parler de ça.; The literal translation is I never heard of that.,conversation
 to pass/spend,passer,verbs
 to cry/weep,pleurer,verbs
 to help,aider,verbs
+to spend,passer,verbs
+to work,travailler,verbs
 to take care of / deal with,s'occuper,verbs
 to watch / look at,regarder,verbs
-to celebrate,féter,vocabulary
+to look for / I am looking for a jacket (in a store).,chercher / Je cherche ('shersh') une veste.,verbs
+to celebrate / We celebrate.,féter ...but it is used with faire / On fait la fête. ...literally we make a celebration - this might translate to party but not certain,verbs
+to arrive / to happen,arriver,verbs
+to sing,chanter,verbs
+to begin,commencer,verbs
+to dance,danser,verbs
+to ask (for something) + to ask (a question) ...2 different verbs,demander (quelque chose) + poser (une question),verbs
+to memorize,mémoriser,verbs
+to cost,coûter,verbs
+to spend (money) / to pay,dépenser / payer,verbs
+to leave (a tip),laisser,verbs
+the tip, le pourboire; literally 'for a drink',vocabulary
+a tip/trick (for doing something fast/well),une astuce,vocabulary
+a favor,une faveur,vocabulary
+to invite (also means to host - you will pay for the person you invite),inviter,verbs
+to share (also to split a bill),parteger; On partage? = shall we split it?,verbs
+to hate,détester,verbs
+to give,donner,verbs
+to read,lire,verbs
+to write + to spell,écrire + épeler,verbs
+to take + to learn + to understand,prendre + apprendre + comprendre; see how they are all related!,verbs
+to study,étudier,verbs
+to try,essayer,verbs
+to listen to + to hear (two different verbs),écouter / entendre,verbs
+I do not hear the verb.,Je n'entends pas le verbe.; NB: verbe is masculine even though ends in vowel,verbs
+I take notes.,Je prends des notes.,vocabulary
+I must read.,Je dois ('dwa') lire.; Use the verb devoir and add the infinitive form of whatever you must do (e.g. lire).,verbs
+I must go to the store.,Je dois aller au magasin.;  Use the verb devoir and add the infinitive form of whatever you must do (e.g. aller).,verbs
+Conjugate the verb 'to have to' / 'to be required to',devoir: je dois ('dwa') + tu dois ('dwa') + il/elle/on doit ('dwa') + nous devons ('duh-von')+ vous devez ('duh-vay') + ils/elles doivent ('dwa'; -ent is silent),verbs
+How do you pronounce: They must eat.?,Ils doivent manger. ('eel-dwa-manj-ay'); remember -ent is often dropped when pronouncing the third person plural,verbs
+What is the direct way to say 'It is required.' or 'It is necessary.'?,Il faut.; In this case we don't use the verb devoir.; Il faut is a common saying.,verbs
+to sleep,dormir,verbs
+to close,fermer,verbs
+to finish,finir,verbs
+to lie,mentir,verbs
+to hire (someone to do something),engager,verbs
+to taste,goûter,verbs
+to play,jouer,verbs
+to drink,boire: je bois + tu bois + il/elle/on boit + nous buvons + vous buvez + ils/elles boivent ('bwav'),verbs
+I eat. / I am eating.,Je mange. / Je suis en train de manger.; To use gerund in the present tense: conjugated être + en train de + infinitive of the verb,verbs
+I walk a lot. / I am walking.,Je marche beaucoup. / Je suis en train de marcher.,conversation
+to swim,nager,verbs
+to cook,cuisiner,verbs
+to talk / to speak,parler,verbs
+to say (something),dire,verbs
+to pass / spend time,passer,verbs
+to wear / to carry,porter,verbs
+to be hurt,avoir mal,verbs
+to go out,sortir (e.g. sortir la nuit),verbs
+to dream,rêver,verbs
+to seem,sembler,verbs
+to ski,skier,verbs
+to work,travailler,verbs
 I love,j'adore,verbs
 I know (it),je said,verbs
 I know (of it),je conais,verbs
+I know how to prepare coffee.,Je sais préparer le café; don't forget there must always be an article before nouns like cafe!!,verbs
 I would like to find...,Je voudrais trouver...  I think this is a future tense of the verb 'to want' (vouloir),verbs
+We go to a concert.,On va au concert. OR On voit un concert = We see a concert. Verb is voir.,verbs
+to see a band,pour voir un groupe de musique,verbs
+to pack / unpack,no analgous verbs exist in french; packing: faire les cartons (e.g. Je fais les cartons.); unpacking: être dans les cartons (e.g. On et dans les cartons.),verbs
 I hope,J'espère,verbs
-I learn / I learned, j'apprends ("prawn")/ J'ai appris,vocabulary
+I walk the dog (assume it is a male dog).,Je marche le chein.; Objects of the verb (direct and indirect) come after the verb if they are spelled out/specific (not represented by pronouns).,verbs
+I walk it (the male dog). / I walk it (the female dog).,Je le marche./ Je la marche.; A male dog is 'un chien'. A female dog is 'une chienne'.; In this case the dogs are direct objects of the verb. So we use the le/la pronouns.; All object pronouns of the verb (direct and indirect) that are represented by pronouns (not spelled out/specific) are placed before the verb in French!,verbs
+I help him. / I help her.,Je l'aide. Je l'aide.; In this case the person (him/her) is the direct object of the verb. So we use le/la (for direct objects) instead of lui (for indirect objects).; But we have to cut the pronoun to l' (le + aide) to avoid two vowels together.,verbs
+I give it to him. / I give it to her.,Je le lui donne.; LE for 'it'; Use LUI for both 'to him' and 'to her'!; All direct and indirect objects of the verb (le and lui in this case) come before the verb in French.,verbs
+to be called something / to call out,se appeler / appeler ...the first is reflexive so there will always be an additional word to indicate who is the object of the verb; the second means to call to someone or call someone on the telephone - is not reflexive - just a normal ER verb,verbs
+conjugate 'to be called',It's reflexive: se appeler; remember that an extra 'L' is added in some of the forms; je m'appelle ('juh-ma-pel') + tu t'appelles ('too-ta-pel') + il/elle/on s'appelle ('el-sah-pel') !! Note that we use s' when working with ON + nous nous appelons ('nu-nu-zapluh') + vous vous appelez ('vu-vu-zah-play')+ ils/elles s'appellent ('el-sah-pel'); only nous and vous forms have a single L and have a different pronunciation; there are apostrophes when the pronoun (e.g. me/te/se) ends in a vowel because the verb starts with a vowel and we cannot have two vowels next to eachother,verbs
+Your name is X.,Tu t'appelles X.; uses the reflexive form of the verb: se appeler,verbs
+I call you X.,Je t'appelles X.; uses the reflexive form of the verb: se appeler,verbs
+I call you (on the telephone).,Je tu appelle.; uses the NON-reflexive form of the verb: appeler; remember that the any object of the verb - direct of indirect ('tu' in this case) comes BEFORE the verb in french!,verbs
+What must be true if you see the word 'se' written in french?,This is only written when using a reflexive verb. You know that whatever word follows 'se' is a reflexive verb.,verbs
+to wash / to wash oneself,laver / se laver,verbs
+to find,trouver,verbs
+to meet up (with friends),se retrouver; retrouver is literally 'to regain',verbs
+to get up (in the morning),se lever (le matin); reflexive verb,verbs
+to get dressed,s'habiller; reflexive verb; This can be used to say you are wearing something but could also use prendre.,verbs
+to go to bed,se coucher; reflexive verb,verbs
+I remember it.; What is the infinitive of the verb?,Je m'en souviens. (juh-muh-soo-vyuh); se souvenir is the infinitive - it is reflexive which is where the 'me/m'' comes from; This is the most common way to express this idea... 'en' is used in special cases to represent 'it'; French people do NOT say: Je me le souviens.; This is also an interesting case of a sentence that has both a reflexive pronoun (me) AND a direct object of the verb - which must always come before the verb.,conversation
+I don't remember it.,Je ne m'en souviens pas.,conversation
+You remember it.,Tu t'en souviens.; NB: m' (which stands for me - reflexive pronoun) is replaced by t' (which stands for te),conversation
+It helps me to remember.,ça m'aide me souvenir. souvenir is the infinitive form of the verb (to remember) but it is a reflexive verb.,conversation
+How do you construct the near future tense in French (futur proche)?,Use the conjugated form of to go (aller) + infinitive of the verb you are going to do; The direct translation is 'X is going to do something'. NB: All direct and indirect object pronouns are placed between the two verbs!,verbs
+I am going to go (for a) walk. Use futur proche.,Je vais marcher.,verbs
+I am going to eat. Use futur proche.,Je vais manger.,verbs
+You are going to eat it (masculine). Use future proche.,Tu va le manger.; Notice how the object pronoun is placed in between the two verbs in future proche.,verbs
+I am going to help you. Use futur proche.,Je vais t'aider.; Notice how the object pronoun is placed in between the two verbs in future proche.,verbs
+How do you construct the simple future tense in French (le futur simple)?,ENTIRE INFINITIVE + ending that agrees with subject (je –ai + tu -as + il/elle/on -a + nous -ons + vous -ez+ ils/elles -ont),verbs
+I will finish. Use futur simple.,Je finirai. (finir is the infinitive + ai to agree with je),verbs
+I will finish it (masculine). Use future simple.,Je le finirai.; All pronouns representing objects of the verb (direct and indirect) are placed before the verb in future simple.,verbs
+You will go out. Use future simple.,Tu sortiras. (sortir is the infinitive + as to agree with tu),verbs
+You (plural/formal) will sing. Use future simple.,Vous chanterez. (chanter is the infinitive + ez to agree with vous),verbs
+They will arrive tonight. Use future simple.,Ils arriveront ce soir.,verbs
+I will take. Use future simple.,Je prendrai.; For verbs that end in -e (like PRENDRE) we remove the -e from the infinitive before applying the same future simple endings to agree with the subject.; PRENDR + AI,verbs
+They will put. Use future simple.,Ils mettront.; Follows the same pattern as PRENDRE.; 'muh-tron' because -ont is still pronounced in this form.,verbs
+We will wait. Use future simple.,On attendra.; Attendre is the infinitive. It ends in -e so subtract the -e. Then add the -a ending for il/elle/on.; ATTENDR + A,verbs
+I will come tomorrow. Use future simple.,Je viendrai demain.; This is an example of a verb that is irregular in future simple. The infinitive for 'to come' is VENIR. But we change it to VIENDR and then add the future simple endings.,verbs
+You will go. Use future simple.,Tu iras.; Aller is irregular in future simple. The infinitive for 'to go' is ALLER. But we change it to IR and then add the future simple endings.,verbs
+We will go shopping / run errands.,Nous ferons des courses.; Faire is irregular in future simple. Instead of 'fair' we use the base 'fer' and then add the endings.,verbs
+You (formal/plural) will be in Paris.,Vous serez à Paris.; être is irregular in future simple. We use 'ser' as the base and then add the endings.,verbs
+She will have a cat.,Elle aura un chat.; Avoir is irregular in future simple. We use 'aur' as the base and then add the endings.,verbs
+What will you eat? (use futur simple).,Que mangeras-tu?,verb
+What will you (informal) do? / What will you (formal) do?,Que feras-tu? / Que ferez-vous?; Faire is irregular in past participle using 'fer' as base.,verbs
+Where will you (formal) go on vacation?,Où irez-vous en vacances?; Aller is irregular in past participle using 'ir' as base.,verbs
+What is the conditionnel tense?,This exists in English (the conditional). It is a future tense that is hypothetical.; e.g. I would/could/should (do something) - there is an implied IF; You would do something IF something else were true but the IF statement is usually implied.,verbs
+How is the conditionnel tense constructed in French?,Use the same verb base (the entire infinitive or modified infinitive) as the future simple. Then add the following endings (aka imperfect endings) to agree with subject: je -ais + tu -ais + il/elle/on -ait + nous -ions + vous -iez + ils/elles -aient; NB: Futur conditional for almost all the types of subjects (je/tu/il/ils) sounds exactly the same as the first person singular (je) form for future simple (though spelled differently).,verbs
+I will be able to. (futur simple) / I could. (futur conditionnel),Je pourrai. / Je pourrais.; Pronounced exactly the same ('pour-ray') because je/tu/il/elle/on/ils/elles in future conditional sound exactly the same as je in future simple - though spelled differently.; Remember 'ai' sounds like 'ay' in french - like j'ai.,verbs
+I will eat. (future simple) / They would eat. (future conditionnel),Je mangerai. / Ils mangeraient.; Pronounced exactly the same ('man-jer-ray') because je/tu/il/elle/on/ils/elles in future conditional sound exactly the same as je in future simple - though spelled differently.,verbs
+I quit. / I will quit. / I would quit.,J'ai quitté. / Je quitterai. / Je quitterais.; QUITTER is the infinitive.,verbs
+Using the verb ÉCOUTER... You would listen. / He would listen.(both future conditionnel),Tu écouterais. / Il écouterait.; ('ay-coo-tuh-ray') Both sound exactly the same as Je version in future simple (j'écouterai) - though they are spelled differently.,verbs
+Using the verb CHANTER... They would sing. / You (formal/plural) would sing. (both future conditionnel),Tu chanterais. ('shon-tu-ray') / Vous chanteriez. ('shon-tu-ree-ay'); The tu version sounds exactly the same as the je version in future simple (je chanterai) BUT the vous version sounds different because nous and vous versions do not follow the rule that je/tu/il/elle/on/ils/elles follow.,verbs
+Using the verb VOIR... She would watch. / We (nous) would watch. (both future conditionnel),Elle verrait. / Nous verrions.; VOIR is irregular in future simple - we use the base 'verr'.; Notice that the pronunciation rule still holds: Elle verrait (She would watch) sounds the same as Je verrai (I will watch). BUT Nous verrions (We would watch) does not sound the same as Je verrai (I will watch) because nous and vous never follow the pronunciation rule.,verbs
+You (familiar) would go. / You (formal/plural) would go. (both futur conditionnel),Tu irais. / Vous iriez.; ALLER is irregular in future simple - we use the base 'ir'.; The pronunciation similarities still hold. Tu irais (You would go) sounds the same as J'irai (I will go). Vous form sounds different - always does.,verbs
+Can you also use le future simple when there is an IF statement?,Yes - an IF statement does not dictate that you use the conditional tense - it depends on what you are trying to communicate.; If she goes I will go. - future simple (WILL); If she goes I would go. - conditional (WOULD),verbs
+How do you express that something is in the conditionnel tense (conditional in English)?,au conditionnel,verbs
+How do you construct the passé composé (a past tense) in French?,AUXILIARY VERB (conjugated form of etre or avoir) + simple PAST PARTICIPLE of the main verb; in English it's like 'i have jumped.',verbs
+Generally how do you make the past participle of a verb?,-er verbs: stem + é ...which sounds exactly the same as the 2nd person plural (vous) in present that ends with -ez; -re verbs: stem + -is OR stem + u; -ir verbs: stem + i; -oir verbs: stem + u,verbs
+I ate.,J'ai mangé.,verbs
+You (informal) bought.,Tu as acheté.,verbs
+They studied.,Ils ont étudié.; étudier is the infinitive and it follows the same rules because the stem is 'étudi' - not 'étud'.,verbs
+They did not study. I did not study.,Ils n'ont étudié. Je n'ai pas étudié.,verbs
+All in past tense: I read. / I read it. / I did not read it.,J'ai lu. / Je l'ai lu. / Je ne l'ai pas lu.; Lire changes to Lu for past participle.,verbs
+I learn. / I learned., J'apprends. ('juh-prawn') / J'ai appris ('jay-ah-pree'),verbs
+What is the past participle for to take + to learn + to understand?,prendre -> pris + apprendre -> appris + comprendre -> compris; remember S is silent at the end,verbs
+I took. / I gave.,J'ai pris. (prendre changes to pris for past participle) / J'ai donné.,verbs
+We drank. / We saw.,On a bu. (emphasize B) / On a vu. (emphasize V); boire is the infinitive and it changes to 'bu' in past participle,verbs
+Which 5 verbs have a totally irregular past particle?,avoir (eu) + être (été) + faire (fait) + offrir (offert) + ouvrir (ouvert),verbs
+He had. / He was. / He did (something).,Il a eu. / Il a été. / Il a fait.; All the 5 verbs with an irregular past participle use AVOIR as the auxiliary verb in passé composé.,verbs
+I went.,Je suis allé.; There are only about 16 verbs that use être when constructing the past tense (as opposed to avoir). Aller is one of the verbs that uses être in past tense.,verbs
+We went out.,On est sortir / Nous sommes sortir.; There are only about 16 verbs that use être when constructing the past tense (as opposed to avoir). Sortir is one of the verbs that uses être in past tense.,verbs
+What are some ways of remembering which verbs use être in passé composé (a past tense)?,La maison de être: the 15 verbs typically have to do with position and can be illustrated in and around a house; The following acronym helps us remember the 15 verbs MRS VANDERTRAMPP,verbs
+What are the 15 base verbs that use être in passé composé (a past tense)?,Monter Retourner Sortir Venir (e.g. includes devenir + revenir) Arriver Naître Descendre Entrer Rentrer Tomber Rester Aller Mourir Partir Passer,verbs
+I left (a place).,Je suis sorti(e).; use 'ie' if you are feminine; use 'i' if you are masculine; sortir is the infinitive verb that means to leave (some place) and/or to take out (something from) - think of 'sortie' = exit; sortir is one of the few verbs that uses être in the past tense,verbs
+I come from X. / I came (from X).,Je viens de X. / Je suis venu (de X).,verbs
+How do you construct the past tense for reflexive verbs?,All reflexive verbs use être as a helper verb (regardless of whether or not they use être in the non-reflexive form). SUBJECT + PRONOUN (me/te/...) + ÊTRE CONJUGATED + PAST PARTICIPLE OF THE VERB,verbs
+Yesterday I got up at 8am.,Hier je me suis levé à 8h.,verbs
+I help you.,Je t'aide.; pronouns that are direct objects come BEFORE the verb in French,verbs
+I helped you.,Je t'ai aidé.; In the past tense the direct object pronoun comes BEFORE BOTH the helper verb and the action verb.,verbs
+He helped us. / I helped them.,Il nous a aidé. / Je les ai aidé.,verbs
+Can you (formal) help me?,Pouvez-vous m'aider?,verbs
+I have it.,Je l'ai. = Je + le (it) + conjugated form of avoir.,verbs
+He gives to me. + He gave to me. + He will give to me.,Il me donne. + Il m'a donné. + Il va me donner.; In future proche (conjugated ALLER + infinitive) direct and indirect object pronouns are placed in between the conjugated ALLER and the infinitive.,verbs
+You told me multiple times.,Tu me l'as dit plusieurs fois.; Tu (You) me (to me) le (it) as (auxiliary AVOIR because NOT reflexive and uses 'to tell' uses avoir) dit (past participle of dire); NB: In French you cannot just say 'You told me.' You must refer to what it is that was told (You told it to me.)- even if you just use a pronoun and even if you arleady described it in a previous sentence.; It's similar to how you must always use an article before a noun - you can't be implicit with either.;  Both the direct and indirect objects come before the verb.,verbs
+I remembered it. (past tense).,Look at the infinitive (se souvenir). It is a variation of the verb VENIR. So it has the same ending in past participle: souvenu. Je m'en suis souvenu.; Remember in this case we use 'en' instead of 'le' to represent 'it'.,verbs
 I am hungry.,J'ai faim. ('fom'),conversation
 You are thirsty.,Tu as soif. ('swof'),conversation
 We are tired.,On a fatigué. ('fa-teeg-ay'),conversation
@@ -193,32 +554,57 @@ to have good luck / I have good luck.,avoir de la chance / J'ai de la chance.,co
 to have the need for / You need water.,avoir besoin / Tu as besoin d'eau.,conversation
 to seem or look / She looks sad., avoir l'air / Elle a l'air triste...literally 'to have he air of',conversation
 She looks like Mary., Elle ressemble a Mary...for this kind of scenario use ressembler instead of avoir l'air,conversation
+I do not come from Paris.,Je ne viens pas de Paris.; making a statement negative is done by 1) adding NE in front of the verb and 2) adding PAS after the verb,conversation
+I do not live in Paris.,Je n'habite pas à Paris.; if the verb starts with a vowel or the first pronounced sound is a vowel (no 'h' in france) then use N' instead of NE.,conversation
 There is milk. / There is no milk.,Il y a de lait. / Il n'y a pas de lait.,conversation
-There are eggs. / There are no eggs.,Il y a des oeufs. / Il n'y a pas d'oeufs.,conversation
-I speak English.,Je parle anglais.,conversation
+There are apples. / There are no apples.,Il y a des pommes. / Il n'y a pas de pommes.; NB: des pommes (some apples) in the positive BUT de pommes (of apples as in none of apples),conversation
+There are eggs. / There are no eggs.,Il y a des œufs. / Il n'y a pas d'œufs.; NB: We cannot write 'de + oeufs' because two vowels together so it changes to d'oe..; Remember that the FS is silent in eggs when plural.,vocabulary
+I speak English.,Je parle anglais.; NB: In french we always use an article in front of noun. Speaking a language (using the verb parler) is the only exception. When using parler we do not say/write... Je parle l'anglais. But any other time you use the name of a language (or any other noun) then you always add an article in front of it.,conversation
 I do not speak Mandarin.,Je ne parle pas mandarin.,conversation
 I speak a little Spanish + French + German.,Je parle un peu espagnol et français et allemand.,conversation
 I like chocolate.,J'aime le chocolat.,conversation
 I don't like rose wine.,Je n'aime pas vin rosé.,conversation
 I like red wine.,J'aime le vin rouge.,conversation
-the vineyard,le vignoble ("veen-yo"),vocabulary
-Burgundy,Bourgogne ("Bore-goi-ng"),vocabulary
-Bordeaux,Bordeaux ("Boor-doh"),vocabulary
 I don't like peanut butter.,Je n'aime pas le beurre de cacahouète,conversation
 I like to dance.,J'aime danser.,conversation
 I like cocktails.,J'aime les cocktails.,conversation
-I like both.,J’aime les deux.,conversation
+My husband likes to cook a lot.,Mon mari aime beaucoup cuisiner.,conversation
+I like both.,J’aime les deux.; remember you always need to use an article before a noun; so it's like "the two",conversation
+It's the same thing.,C'est la meme chose. / C'est egal.,conversation
 Do you like... ?,Vous aimez... ? / Tu aimes?,conversation
 I don't like sing.,Je n'aime pas chanter.,conversation
+You adore the band The Donnas.,Tu adores le groupe The Donnas.; use the article and noun - no preposition,conversation
+I adore clothes.,J'adore vêtements.,conversation
+I appreciate jazz and rock.,J'apprécie le jazz et le rock.,conversation
+I'm a fan of Wutang.,Je suis fan de Wutang.; use DE preposition before the object,conversation
+I am passionate about hiphop.,Je suis passionné de musique hip hop.; use DE preposition before the object,conversation
+I am a costume-lover.,Je suis amatrice de costumes.; use DE preposition before the object,conversation
+My musical tastes are quite broad.,Mes goûts musicaux sont plutôt larges.,conversation
+I'm interested in modern art and sculpture.,Je m'intéresse à l'art moderne et à la sculpture.; use à before the object,conversation
+I am crazy about...,Je suis fou de course à danse.; use à before the object,conversation
+Who is your (formal) favorite actor (masculine)?,Quel est votre acteur préféré?,conversation
+Who is your (informal) favorite actress (feminine)?,Quel est ton actrice préférée?,conversation
+Who is your (formal) favorite singer (masculine)?,Quel est votre chanteur préféré?,conversation
+Who is your (informal) favorite band (feminine)?,Quel est votre chanteuse préférée?,conversation
+Who is your (informal) favorite band (feminine)?,Quel est votre chanteuse préférée?,conversation
 I am allergic to shellfish + walnuts + hazelnuts.,Je suis allergique aux crustacés ('cru-sta-sets') + noix ('nua') + noisettes ('nu-ah-zet').,conversation
 I don't see well.,je ne vois pas bien,conversation
 I have one dog and one cat.,J'ai un chien et un chat.,conversation
-indefinite articles for masculine + feminine + plural,un (masculine..make a smile when you speak it like 'aahn') + une (feminine...make a closed o-shape with mouth like 'oooh-ne' and really pronounce the n separately it's almost like two syllables...like bier in german) + des (for all plurals regardless of gender; pronounced 'day'),vocabulary
-keys,des cles,vocabulary
+the vineyard,le vignoble ("veen-yo"),vocabulary
+vacation,les vacances - seems to always be plural,vocabulary
+leisure/hobbies,les loisirs,vocabulary
+Burgundy,Bourgogne ("Bore-goi-ng"),vocabulary
+Bordeaux,Bordeaux ("Boor-doh"),vocabulary
+keys,des cles; remember you can't just use a noun; there must always be an article in front of it (the or a); if the noun is plural then your choice are les (the) or des (some..l like a).,vocabulary
 an umbrella,un parapluie,vocabulary
 a telephone (mobile),un téléphone,vocabulary
+a charger,un chargeur,vocabulary
 a change purse,un porte-monnaie,vocabulary
 a wallet,un portefeuille,vocabulary
+a banknote,un billet,vocabulary
+a coin,une pièce de monnaie,vocabulary
+change (as in some coins),de la monnaie / des espèces,vocabulary
+money,de l'argent,vocabulary
 a purse,un sac,vocabulary
 tissues,des mouchoirs,vocabulary
 a pen,un stylo,vocabulary
@@ -227,42 +613,101 @@ jewelry,des bijoux,vocabulary
 a toothbrush,une brosse à dents,vocabulary
 sunglasses,des lunettes a soleil,vocabulary
 headphones,un casque audio,vocabulary
-a camera,un appareil photo,vocabulary
+a personal camera,un appareil photo,vocabulary
+a professional video camera,une camera,vocabulary
 a laptop,un ordinateur portable,vocabulary
+headphones,les écouteurs (liason z between),vocabulary
+a chalkboard,un tableau,vocabulary
 a computer mouse,la souris,vocabulary
+a social network,un réseau social ('rue-so-so-sial'),vocabulary
 a hairbrush,une brosse á cheveux,vocabulary
 a squirrel,un écureuil,vocabulary
-everyone,tout le monde,vocabulary
+a reason,une raison; the S sounds like Z because single S and it is between two vowels; make sure you make the O sound for last syllable; it's different than word for a grape - une raisin ('ray-suhn'; in like ingénieur),vocabulary
+a line,une ligne,vocabulary
+a calendar,un calendrier,vocabulary
+holidays,jours fériés,vocabulary
+homework,devoirs,vocabulary
 the people,les gens,vocabulary
+the friend,depends on gender: l'ami (m) or l'amie (f) but they are pronounced the same,vocabulary
 the friends,les amis,vocabulary
 the beach(s),la plage / les plages,vocabulary
 the mountain(s),la montagne / les montagnes,vocabulary
 shopping,le shopping (remember 'le' is pronounced 'luh'), vocabulary
 the docks of the Seine,les quais de Seine,vocabulary
-the water / some water, l'eau / d'eau ...pronounced "duh-low",vocabulary
-the market(s),le marché / les marchés,vocabulary
+the water / some water, l'eau / d'eau ...pronounced really strong "loh" or "doh"; -eau is pronounced as a strong 'oh' - like the word chateau,vocabulary
+still water,une eau plate / une eau sans gas; to order tap water ask for 'une carafe d'eau' pronounced 'doh' OR eau du robinet (from the tap),vocabulary
+sparkling water,une eau gazeuse / une eau avec gaz; FYI mineral water can be still or sparklin,vocabulary
+the market(s),le marché / les marchés ('mar-shay'); !! with accent it means market but without accent it means I walk ('marsh'),vocabulary
 the food,la nourriture,vocabulary
-the artichoke(s),l'artichaut / les artichauts,vocabulary
 the vegetable(s),le légume / les légumes,vocabulary
-the fruit,le fruit / les fruits,vocabulary
+the leek,le poireau / les poireaux,vocabulary
+the artichoke(s),l'artichaut / les artichauts,vocabulary
+the fruit,le fruit / les fruits ('fwee'),vocabulary
 the bread(s),le pain / les pains,vocabulary
+the baquette,la baguette,vocabulary
 the butter,le beurre,vocabulary
-the chicken,le poulet,vocabulary
 the salad,la salade,vocabulary
-the cookies,les cookies,vocabulary
+How do you ask for something at a store/market? e.g. Ask for flour.,First you always ask for a general amount: Bonjour je voudrais de la farine.; Then - after they know what you are talking about - you specify the amount: 500 grammes de farine.; Note how we have to use a super-confirming preposition in the non-specific sentence: du (masc; de + le which is not possible) / de la (fem) / d' (sing if starts with vowel - regardless of gender) / des (pl); Then we have a more generalized preposition in the second part: de OR d' (only used if the noun starts with a vowel; otherwise us 'de'),conversation
+I would like some juice. One glass please.,Je voudrais des jus (plural). Une verre de jus (de because jus does not start with vowel),vocabulary
+the chicken,le poulet,vocabulary
+the duck / duck confit,le canard / un confit de canard; confit and canard are both masculine,vocabulary
+the meat,la viande,vocabulary
+an egg / eggs,un œuf ('ohf') / des œufs ('oh'); The F is pronounced in the singular form but not in the plural form. Note the overlapping oe symbol - this is perhaps from Latin. Think of it as OE. OEU is pronounced 'oh' - like water,vocabulary
+a beef / beefs,un bœuf ('ohf') / des bœufs ('oh'); The F is pronounced in the singular form but not in the plural form. Note the overlapping oe symbol - this is perhaps from Latin. Think of it as OE. OEU is pronounced 'oh' - like water,vocabulary
+temperature for meat cooking,les degré de cuisson / les mode de cuisson,vocabulary
+rare + medium + well done,saignant/bleu + à point ('ah-pwa') + bien cuit,vocabulary
+the onion soup,la soupe d'oignons ('don-yon'),vocabulary
+the vegetable soup,la soupe de légumes,vocabulary
+the rice,le riz,vocabulary
+shellfish,des coquillages / des fruits de mer,vocabulary
+the muscles / the oysters,les moules / les huitres ('lay-zwee-tr'),vocabulary
+the shrimp / the lobster / the crab,la crevette / le homard / le crabe,vocabulary
+an omelette / an omellete without anything in it,une omelette / une omelette natural,vocabulary
+scrambled eggs / fried eggs,les oeufs brouillés ('broo-yay') ...the es is pronounced because of the accent / les oeufs au plat,vocabulary
+eggs that you crack open and eat with sliced bread,les oeufs coque; heads up! this is not the same as les oeufs cocotte which is eggs mixed with lots of cream in a ramakin,vocabulary
+on the side (e.g. salad dressing or salad instead of fries),en accompagnement,vocabulary
+coffee with milk on the side,un café avec du lait à part ('par' - the t is silent),vocabulary
+the honey,le miel,vocabulary
+ice,des glaçons,vocabulary
+No ice please.,Pas de glaçon S.V.P.,vocabulary
+the ice cream,une glace; an ice cream scoop or serving,vocabulary
 the pizza,la pizza,vocabulary
+the pie,la tarte,vocabulary
+the cookies,les cookies,vocabulary
 the birthday cake,le gâteau d'anniversaire,vocabulary
+No dessert please.,Pas de dessert S.V.P.,vocabulary
+There are many different flavors.,Il y a beaucoup de saveurs différentes.,vocabulary
+a starter + a main dish + a dessert,une entrée + un plat + un dessert ('de-sser'); remember two s together make S sound - not Z sound,vocabulary
+For a starter I would like...and for drink I would like...,Comme entrée je prends...et comme boisson je prends; this is very idiomatic french - to start with a prepositional phrase before making a statement (e.g. Moi...je... OR Pour moi...),vocabulary
+a desert (area of land filled with sand),un désert ('de-zer'),vocabulary
+a drink,une boisson,vocabulary
+list the four french meals,breakfast: le petit déjeuner + lunch: le déjeuner + afternoon tea: le goûter + dinner: le dîner,vocabulary
+the meal,le repas ...s is silent,vocabulary
+the menu,la carte; le menu is like the pre-fixe for the day,vocabulary
+Can you make a recommendation? ...to a waiter in a restaurant,Qu'est-ce que vous me conseillez? / Qu'est-ce que vous me recommandez?,vocabulary
+my favorite dish,mon plat préféré,vocabulary
 the sneakers,les baskets,vocabulary
 the notebook,le cahier,vocabularly
 the book,le livre,vocabulary
 the ebook,le ebook (le livre électronique),vocabulary
-the bookstore,la librairie,vocabulary
-the library,la bibliothèque,vocabulary
 all type of dance,toutes les danses,vocabulary
 ballet (the dance form - not the location/performance),danse classique,vocabulary
+the theater,le théâtre,vocabulary
+the movies,le cinéma,vocabulary
+the museum,les musées,vocabulary
+gardening,jardinage,vocabulary
+a place,un lieu (plural add x),vocabulary
+leisure activities / places to go out,des sorties / des lieux pour faire des sorties; endroit is another word for place,vocabulary
+park (often referred to as garden),un jardin ('shar-don'),vocabulary
+the map of Paris,la plan de Paris,vocabulary
+the bridge,le pont,vocabulary
+a bike path,une piste cyclable,vocabulary
+I am meeting up with friends in a bar.,J'ai un rendez-vous (RDV) avec des amis dans un bar.; remember to link the words 'de-za-mi',vocabulary
+We watch football (soccer). / We watch a game of football.,On regarde les matchs de foot. / On regarde un match de foot.,vocabulary
 coffee for dessert with a cookie,café gourmand,vocabulary
-I walk a lot.,Je marche beaucoup.,conversation
-I was born in the United States.,Je suis nè aux états-unis "oo-zeta-zuni"...two liason,conversation
+I was born in the United States.,Je suis nè(e) aux états-unis "oo-zeta-zuni"...two liason,conversation
+I was born on XX/XX/XXXX.,Je suis né(e) le XX/XX/XXXX.; remember that every noun must lead with an article (le) and dates are always masculine,conversation
+identity / place of origin / place where you live,D' is never its own syllable - link the words together: d'identité ('day-don-dee-tay') + lieu d'origine ('lyew-dor-ee-jun') + lieu d'habitation ('lyew-da-bee-ta-syon'),pronunciation
 It's cool / That's cool.,C'est cool.,conversation
 That's it / you got it.,C'est bien ca.,conversation
 It's boring.,C'est ennuyeaux,conversation
@@ -271,42 +716,62 @@ first name / last name,prénom / nom OR nom de famille,vocabulary
 my husband, mon mari ...note that the gender of adjective (my in English ...mon/ma in French) is determined by the object...not whether the person speaking is a woman or man ,vocabulary
 my wife,ma femme,vocabulary
 my darling,mon chéri,vocabulary
+They are married.,Ils son marié. ...pronounced "mar-ee-ay",vocabulary
+Laurent is married to Lyna.,Laurent est marié (because Laurent is masculine) avec Lyna. ...always use AVEC for romantic relationships - including divorce/separation,vocabulary
+Lyna is married to Laurant.,Lyna est mariée (because Lyna is feminine) avec Laurent.,vocabulary
+X is divorced from Y. Give both feminine and masculine versions.,X est devorcé / devorcée avec Y.,vocabulary
+X is separated from Y. Give both feminine and masculine versions.,X est séparé / séparée avec Y.,vocabulary
+X is engaged to Y. Give both feminine and masculine versions.,X est engagé / engagée avec Y.,vocabulary
+X is in a relationship with Y. Give both feminine and masculine versions.,X est en couple / couple avec Y. Same for masculine and feminine.,vocabulary
+X is single.,X est célibataire. Pronounced "say-li-Ba-Ter". The word liberty is in there. Same for either gender.,vocabulary
+When do you use the prepositions à + de + pour?,There are many uses but these three are the options to use in front of verb when you are explaining that someone or something is doing some infinitive verb; e.g. C'est facile à faire. (That's easy to do.); Il est bon d'étudier. (It is good to study.); On a engagé une personne pour faire le ménage. (We hire a person to do the chores.),verbs
+How do you know whether to use à vs de vs pour in front of an infinitive verb?,Use 'pour' if you could replace the phrase with 'in order to do x'. The remainder use à or de but you have to memorize those. 'de' can usually be used to replace 'from'. 'à' can usually be used to replace 'to'.,verbs
 What is the preposition 'in' for any city (e.g. I live in Berlin)?,à Berlin à Paris à Detroit...same for any city,vocabulary
 What is the preposition 'from' for any city (e.g. I am from Berlin)?,de Berlin de Paris de Detroit...same for any city,vocabulary
-What is the preposition 'in' for a country (e.g. I live in France)?,it depends on the gender...feminine: en France; masculine: au Canada; plural: aux États-Unis,vocabulary
-What is the preposition 'from' for a country(e.g. I am from Germany)?,it depends on the gender...feminine: de France; masculine: du Brésil;plural: des États-Unis,vocabulary
-a city,une ville  ...do not use cité...it's not idiomatic french...it's like a greek city-state,vocabulary
+What is the preposition 'in' for a country (e.g. I live in France)?,it depends on the gender...feminine: en France; masculine: au Canada; plural (au = à le which is never used): aux États-Unis; au and aux are pronounced 'oh',vocabulary
+What else is 'au' used for (aside from 'in' a country)?,when you go out to a place; aller au ...; e.g. au cinèma + au musée + au restaurant + au marché; remember au is pronounced 'oh',vocabulary
+What is the preposition 'from' for a country(e.g. I am from Germany)?,it depends on the gender...feminine: de France; masculine: du Brésil (du = de le which is never used);plural: des États-Unis,vocabulary
+a city / in the city,une ville / en ville (NOT á ville); Do not use cité - that is like a greek city-state and not idiomatic french,vocabulary
 a village,un village,vocabulary
 in Paris,á Paris,vocabulary
 in Berlin,á Berlin,vocabulary
-in NYC,á New York (pronounced same as in English),vocabulary
+in NYC,á New York (pronounced same as in English),vocabularyf
+especially in NYC, en particulier à NYC,vocabulary
+a country,un pays ('pie-yee'),vocabulary
 in France,en France (feminine),vocabulary
 in Canada,au Canada (masculine),vocabulary
 in Belgium,en Belgique (feminine),vocabulary
 in Spain,en Espagne (feminine),vocabulary
 in United States,aux États-Unis (plural); aux is pronounced 'ooh',vocabulary
 in Mexico,au Mexique (masculine),vocabulary
+in Iraq / in Iran,both are masculine but we can't write/say 'au' + vowel in french so we must use 'en Iraq' and 'en Iran',vocabulary
 from NYC, de New York (feminine) ('duh'),vocabulary
 from France,de France (feminine) ('duh'),vocabulary
 from Brazil, du Brésil (masculine) ('dooh'),vocabulary
 from the United States, des États-Unis ('day' because plural),vocabulary
 from Virginia,de Virginie ('duh'),vocabulary
 from Japan,du Japon ('dooh'),vocabulary
+All countries that end in 'e' are feminine except for which six?,le Mexique + le Mozambique + le Belize + le Cambodge + le Suriname + le Zimbabwe,vocabulary
 I live in Paris.,Je vis à Paris.,conversation
 I live in France.,Je vis en France. (feminine),conversation
 I would like to live in Mexico.,Je voudrais vivre au Mexique. (masculine),conversation
-I come (am) from New York City.,Ju viens de New York. ('duh'),conversation
-I come (am) from the United States.,Je viens des États-Unis. (plural),conversation
-I am late.,Je suis en retard.,conversation
+I come / am from New York City.,Je viens de New York. ('vee-yun-duh'),conversation
+I come / am from the United States.,Je viens des États-Unis. (plural),conversation
+I am early / on time / late.,Je suis en avance / à l'heure / en retard.,conversation
+I get up early.,Je me lève tôt.; We do not use 'en avance' in this case.,conversation
+I need more time.,J'ai besoin de plus de temps.;Caution: The noun (le temps) can mean weather + time + tense of a verb.,conversation
 I am sick.,Je suis malade.,conversation
 What are the possessive adjectives for first person singular (e.g. my cat),mon/ma/mes ...depending on the gender and number of the word that follows,vocabulary
 What are the possessive adjectives for second person singular (e.g. your - informal - cat),ton/ta/tes ...depending on the gender and number of the word that follows,vocabulary
 What are the possessive adjectives for third person singular (e.g. her cat),son/sa/ses ...depending on the gender and number of the word that follows ...the gender of the person that 'his' refers to doesn't matter,vocabulary
 What are the possessive adjectives for first person plural (e.g. our cat),notre/notre/nos ...only depends on the number of the word that follows (singular vs plural),vocabulary
-What are the possessive adjectives for second person formal (e.g. your - formal - cat),votre/votre/vos ...only depends on the number of the word that follows (singular vs plural),vocabulary
+What are the possessive adjectives for second person formal (e.g. your - formal - cat),votre/votre/vos ('voh')...only depends on the number of the word that follows (singular vs plural),vocabulary
 What are the possessive adjectives for third person plural (e.g. their cat),leur/leur/leurs ...only depends on the number of the word that follows (singular vs plural),vocabulary
 When do the standard rules for possessive adjectives not apply? ...what are the exceptions?,When the object starts with a vowel or a silent 'h' ...french avoids a double vowel so you have to use the masculine possessive adjective even if the object is feminine; e.g. his year of birth -> son année de naissance ...use 'son' even though annèe is feminine because sa annèe would be a double vowel sound,vocabulary
-clothes,les vêtements,vocabulary
+clothes / clothing,les vêtements ('vet-mon'),vocabulary
+the fashion,la mode,vocabulary
+the club,la discothèque,vocabulary
+the gift,le cadeau,vocabulary
 my coat,mon manteau ...un manteau is masculine so use 'mon',vocabulary
 my dress,ma robe ...une robe is feminine so use 'ma',vocabulary
 my shoes (not sneakers),mes chaussures ...des chaussures (f) is plural so use 'mes',vocabulary
@@ -352,19 +817,22 @@ boxer shorts,un boxer-short ...singular in french,vocabulary
 an undershirt,un maillot de corps,vocabulary
 underwear,un caleçon ...singular in french,vocabulary
 the pronoun,le pronom,vocabulary
-with me,avec moi,vocabulary
-with you (informal),avec toi,vocabulary
-with him,avec lui,vocabulary
-with her,avec elle,vocabulary
-with us (using on) / with us (using nous),avec nous ...same for both,vocabulary
-with you (formal),avec vous,vocabulary
-with them (masculine),avec eux ('oo'),vocabulary
-with them (feminine),avec elles,vocabulary
+List the subject pronouns in French (e.g. I + you +...),je + tu + il/elle/on + nous + vous + ils/elles,vocabulary
+List the direct object pronouns in French (e.g. it - for example when you give IT to someone),me + te + le + la + nous + vous + les; !! The pronouns for he/she/they are the same as the definite articles (le/la/l'/les); NB: We use 'les' to describe 'them'. 'leur' is used to say 'with them' (indirect object pronoun) or 'their' (possessive pronoun),vocabulary
+List the indirect object pronouns in French (e.g. them - for example when you give it to THEM),m'/moi + t'/toi + lui + nous + vous + leur; NB: Use lui for both 'to him' and 'to her' AND use leur for 'to them' regardless of gender; Remember that 'leur' is also a possesive pronoun (e.g. their cat = leur chat); When you use leur as a possesive adjective then it must agree with the noun it describes.,verbs
+with me,avec moi; use indirect object pronoun,vocabulary
+with you (informal),avec toi; use indirect object pronoun,vocabulary
+with him / with her,avec lui / avec elle; NB: We definitely use 'lui' when using avec but only for the masculine form; I do not know whether we are really using indirect object pronouns here because lui is only used for the masculine.,vocabulary
+to him / to her (e.g. I give to her.),lui for both!!; e.g. Je lui donne.; definitely use the indefinite object pronouns in this case,vocabulary
+with us (using on) / with us (using nous),avec nous ...same for both; using the indirect object pronoun but same as direct object pronoun in this case,vocabulary
+with you (formal),avec vous;  using the indirect object pronoun but same as direct object pronoun in this case,vocabulary
+with them (masculine),avec eux ('oo'); I am not certain of this!,vocabulary
+with them (feminine),avec elles; I am not certain of this!,vocabulary
 Michael and I are playing tennis.,Michel et moi jouons au tennis.; When there are two subjects you use the pronoun for 'me' (+ 'him' + 'them' etc) not 'I'.,vocabulary
 Who is going to the beach? He is.,Qui va à la plage? Lui.; Use the pronoun for 'him' (+ 'me' + 'them' etc) - not 'he' - when answering a question.,vocabulary
 They (masculine) want to come too.,Eux aussi veulent venir.;Use the pronouns for 'them' (+ 'him' 'me' etc) when you are using words like aussi + non plus + seul...emphatic phrases.,vocabulary
 neither you nor I,Ni toi ni moi; Use the pronounds for 'me' (+ 'him' + 'them' etc) when negating.,vocabulary
-She is taller than you (are).,Elle est plus grande que toi.,vocabulary
+She is taller than you (are).,Elle est plus grande que toi.; The S in plus is not pronounced in this case because it precedes a word that starts with a consonant.,vocabulary
 mine,à moi,vocabulary
 yours (informal),à toi,vocabulary
 his,à lui,vocabulary
@@ -373,11 +841,13 @@ ours,à nous,vocabulary
 yours (formal),à vous,vocabulary
 theirs (masculine),à eux,vocabulary
 theirs (feminine),à elles,vocabulary
-This pen is mine.,Ce stylo est à moi.,vocabulary
+This pen is mine.,Ce stylo est à moi. - stylo is masculine,vocabulary
 Which book is yours?,Quel livre est à toi?,vocabulary
+What do you choose?,Qu'est-ce que vous choisissez?; remember single S is pronounced 'z' but double S is pronounced 'z',vocabulary
 Everyone is going home.,On va chez soi.; Soi is used for unspecified persons. It is equivalent to 'one' or 'oneself' in English. But in English we typically use 'everyone' instead.,vocabulary
 Everyone has to do it himself/herself.,Tout le monde doit le faire soi-méme.,vocabulary
 He is going to do it himself.,Il va le faire lui-méme.,vocabulary
+at your place,chez toi; we do not use à or en - chez includes the at - always just say chez moi + chez Marie etc; never à chez moi,vocabulary
 You are in good shape.,Tu es en forme.,conversation
 book of metro tickets,carnet,vocabulary
 getting around,SNCF trains (TGV are very nice) + RATP + metro,conversation
@@ -386,7 +856,9 @@ It's very convenient.,C'est très practique.,vocabulary
 Date of Birth (for forms),date de naissance,vocabulary
 birthday,date d'anniversaire,vocabulary
 marriage anniversary,anniversaire de mariage,vocabulary
+He is married to Chris.,Il est marié avec Chris. ...always use 'avec' with marriage or divorce or any couple status,vocabulary
 5 masculine and feminine endings for professions,-ien/-ienee + -teur/-trice + -eur/-euse + -er/-ére + -e/-e,vocabulary
+a server (masc + fem),un serveur / une serveuse (the 's' sounds like a 'z' in the fem version),vocabulary
 a comedian (masc + fem),un comédien / une comédienne,vocabulary
 a director (masc + fem),un réalisateur / une réalisatrice,vocabulary
 a hairdresser (masc + fem),un coiffeur / une coiffeuse ("qwuf.."),vocabulary
@@ -396,30 +868,34 @@ a singer (masc + fem),un chanteur / une chanteuse,vocabulary
 a baker (masc + fem),un boulanger / une boulangère,vocabulary
 an engineer (masc + fem),un ingénieur / une ingéniere,vocabulary
 a professor (masc + fem),un professeur / une professeure,vocabulary
+a student (masc + fem),un étudiant / une étudiante (t is not pronounced in masculine version but is pronounced lightly and upward in the feminine version) OR l’élève for male or female student,vocabulary
 an architect (masc + fem),un architecte / une architecte,vocabulary
 a police officer (masc + fem),un policier / une policière,vocabulary
 a tennis player (masc + fem),un jouer / une joueuse de tennis,vocabulary
 a dancer (masc + fem),un danseur / une danseuse,vocabulary
 an actor (masc + fem),un acteur / une actrice,vocabulary
-a doctor (masc + fem),un docteur / une doctoresse,vocabulary
+a doctor (masc + fem),one word is most common for both: médicin (skip the pronunciation of the middle i) ...you can't make the word feminine because then it would be the word for medicine; a less common word to use is: un docteur / une doctoresse,vocabulary
 a writer (masc + fem),un écrivain/ une écrivaine,vocabulary
+a real estate agent,agent,vocabulary
+a landlord/owner,propriétaire,vocabulary
 a apartment,un apartement,vocabulary
 a house,une maison ...the s sounds like a z here ('may-zon'),vocabulary
 a room,une pièce ...apartments are advertised by count of total rooms sans kitchen; so 3 pièce is likely 1 or 2 bedrooms plus a main room and maybe a dining room,vocabulary
 downstairs,en bas,vocabulary
 on the ground floor,au rez-de-chaussée,vocabulary
-on the first floor,au premier étage ...this means an American second floor; same as UK,vocabulary
-a building,un immeuble,vocabulary
-some buildings,quelques immeubles,vocabulary
-a boat,un bateau,vocabulary
+on the first floor,au premier étage; written as: au 1eme étage; this means an American second floor; same as UK,vocabulary
+a building / some buildings,un immeuble / quelques immeubles,vocabulary
+a store,un magasin ('ma-ga-zon'); take care because un magazine ('ma-ga-zeen') is like Vogue,vocabulary
+a show / a concert,un spectacle / un concert,vocabulary
+a boat,un bateau; -eau and -eaux is pronounced like a really strong 'oh' - like the word chateau; plural for all words that end in -eau is to add an X; So boats is les bateaux.,vocabulary
 to find an apartment,pour trouver un apartment,verbs
 to rent an apartment,pour louer un apartment,verbs
 the heating,le chauffage,vocabulary
-hot water,l'eau chaude,vocabulary
 the electricity,l'électricité,vocabulary
 an elevator,un ascenseur,vocabulary
 the roof,le toit ('twa'),vocabulary
 the door, la porte, vocabulary
+the doorbell,la sonnette de porte,vocabulary
 the balcony,le balcon,vocabulary
 the blue shutters,des volets bleus,vocabulary
 the bathroom (with shower),la salle de bains (sal-duh-bah) ...when it's more than just a toilet,vocabulary
@@ -447,7 +923,7 @@ the cushions,les coussins (ku-son),vocabulary
 the entrance,l'entrée,vocabulary
 the office,le bureau ...can also mean business desk,vocabulary
 the armchair,le fauteuil (foot-oil),vocabulary
-the computer,l'ordinateur,vocabulary
+the computer / a computer,l'ordinateur / un ordinateur... heads up because there is a vowel at the front of the word you should always try to link the sounds ('uhnnnordin...') ,vocabulary
 the luggage,le bagage / des bagages,vocabulary
 a suitcase,une valise,vocabulary
 a shower,une douche,vocabulary
@@ -467,7 +943,8 @@ a tree,un arbre / l'arbre,vocabulary
 a palm tree,un palmier,vocabulary
 a candle,une bougie,vocabulary
 a cactus,un cactus,vocabulary
-a painting,une peinture (a formal piece of art),vocabulary
+a painting,une peinture (a formal piece of art) OR un tableau (masculine) - these really are two words that you can use for something like Mona Lisa,vocabulary
+a sign,un panneau BUT this is not used by itself; e.g. des panneaux de signalisation means signage - for example - in a shop,vocabulary
 a poster,une affiche is used for a cheap poster / un cadre is better and used for something more formal but not necessarily a piece of art,vocabulary
 a frame,un cadre,vocabulary
 some photographs,des photos,vocabulary
@@ -488,16 +965,16 @@ a dishwasher,un lave-vaisselle,vocabulary
 a washing machine (for clothes),lava-linge / une machine à laver,vocabulary
 a refrigerator,un réfrigérateur / un frigidaire,vocabulary
 a pan,une casserole,vocabulary
-a skillet,une poêle,vocabulary
+a skillet,une poêle ('pwal'),vocabulary
 a plate / the plates,une assiette / des assiettes,vocabulary
 a bowl,un bol,vocabulary
 the jar,le pot (same as for a potted plant),vocabulary
 the cup / the cups,la tasse / des tasses ..probably use this for a mug too,vocabulary
 the glass,le verre,vocabulary
-the water glass,le verre á eau,vocabulary
 the wine glass,le verre á vin,vocabulary
 the goblet (a glass with a stem),le verre à pied,vocabulary
 the goblet (a glass with a stem),le verre à pied,vocabulary
+the bottle,la bouteille,vocabulary
 the cutlery,les couverts,vocabulary
 the spoon,la cuillére,vocabulary
 the knife,le couteau,vocabulary
@@ -519,6 +996,7 @@ the bath towel,la serviette de bain,vocabulary
 the beach towel,la serviette de plage,vocabulary
 the sanitary napkin,la serviette hygiénique,vocabulary
 the toilet paper,le papier toilette,vocabulary
+the trash can,la poubelle,vocabulary
 the coffee table,la table basse,vocabulary
 the side table,la table d'appoint ('dupwoh'),vocabulary
 the closet,la placard (a small room or area with a door; not a separate piece of furniture),vocabulary
@@ -533,6 +1011,7 @@ the comforter,la couette,vocabulary
 the pillowcase,le taie d'oreiller,vocabulary
 the wood stove,le poêle á bois,vocabulary
 the ottoman,le pouf,vocabulary
+the light,la lumière,vocabulary
 wooden / of wood, en bois,vocabulary
 the cotton / of cotton,le coton / de coton,vocabulary
 the wool / of wool,la laine / de laine,vocabulary
@@ -551,7 +1030,9 @@ How much are the utilities?,De combien sont les charges?,vocabulary
 Can I visit?,Je peux le visiter?,vocabulary
 What are your contact details?,Quelles sont vos coordonnées?,vocabulary
 my phone number,mon numèro de téléphone,vocabulary
-my mailing address,mon adresse postale,vocabulary
+my mailing address,mon adresse postale; adresse is feminine BUT we cannot write/say ma adresse (two vowels) so we change it to mon addresse; remember to link the words together ('mo-na-dres'),vocabulary
+an email address,une adresse mail; courriel is a new word for email - it is the combination of courrier (old way to send physical mail) + the word for mail,vocabulary
+"gmail.com",gmail point ('pwa') com,vocabulary
 for three nights,pour trois nuits,vocabulary
 country code (for phone numbers),code pays,vocabulary
 square meters,métres carreś,vocabulary
@@ -562,14 +1043,14 @@ lots of questions,beaucoup de questions (la question - feminine),vocabulary
 one other question,une autre question,vocabulary
 afternoon tea,le goûter ...happens at 4pm every day with snack,vocabulary
 Do you (formal) have a room?,Vous avez une chambre? ("voo-zaveh"...with liason),conversation
-It's possible,c'est possible,conversation
-It's different.,C'est différent,conversation
+It's possible,C'est possible.,conversation
+It's different. / differently,C'est différent. / différemment; Add -emment or -ement to change an adjective to an adverb.,conversation
 It's unusual.,C'est insolites.,conversation
 Its not serious.,C'est moins sérieux / grave.,conversation
 You are better / healed.,Tu vas mieux.,conversation
 a woman,une femme,vocabulary
 a man,un homme,vocabulary
-a neighbor,un voisin,vocabulary
+a neighbor,un voisin ('vwa-son') / une voisine ('vwa-seen'); pronounced,vocabulary
 a family,une famille ('fam-ee'),vocabulary
 a brother,un frère ('frer'),vocabulary
 a sister,une souer ('sir'),vocabulary
@@ -578,7 +1059,7 @@ a father,un père ('pear'),vocabulary
 a mother,une mère ('mer'),vocabulary
 a parent,un parent,vocabulary
 a son,un fils ('fees'),vocabulary
-a daughter,une fille ('fee'),vocabulary
+a daughter,une fille ('feey'),vocabulary
 a husband,un mari,vocabulary
 a wife,une femme,vocabulary
 a spouse,un époux ('eh-poo') / une épouse ('eh-poos')...depending on the spouse's gender,vocabulary
@@ -591,15 +1072,19 @@ a grandfather,un grand-père ('gron-pear'),vocabulary
 a grandmother,une grand-mère ('gron-mer'),vocabulary
 grandson,un petit-fils ('puh-ti-fees') ...the 't' at the end of petit is pronounced if it describes a female noun; it is silent when it describes a male noun,vocabulary
 granddaughter,une petite-fille ('puh-teet-fee') ...the 't' at the end of petit is pronounced if it describes a female noun; it is silent when it describes a male noun,vocabulary
+the grandchildren, les petit enfents ...liason between petit and enfents b/c t at end of petit is not pronounced,vocabulary
 great grandfather,arrière-grand-père ('aria-gron-pear'),vocabulary
 great grandmother,arrière-grand-mère ('aria-gron-mer'),vocabulary
-We go to a concert.,On va à un concert.,vocabulary
-to see a band,pour voir un groupe de musique,vocabulary
+Sarah's brother,le frére de Sarah ...always use 'de' regardless of relation,vocabulary
 the french motto,la devise de la Republique -> la liberté l'égalité et la fraternité,vocabulary
+loyalty,fidélité,vocabulary
 the title,la titre,vocabulary
 in the country,à la campagne,vocabulary
 the lodging/accommodation,la logement,vocabulary
-back to school,la rentrée scolaire,vocabulary
+back to school,la rentrée scolaire; but the word for school is une école,vocabulary
+Do adjectives come before or after the noun they describe?,adjectives almost always follow the noun that they describe; salutations are an exceptions; Bonne week-end! Bonne nuit.,vocabulary
+It is relaxing.,C'est relaxant.,vocabulary
+She is very beutiful.,Elle est très belle.,vocabulary
 He has beautiful blue eyes.,Il a de beaux yeux bleus ("eel-ah-duh-bows-ah-blu"),vocabulary
 large or grown,grand/grande (m/f),vocabulary
 young,jeune / jeune (m/f),vocabulary
@@ -608,16 +1093,82 @@ blond,blond / blonde (m/f),vocabulary
 brunette,brun / brune (m/f),vocabulary
 curly hair,cheveux bouclés,vocabulary
 talkative, bavard / bavarde (m/f),vocabulary
+happy,heureux / heureuse (m/f),vocabulary
+angry,énervé / énervée (m/f),vocabulary
 charming,charmant / charmonte (m/f),vocabulary
+stressful,stressant / stressante (m/f),vocabulary
 heavy,lourd / lourde (m/f),vocabulary
 pretty,joli / jolie (m/f),vocabulary
 cooked,cuit / cuite (m/f),vocabulary
+raw,cru / crue (m/f),vocabulary
 salty,salé / salée (m/f),vocabulary
 spicy,épicé / épicée (m/f),vocabulary
 hot,chaud / chaude (m/f),vocabulary
 cold,froid / froide (m/f),vocabulary
+expensive,cher,vocabulary
+a good deal,bon marché; it's not really a noun or adjective; e.g. C'est bon marché!; It means good value for money.,vocabulary
+new,neuf / nouvelle (m/f) ...is an exception - doesn't follow the 'rules' for gender,vocabulary
+thick,épais / épaisse (m/f) ...is an exception - doesn't follow the 'rules' for gender,vocabulary
+true and false (m/f),vrai/vraie and faux/fousse ...is an exception - doesn't follow the 'rules' for gender,vocabulary
+good,bon / bonne ...is an exception - doesn't follow the 'rules' for gender,vocabulary
+spacious,spacieux / spacieuse ...is an exception - doesn't follow the 'rules' for gender,vocabulary
+strange,étranger / étrangère (m/f) ...this also can mean foreigner,vocabulary
+difficult,difficile (same m/f),vocabulary
+easy,facile (same m/f),vocabulary
+funny/,drôle/marrant,vocabulary
+I am busy.,Je suis occupé.,vocabulary
 Spanish,espagnol /espagnole (m/f),vocabulary
 German,allemand / allemande (m/f),vocabulary
 Argentinian,argentin / argentine (m/f),vocabulary
 Chinese,chinois / chinoise (m/f),vocabulary
-placeholders,parts of the body (une estomac = a stomach) + animals (la souris = mouse),vocabulary
+I have a soar throat.,J'ai mal à la gorge.; generally to say you hurt somewhere it is AVOIR + MAL + part of the body,verbs
+I have a fever.,J'ai de la fièvre.,verbs
+to cough,tousser; eg. Je tousse,verbs
+a body,un corps,vocabulary
+a head,une tête,vocabulary
+a helmet (like for cycling or skiing),un casque,vocabulary
+a face,un visage,vocabulary
+an eye,un oeil,vocabulary
+the eyes,les yeux,vocabulary
+a nose,un nez,vocabulary
+a mouth,une bouche,vocabulary
+a tooth,une dent,vocabulary
+an ear / the ears,une oreille / les oreilles ('le-zo-ray'),vocabulary
+an arm,un bras,vocabulary
+a finger,un doigt,vocabulary
+a hand,une main,vocabulary
+a leg,une jambe,vocabulary
+a toe,un orteil,vocabulary
+a foot,un pied,vocabulary
+a stomach,une estomac,vocabulary
+a dash,un tiret,vocabulary
+a slash,slash (same) OR barre de fraction (for division),vocabulary
+a comma,une virgule,vocabulary
+a period (punctuation mark),le point ('pwoh') ...just say 'pwoh' when spelling an email address ,vocabulary
+an apostrophe ('),une apostrophe ('a-po-strof'),vocabulary
+@ aka 'at',une arobase ('ar-row-baz'),vocabulary
+a question mark,le point d'interrogation,vocabulary
+an exclamation point,le point d'exclamation,vocabulary
+uppercase / lowercase,majuscule / minuscule,vocabulary
+half,la moitié,vocabulary
+a class,une classe,vocabulary
+to french class - as in I'm going to french class.,en classe de français; Je vais en classe de francais.,vocabulary
+a number,nombre (uncertain of gender),vocabulary
+a family name / a first name,un nom / un prénom,vocabulary
+fast,vite ('veet') OR rapide; use vite when someone or something does something quickly; use rapide when something IS fast e.g. Le train est rapide.,vocabulary
+slow / slowly,lent ('lon') / lentemont; to turn an adjective into an adverb add -mont or -emont (like how we add -y in english),vocabulary
+dangerous,dangereux,vocabulary
+degrees celsius,degré Celsius,vocabulary
+degrees fahrenheit,degré Fahrenheit,vocabulary
+the weather,la météo,vocabulary
+It's six degrees (outside).,Il fait six degrés.; say it as if one word ('eel-fay-ses-deg-ray'); talking about weather uses faire,vocabulary
+It's hot.,Il fait chaud ('show').,vocabulary
+...because I'm cold / ...because it's cold,parce que j'ai froid. / parce qu'il fait froid ('fwa').; parce que becomes parce qu'il and it's one word - no pause for the apostrophe,vocabulary
+It's nice (outside). ...regarding weather,Il fait beau.,vocabulary
+It's sunny.,Il fait soleil. OR Il y a du soleil.,vocabulary
+It's raining.,Il fait pleut. OR Il y a de la pliue.; the former is more idiomatic - uses faire; the latter translates as: There is rain.,vocabulary
+It's snowing. / Is it snowing?,Il neige. / Il va neiger?,vocabulary
+It's cloudy.,Il y a des nuages (gris).,vocabulary
+It's windy.,Il y a du vent. (pronounced 'von' ...that nasal ohn sound where lips make o-shape; very different from the word vin which is like 'vehn' with wide mouth like INgenénieur),vocabulary
+heat wave,la canicule,vocabulary
+placeholders,animals (la souris = mouse); la fête (not certain on translation; maybe could mean the date of a holiday or a party),vocabulary
