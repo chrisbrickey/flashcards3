@@ -19,7 +19,7 @@ For which 10's (under 100) do you have to add elements together?,70s (60 and add
 60 61 62 63,soixante + soixante et un + soixante-duex + soixant-trois,numbers
 70 71 72 73,soixante-dix + soixante et onze (use the 'et' with 1 and 11) + soixante-douze + soixante-treize,numbers
 80 81 82 83,quatre-vingts + quatre-vingt-un + quatre-vingt-duex + quatre-vingt-trois,numbers
-90 91 92 93,quatre-vingt-dix + quatre-vingt-onze + quatre-vingt-douze + quatre-vingt-treize,numbers
+90 91 92 93,quatre-vingt-dix + quatre-vingt-onze + quatre-vingt-douze + quatre-vingt-treize; NB: to write out numbers add a dash between each word and delete a final S (e.g. from cents) if a word follows it - leave the final S if it is the last word in the number series.,numbers
 100,cent (kind of like 'saw' in english but pronounced like sont in french),numbers
 101,cent un ('saw uh'),numbers
 200,deux cents ('duh saw'),numbers
@@ -107,7 +107,8 @@ How do you say ___ in french?,Comment on dit ___ en francais? ('co-mun-dee'),con
 How do you write ___? / How is it written?,Comment ça s'écrit ___? (comm-on-sa-say-creet) / Ca s'écrit comment? (sa-say-creet),conversation
 How do you pronounce ___?,Comment ça se pronounce?,conversation
 What do you mean?,C'est à dire?,conversation
-What does it mean? / It means...,Qu'est-ce qu ça veut dire? (kes-kuh-sa-voo-deer) / ça signifie...,conversation
+What does it mean? / It means...,Qu'est-ce qu ça veut dire? (kes-kuh-sa-voo-deer) / ça signifie...; An easy to way to ask for the meaning of something is to say the thing followed by Qu'est-ce qu ça veut dire?,conversation
+What is a short way to ask for the translation or meaning of a word?,Ce quoi ______?,conversation
 I do not understand.,Je ne comprends pas.; NB: je sounds like "juh" not "jee",conversation
 I don't know.,Je ne sais pas.; pronounced 'shay-pa' in paris - very short and common,conversation
 Can you repeat? / Repeat please.,Est-ce que vous pouvez répéter? / Répétez s'il vous plaît.; informal: Est-ce que tu peux répéter? / Répètes s'il te plaît.,conversation
@@ -219,8 +220,9 @@ someone,quelqu'un (masculine) or quelqu'une (feminine),vocabulary
 something,quelque chose,vocabulary
 several,plusieurs,vocabulary
 a lot / many,beaucoup; NB: If you add a noun (e.g. a lot of fish / many fish) then you must add DE between beaucoup and the noun beause beaucoup is a quantity/measurement.,vocabulary
-so much,tellement,vocabulary
+so much,tellement; e.g. J'ai tellement appris. = I learned so much.,vocabulary
 too much,trop / beaucoup trop ('troh'),vocabulary
+It was too much.,C'etait trop ('troh'). - imparfait tense,vocabulary
 a lot more; specify the pronunciation,beaucoup plus ('ploos'); the S is pronounced because we are dealing with a positive quantity,vocabulary
 more than X; specify the pronunciation,plus que ('ploos-kuh'); the S is pronounced because we are dealing with a positive quantity,vocabulary
 the most;specify the pronunciation,le plus ('ploos'); the S is pronounced because we are dealing with a positive quantity,vocabulary
@@ -259,7 +261,7 @@ the ending,la terminaison,vocabulary
 finally / at last,en fin,vocabulary
 then...,puis...,vocabulary
 going through, passé par,vocabulary
-childhood,enfance,vocabulary
+a childhood,une enfance,vocabulary
 at the top,en haut,vocabulary
 too cold,trop froid ('trow fwa'),vocabulary
 too hot, trop chaud ('trow show'),vocabulary
@@ -270,11 +272,12 @@ now,maintenant ('mont-a-no') ...three syllables,vocabulary
 today,aujourd'hui ('on-jour-dwi'),vocabulary
 tomorrow / tomorrow morning,demain ('duh-ma') / demain matin ('duh-ma-ma-ton'),vocabulary
 yesterday,heir ('ee-air'),vocabulary
+I run 8 kilometers in an hour.,Je courir 8 km en une heure.; Use 'en' to express a time range associated with a specific distance or effort.,vocabulary
 for,pour; generally this is true but there are some situations where 'pour' is not the correct word to use when replacing 'for',vocabulary
 during,pendant,vocabulary
-while,pendant que; When you use 'pendant que' then you typically use l’imparfait de l’indicatif temps (the imperfect tense within the indicative group); e.g. Quelqu’un est venu pendant que je dormais. - the first part of the sentence is passé composè but the second part of the sentence (while I was sleeping) is 'imparfait' (was/were doing something),vocabulary
+while,pendant que; When you use 'pendant que' then you typically use l’imparfait de l’indicatif temps (the imperfect tense within the indicative group); e.g. Quelqu’un est venu pendant que je dormais. - the first part of the sentence is passé composè but the second part of the sentence (while I was sleeping) is 'imparfait' (was/were doing something); Remember that pendent indicates a time frame whose range is somewhat ambigous/unknown,vocabulary
 since - an action that started in the past and continues to present,depuis ('duh-pwi'),vocabulary
-When do you use 'pour' vs 'pendant' vs 'depuis'?,Generally you can always replace the word 'for' with 'pour'. One exception is when you talk about doing something for a length of time (e.g. for 2 weeks) - then you use either pendant (e.g. Je l'ai fait pendant 2 semainese = I did it for 2 weeks.) OR dupuis (e.g. Je le fais depuis 2 semaines.= I have been doing it for/since 2 weeks.); General rule: Use 'depuis' (like since) with present tense. Use 'pendant' (like for some length of time) with past tense. Use 'pour' for some length of time that is only in the future.,vocabulary
+When do you use 'pour' vs 'pendant' vs 'depuis'?,Generally you can always replace the word 'for' with 'pour'. One exception is when you talk about a range of time (e.g. for 2 weeks) that occurred partially in the past or is not fully known - then you use either pendant (e.g. Je l'ai fait pendant 2 semainese = I did it for 2 weeks.) OR dupuis (e.g. Je le fais depuis 2 semaines.= I have been doing it for/since 2 weeks.); General rule: Use 'pendant' with past tense or when the range is unknown. Use 'depuis' (like since) with present tense. Use 'pour' for time ranges in the future and that are certain/known.,vocabulary
 I have been here for 3 days.,Je suis là depuis trois jours.; use depuis in this case... like since because the time frame continues to the present,conversation
 How long have you (formal) studied french?,Depuis quand ètudiez-vous le francais?; use depuis in this case... like since because the time frame continues to the present,conversation
 I've danced since I was 3 years old.,Je danse depuis que j'ai 3 ans.,conversation
@@ -286,6 +289,7 @@ for - the duration of some time frame strictly in the future,pour; use this spar
 I will be in France for 5 years.,Je serai en France pour cinq ans.; you can only use pour here because the time frame is strictly in the future with no relation to the present,conversation
 monday tuesday wednesday,lundi ('luhn-di') + mardi ('MAR-di' ...remember to let the r catch in the throat a bit) + mercredi ('MEH-cri-di'),vocabulary
 thursday friday saturday sunday,jeudi ('jooh-di' ...the j is really soft) + vendredi ('VON-dra-di') + samedi ('sam-di') + dimanche ('DEE-monsh'),vocabulary
+How do you make a day of the week plural?,les dimanches; same as any other word - add S,vocabulary
 january february march,janvier février mars,vocabulary
 april may june,avril mai juin,vocabulary
 july august september,juiliet + août ('oot') + septembre,vocabulary
@@ -328,7 +332,7 @@ common saying that means all I do is work and sleep - no fun,C'est métro boulot
 a bicycle,un vélo,vocabulary
 a motorcycle,une moto,vocabulary
 a car,une voiture,vocabulary
-a bus,un bus,vocabulary
+a bus,un bus; 'boos' the S is pronounced even though it is a final consonant because the origin of the word is foreign,vocabulary
 a train,un train (pronounced 'tron' and the r rolls a bit),vocabulary
 a boat,un bateau,vocabulary
 an airplane,un avion,vocabulary
@@ -336,6 +340,7 @@ a taxi,un taxi,vocabulary
 public transport,les transports en commun,vocabulary
 a public toilet,un sanisette ('sa-nee-zet'); the S makes a Z sound because it is between two vowels,vocabulary
 a road,une rue,vocabulary
+a goal,un but; 'boot' the T is pronounced - likely because the origin of the word is foreign,vocabulary
 a restaurant,un restaurant,vocabulary
 a customer (at a restaurant or store),le client,vocabulary
 a salesperson,un vendeur ('von-dur') / une vendeuse ('von-dooz'),vocabulary
@@ -454,6 +459,7 @@ to think,penser,verbs
 to know (to be familiar with),connaître,verbs
 I don't know. ...when you're not familiar with something,Je ne connais pa.,verbs
 I haven't seen/heard of that (before).,Je n'ai jamais entendu parler de ça.; The literal translation is I never heard of that.,conversation
+I didn't know that.,Je ne connaissais/savais pas.; Use imparfait tense because you didn't know it before but now you do know it - something that was true in the past but is different now (similar to telling a story),verbs
 to become,devenir; the base is venir (to come); the conjugation in present tense is exactly the same as venir except for nous and vous forms,verbs
 to pass by,passer,verbs
 to spend time,passer; same verb as to physically pass by something,verbs
@@ -506,10 +512,12 @@ to hire (someone to do something),engager,verbs
 to taste,goûter,verbs
 to play,jouer,verbs
 to drink,boire: je bois + tu bois + il/elle/on boit + nous buvons + vous buvez + ils/elles boivent ('bwav'),verbs
-I eat. / I am eating.,Je mange. / Je suis en train de manger.; To use gerund in the present tense: conjugated être + en train de + infinitive of the verb,verbs
+I eat. / I am eating.,Je mange. / Je suis en train de manger.; To use gerund in the present tense: conjugated être + en train de + infinitive of the verb.,verbs
+I learn. I am learning.,J'apprends. / Je en train d'apprendre.; To use gerund in the present tense: conjugated être + en train de + infinitive of the verb.,verbs
 to travel (to some city),Use ALLER (to go) for this.; aller à Paris = to go to Paris; Je vais à Londres = I go to London.,verbs
 to visit,this depends on context: visiter (to visit a museum etc) + rendre visite (to visit a person; rendre is the verb and you must conjugate it; visite is the direct object of the verb),verbs
 I walk a lot. / I am walking.,Je marche beaucoup. / Je suis en train de marcher.,conversation
+to go for a walk / to take a stroll,se promener / se balader,verbs
 to run,courir,verbs
 to gain weight / to lose weight,grossir / maigrir,verbs
 to swim vs to go swimming vs to have a swim,nager / faire de la natation / se baigner (more poetic; also means to get in the bathtub),verbs
@@ -519,6 +527,13 @@ to say (something),dire,verbs
 to take a class,There are many ways to express this.; 1) Use suivre (to follow): Je suis (same conjugation and pronunciation as être) un cours de français.; 2) Use prendre (to take/make): Je prends un cours de tango.,verbs
 to follow (a person),suivre; e.g. Je suivi Oscar. = I follow Oscar.,verbs
 to open,ouvrir,verbs
+to dial a phone number,faire le numéro (less formal) / composer le numéro (more formal),verbs
+to ring,sonner,verbs
+to pick up or answer (the phone) / to hang up (the phone),décrocher / racrocher,verbs
+to call back (on the phone),rappeller,verbs
+I dial Tom's phone number.,Je compose le numéro de Tom.; Another way that is different than English: Je compose le numéro mon correspondant (male) / ma correspondant (female).,vocabulary
+to call Tom on the telephone,teléphoner à Tom,verbs
+to leave a message,laisser un message,verbs
 to cook,cuisiner ('qwee-zee-nay'),verbs
 to cut,couper,verbs
 to pour,verser,verbs
@@ -589,7 +604,8 @@ to sleep,dormir,verbs
 to go to bed / to fall asleep,se coucher (reflexive verb); pronounced 'koo-shay',verbs
 I fall asleep.,je me couche. ('koosh'),verbs
 I remember it.; What is the infinitive of the verb?,Je m'en souviens. (juh-muh-soo-vyuh); se souvenir is the infinitive - it is reflexive which is where the 'me/m'' comes from; This is the most common way to express this idea... 'en' is used in special cases to represent 'it'; French people do NOT say: Je me le souviens.; This is also an interesting case of a sentence that has both a reflexive pronoun (me) AND a direct object of the verb - which must always come before the verb.,verbs
-I don't remember it.,Je ne m'en souviens pas.,verbs
+I don't remember it.,Je ne m'en souviens pas.; This is a special case where we use 'en' to refer to 'it'.,verbs
+I don't remember the conjugation.,Je ne me souviens pas de la conjugaison.; Because we spell out the thing that we did not remember we do not use the special 'en'.,verbs
 You remember it.,Tu t'en souviens.; NB: m' (which stands for me - reflexive pronoun) is replaced by t' (which stands for te),verbs
 It helps me to remember.,ça m'aide me souvenir. souvenir is the infinitive form of the verb (to remember) but it is a reflexive verb.,verbs
 a memory,un souvenir,vocabulary
@@ -632,7 +648,7 @@ What will you eat? (use futur simple).,Que mangeras-tu?,verb
 What will you (informal) do? / What will you (formal) do?,Que feras-tu? / Que ferez-vous?; Faire is irregular in past participle using 'fer' as base.,verbs
 Where will you (formal) go on vacation?,Où irez-vous en vacances?; Aller is irregular in past participle using 'ir' as base.,verbs
 What is the conditionnel tense?,This exists in English (the conditional). It is a future tense that is hypothetical.; e.g. I would/could/should (do something) - there is an implied IF; You would do something IF something else were true but the IF statement is usually implied.,verbs
-How is the conditionnel tense constructed in French?,Use the same verb base (the entire infinitive or modified infinitive) as the futur simple. Then add the following endings to agree with subject: je -ais + tu -ais + il/elle/on -ait + nous -ions + vous -iez + ils/elles -aient; NB: Futur conditional for almost all the types of subjects (je/tu/il/ils) sounds exactly the same as the first person singular (je) form for futur simple (though spelled differently).,verbs
+How is the conditionnel tense constructed in French?,Use the same verb base as the futur simple (the entire infinitive or modified infinitive). Then add the following endings to agree with subject: je -ais + tu -ais + il/elle/on -ait + nous -ions + vous -iez + ils/elles -aient; NB: Futur conditional for almost all the types of subjects (je/tu/il/ils) sounds exactly the same as the first person singular (je) form for futur simple (though spelled differently).,verbs
 I will be able to. (futur simple) / I could. (futur conditionnel),Je pourrai. / Je pourrais.; Pronounced exactly the same ('pour-ray') because je/tu/il/elle/on/ils/elles in future conditional sound exactly the same as je in futur simple - though spelled differently.; Remember 'ai' sounds like 'ay' in french - like j'ai.,verbs
 I will eat. (futur simple) / They would eat. (future conditionnel),Je mangerai. / Ils mangeraient.; Pronounced exactly the same ('man-jer-ray') because je/tu/il/elle/on/ils/elles in future conditional sound exactly the same as je in futur simple - though spelled differently.,verbs
 I quit. / I will quit. / I would quit.,J'ai quitté. / Je quitterai. / Je quitterais.; QUITTER is the infinitive. It also means 'to leave'.,verbs
@@ -641,7 +657,7 @@ Using the verb CHANTER... They would sing. / You (formal/plural) would sing. (bo
 Using the verb VOIR... She would watch. / We (nous) would watch. (both future conditionnel),Elle verrait. / Nous verrions.; VOIR is irregular in futur simple - we use the base 'verr'.; Notice that the pronunciation rule still holds: Elle verrait (She would watch) sounds the same as Je verrai (I will watch). BUT Nous verrions (We would watch) does not sound the same as Je verrai (I will watch) because nous and vous never follow the pronunciation rule.,verbs
 I would like some milk.,Je voudrais du lait.,verbs
 You (familiar) would go. / You (formal/plural) would go. (both futur conditionnel),Tu irais. / Vous iriez.; ALLER is irregular in futur simple - we use the base 'ir'.; The pronunciation similarities still hold. Tu irais (You would go) sounds the same as J'irai (I will go). Vous form sounds different - always does.,verbs
-How do you express that something is in the conditionnel tense (conditional in English)?,au conditionnel,verbs
+How do you express that something is in the conditionnel tense?,au conditionnel,verbs
 How do you construct the passé composé (a past tense) in French?,AUXILIARY VERB (conjugated form of etre or avoir) + simple PAST PARTICIPLE of the main verb; in English it's like 'i have jumped.'; NB: If étre is the auxiliary (helper) verb then the past participle must also agree with the subject including gender for ALL forms - not just the third person (e.g. il/elle),verbs
 Generally how do you make the past participle of a verb?,-er verbs: stem + é ...which sounds exactly the same as the 2nd person plural (vous) in present that ends with -ez; -re verbs: stem + -is OR stem + u; -ir verbs: stem + i; -oir verbs: stem + u,verbs
 I ate.,J'ai mangé.,verbs
@@ -736,7 +752,7 @@ Who is your (informal) favorite band (feminine)?,Quel est votre chanteuse préf�
 Who is your (informal) favorite band (feminine)?,Quel est votre chanteuse préférée?,conversation
 I am allergic to shellfish + walnuts + hazelnuts.,Je suis allergique aux crustacés ('cru-sta-sets') + noix ('nua') + noisettes ('nu-ah-zet').,conversation
 I don't see well.,je ne vois pas bien,conversation
-I have one dog and one cat.,J'ai un chien et un chat.,conversation
+I have one dog and one cat.,J'ai un chien et un chat. ('shat'),conversation
 the vineyard,le vignoble ("veen-yo"),vocabulary
 vacation,les vacances - seems to always be plural,vocabulary
 leisure/hobbies,les loisirs,vocabulary
@@ -744,7 +760,6 @@ Burgundy,Bourgogne ("Bore-goi-ng"),vocabulary
 Bordeaux,Bordeaux ("Boor-doh"),vocabulary
 keys,des cles; remember you can't just use a noun; there must always be an article in front of it (the or a); if the noun is plural then your choice are les (the) or des (some..l like a).,vocabulary
 an umbrella,un parapluie,vocabulary
-a telephone (mobile),un téléphone,vocabulary
 a charger,un chargeur,vocabulary
 a watch / a clock,une montre / une horlage,vocabulary
 a change purse,un porte-monnaie,vocabulary
@@ -761,7 +776,10 @@ a toothbrush,une brosse à dents,vocabulary
 headphones,un casque audio,vocabulary
 a personal camera,un appareil photo,vocabulary
 a professional video camera,une camera,vocabulary
+a telephone (mobile),un téléphone,vocabulary
+land-line telephone vs old-fashioned telephone,teléphone fixe vs le combiné,vocabulary
 a laptop,un ordinateur portable,vocabulary
+keyboard (same as piano),le clavier,vocabulary
 headphones,les écouteurs (liason z between),vocabulary
 a chalkboard,un tableau,vocabulary
 a computer mouse,la souris,vocabulary
@@ -809,7 +827,7 @@ the bookstore,la librairie,vocabulary
 the library,la bibliothèque,vocabulary
 a bodega / shop with miscellanous wares,une épicerie,vocabulary
 the place where you get cigarettes + coffee + sim cards,le bureau de tabac,vocabulary
-the real estate agency,l'agence immobilière,vocabulary
+the real estate agency,l'agence immobilière; 'ee-mobe-uh-lee-er-ay'; the sound of the first I changes from 'uhn' (like inginieur) to 'ee' because there is a double consonant (mm) following it.,vocabulary
 the clothing store,le magasin de vêtements,vocabulary
 the jewelry shop / jeweler,la bijouterie,vocabulary
 a pharmacy,une pharmacie,vocabulary
@@ -894,13 +912,17 @@ the meal,le repas ...s is silent,vocabulary
 the menu,la carte; le menu is like the pre-fixe for the day,vocabulary
 Can you make a recommendation? ...to a waiter in a restaurant,Qu'est-ce que vous me conseillez? / Qu'est-ce que vous me recommandez?,vocabulary
 my favorite dish,mon plat préféré,vocabulary
+a formal french expression when someone welcomes you to a place,Je vous en prie.,vocabulary
 How do you ask for something at a store/market? e.g. Ask for flour.,First you always greet (e.g. bonjour!) and then ask for a general amount: Bonjour je voudrais de la farine.; Then - after they know what you are talking about - you specify the amount... 500 grammes de farine.; Never ever say 'je veux...' which is very rude. If the other person is in a rush then it is possible to say 'un baguette s.v.p.' but this is an exception.,vocabulary
-When ordering something which prepositions do you use in the multiple parts of an order?,Use a super-confirming preposition in the initial non-specific sentence (Bonjour je voudrais de la farine.): du (masc; de + le which is not possible) / de la (fem) / d' (sing if starts with vowel - regardless of gender) / des (de + les ...plural); Then we have a more generalized preposition in the second part of the order (500 grammes de farine): de OR d' (only used if the noun starts with a vowel - otherwise us 'de'),vocabulary
-I would like some salad.,Je voudrais de la salade.; This is how you start an order in a market/store - asking in a vague quantity.; Use a super-confirming preposition in the non-specific request: du (de + le) / de la / d' (sing and starts with vowel - regardless of gender) / des (de + les ...plural);,vocabulary
-Do you have some pumpkin?,Vous avez du potiron?; This is how you start an order in a market/store - asking in a vague quantity.; Use a super-confirming preposition in the non-specific request: du = de + le,vocabulary
-I would like some onion.,Je voudrais d'oignon.; This is how you start an order in a market/store - asking in a vague quantity.; Use a super-confirming preposition in the non-specific request: d' because the singular noun starts with a vowel,vocabulary
-Do you have some pears?.,Vous avez des poires?; This is how you start an order in a market/store - asking in a vague quantity.; Use a super-confirming preposition in the non-specific request: des = de + les,vocabulary
-I want 500 grams of meat.,Je veux 500 grammes de viande.; This is what you say after you requested 'some' (general amount) of meat; Now you express yourself more directly (I want) and you give a specific amount.; Because there is a specified amount we use a more generalized preposition that doesn't care about gender or number - there are only two options: DE (if the noun starts with a consonant) or D' (if the noun starts with a vowel) - both regardless of gender and number,vocabulary
+When ordering something in a market/store/etc. how do you contruct the opening phrase?,Use the partitive articles (du/d' + de la/de l' + des/d') initially to indicate an unspecified quantity.; e.g. Bonjour je voudrais du café / de la farine / de l'huile / des pommes; NB: du = de + le and des = de + les because 'de le' and 'de les' are not used. D' occurs when du or des are followed by a noun that starts with a vowel.,vocabulary
+When ordering something in a market/store/etc. how do you contruct the second half of the phrase?,After opening with a general statement of what you want in unspecified quanities... then specify the amount. Doing so will replaces partitive articles with DE or D' - only two options.; e.g. 500 grammes de café / un paquet de salade / une carafe d'eau / plus de pommes.; D' occurs when de is followed by a noun that starts with a vowel.,vocabulary
+Do you (formal) have pumpkin?,Vous avez du potiron? (masculine); The quantity is not specified at all so use partitive articles (du/d' + de la/de l' + des/d').; de + le = du,vocabulary
+I would like onion.,Je voudrais d'oignon. (masculine starting with vowel); The quantity is not specified at all so use partitive articles (du/d' + de la/de l' + des/d').; de + le = du. du becomes d' because the noun starts with a vowel.,vocabulary
+I would like salad.,Je voudrais de la salade. (feminine); The quantity is not specified at all so use partitive articles (du/d' + de la/de l' + des/d').,vocabulary
+I'll take (order) water.,Je prends de l'eau. (feminine starting with vowel); The quantity is not specified at all so use partitive articles (du/d' + de la/de l' + des/d').; de la becomes de l' because the noun starts with a vowel.,vocabulary
+Do you have pears?.,Vous avez des poires? (plural); The quantity is not specified at all so use partitive articles (du/d' + de la/de l' + des/d').; de + les = des,vocabulary
+I'll take (order) green beans.,Je prends d'haricot verts (plural starting with vowel).; The quantity is not specified at all so use partitive articles (du/d' + de la/de l' + des/d').; de + les = des. des becomes d' because the noun starts with a vowel.,vocabulary
+I want 500 grams of meat.,Je veux 500 grammes de viande.; This is what you say after you requested 'some' (general amount) of meat.; Now you express yourself more directly (I want) and you give a specific amount.; Because there is a specified amount we use a more generalized preposition that doesn't care about gender or number - there are only two options: DE (if the noun starts with a consonant) or D' (if the noun starts with a vowel) - both regardless of gender and number,vocabulary
 a bottle of oil,une boteille d'huile; Use DE (or D' if noun starts with vowel) when you are talking about a specific amount OR a lack of something,vocabulary
 a karafe of water,une karafe d'eau ('doh'); this is how you order a bottle of tap water in a restaurant,vocabulary
 a head of garlic,une tête d'ail ('dile'); same sound as taille (size); Use DE (or D' if noun starts with vowel) when you are talking about a specific amount OR a lack of something,vocabulary
@@ -1161,7 +1183,7 @@ a room,une pièce ...apartments are advertised by count of total rooms sans kitc
 downstairs,en bas,vocabulary
 on the ground floor,au rez-de-chaussée,vocabulary
 on the first floor,au premier étage; written as: au 1eme étage; this means an American second floor; same as UK,vocabulary
-a building / some buildings,un immeuble / quelques immeubles,vocabulary
+a building / some buildings,un immeuble / quelques immeubles; pronounced 'ee-mobl' because there is a double consonant following the I - otherwise would be 'uhn-mobl' like ingenieur.,vocabulary
 a show / a concert,un spectacle / un concert,vocabulary
 a boat,un bateau; -eau and -eaux is pronounced like a really strong 'oh' - like the word chateau; plural for all words that end in -eau is to add an X; So boats is les bateaux.,vocabulary
 to find an apartment,pour trouver un apartment,verbs
@@ -1303,14 +1325,17 @@ What are your contact details?,Quelles sont vos coordonnées?; coordonnées is f
 What is your address?,Quelle est votre/ton addresse?; addresse is feminine singular so Quelle and ta must agree with it - but we cannot say 'ta ad..' because that is two vowels next to eachother so we change the possessive adjective from ta to ton!,vocabulary
 my phone number,mon numèro de téléphone,vocabulary
 my mailing address,mon adresse postale; adresse is feminine BUT we cannot write/say ma adresse (two vowels) so we change it to mon addresse; remember to link the words together ('mo-na-dres'),vocabulary
-an email address,une adresse mail; courriel is a new word for email - it is the combination of courrier (old way to send physical mail) + the word for mail,vocabulary
+an email address,une adresse mail; un courriel is a new word for email - it is the combination of courrier (old way to send physical mail) + the word for mail; courrier_mail is also used,vocabulary
 "gmail.com",gmail point ('pwa') com,vocabulary
+How do you say a postal code? e.g. 33200,trente-trois-mil-deuxcents ('33 mil 200'); you speak it as if it is a full number,conversation
+a letter / a postcard,lettre / carte postale,vocabulary
 for three nights,pour trois nuits,vocabulary
 country code (for phone numbers),code pays,vocabulary
 square meters,métres carreś,vocabulary
 dog allowed,chien admi,vocabulary
 free,gratuit,vocabulary
 all-included,tout compris,vocabulary
+I don't understand all.,Je ne comprends pas tout.,vocabulary
 lots of questions,beaucoup de questions (la question - feminine),vocabulary
 one other question,une autre question,vocabulary
 afternoon tea,le goûter ...happens at 4pm every day with snack,vocabulary
@@ -1396,6 +1421,7 @@ dynamic,dynamique; adjectives that end in E are the same in masculine and femini
 modest,modeste; adjectives that end in E are the same in masculine and feminine form,vocabulary
 He is modest. 3 ways to say this.,Il est modeste. Il est un homme modeste. C'est un homme modeste.,vocabulary
 funny/,drôle (same m/f) / marrant,vocabulary
+fun (as an adjective),amusant(e),vocabulary
 dead,mort(e) / décédé(e),vocabulary
 fit/thin,mince (same m/f),vocabulary
 fat,rond(e),vocabulary
@@ -1532,3 +1558,14 @@ Conjugate avoir (to have) in the 'imparfait' tense (I was having + You were havi
 Before... I went out every night.,Avant... je sortais tous les soirs.; 'i went' is the flag to use the 'imparfait'. But also when 'avant' is used in this way then you can expect 'imparfait' to follow it.,verbs
 I used to play tetris.,This is the 'imparfait' tense: Je jouais ('zhoo-ay') au tetris.; In french this is also the way to say 'I was playing tetris.',verbs
 I used to make coffee.;,This is the 'imparfait' tense: Je faisais ('fez-ay') du café.; In french this is also the way to say 'I was making coffee.',verbs
+How do you ask who is on the other end of a phone call when you pick up?,Vous êtes madame? monsieur? (casual) / C'est de la part de qoi? means Who is it? (formal),conversation
+What do you say when someone first picks up the phone to introduce yourself when you are calling?,Bonjour c'est X. (informal) / Mme Sarah Jones à l'appareil. (formal),conversation
+How do you ask if you reached the correct place? (e.g. Is this X?),Je suis bien chez X? or Je suis bien ___the phone number___?,conversation
+No - this is not the right place. (on the phone),Non vous faites erreur.,conversation
+Can you hold on? (to tell someone to wait on the phone),Pouvez-vous attendre?,conversation
+Don't go away. (when someone puts you on hold),Ne quittez pas. (vous) / Ne quittes pas. (tu),conversation
+The line is busy.,La ligne est occupée.,conversation
+How do you ask what the person is calling about? (when you pick up the phone),C'est a quel sujet?,conversation
+I will get him/her for you. (when you are finding the person they are looking for),Je vous/toi le passe.,conversation
+Do you want to call back? Do you want to leave a message?,Voulez-vous rappeler? Voulez-vous laisser un message?,conversation
+What is the french idiomatic term for a phone call?,un coup de fil; It is like saying ‘ring’ or a ‘phone call’.; e.g. Je passe un coup de fil. = I make a phone call.,vocabulary
