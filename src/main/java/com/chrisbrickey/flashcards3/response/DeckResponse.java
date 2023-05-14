@@ -24,6 +24,7 @@ public class DeckResponse {
             String category = cardLine.get(2);
 
             // TODO: add validation on content here or in a Card file
+            // TODO: append i to error message to make it easier to identify location of parsing error
             int cardId = i + 1;
             CardResponse card = new CardResponse(cardId, question, answer, category);
             deck.add(card);
