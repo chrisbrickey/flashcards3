@@ -27,6 +27,7 @@ public class CsvParsingTest {
             DeckResponse response = controller.getDeck(filepath);
             response.getCards();
         } catch (Exception e){
+          // TODO: surface the line number where parsing error was encountered (from DeckResponse.setCards)
           return false;
         }
 
