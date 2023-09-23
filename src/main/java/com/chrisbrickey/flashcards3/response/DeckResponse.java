@@ -1,13 +1,14 @@
 package com.chrisbrickey.flashcards3.response;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class DeckResponse {
     private List<CardResponse> cards;
 
     public DeckResponse(List<List<String>> cardData) {
+        // Set cards before shuffling so that the CardResponse.id reflects the original order of the source content.
         setCards(cardData);
+        shuffleCards();
     }
 
     public List<CardResponse> getCards() { return cards; }
@@ -31,5 +32,22 @@ public class DeckResponse {
         }
 
         this.cards = deck;
+    }
+
+    private void shuffleCards() {
+        Collections.shuffle(cards);
+    }
+
+    public static void sortCards(List<CardResponse> cards) {
+        Collections.sort(cards, new CustomComparator());
+    }
+}
+
+class CustomComparator implements Comparator<CardResponse> {
+    @Override
+    public int compare(CardResponse card1, CardResponse card2) {
+        Long firstId = card1.getId();
+        Long secondId = card2.getId();
+        return firstId.compareTo(secondId);
     }
 }
