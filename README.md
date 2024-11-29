@@ -8,8 +8,8 @@ Click the 'next' button to view the subsequent card.
 ## Development
 
 ### Dependencies
-* Java 18
-* Spring Boot 2.6.7
+* Java 21
+* Spring Boot 2.7.18
 * Maven 3
 
 ### Run
