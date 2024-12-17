@@ -5,12 +5,12 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.7.18</version>
+		<version>3.4.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.chrisbrickey</groupId>
 	<artifactId>flashcards3</artifactId>
-	<version>2.7.18-SNAPSHOT</version>
+	<version>3.4.1-SNAPSHOT</version>
 	<name>flashcards3</name>
 	<description>dynamic webapp for learning with flashcards</description>
 	<properties>
@@ -21,18 +21,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-
-<!--		<dependency>-->
-<!--			<groupId>com.fasterxml.jackson.core</groupId>-->
-<!--			<artifactId>jackson-databind</artifactId>-->
-<!--			<version>2.13.0</version>-->
-<!--		</dependency>-->
 	</dependencies>
 
 	<build>
