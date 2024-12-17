@@ -16,7 +16,7 @@ It can be used for any subject.
 
 ### Dependencies
 * Java 21
-* Spring Boot 2.7.18
+* Spring Boot 3.4.0
 * Maven 3
 
 ### Run
