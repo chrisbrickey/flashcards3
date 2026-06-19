@@ -7,7 +7,7 @@ certification in French at B2 level. As of 2026, the hosted app serves my englis
 
 Click the card to toggle between front and back. Click the 'next' button to view the subsequent card.
 <p align="center">
-  <img src="./docs/images/flashcards4u-two-screens-compressed.jpg" height="300" style="margin-right: 10px;" />
+  <img src="./docs/images/flashcards4u-two-screens-sans-title-compressed.jpg" height="300" style="margin-right: 10px;" />
 </p>
 
 ## Project Structure
